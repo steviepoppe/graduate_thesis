@@ -19,6 +19,7 @@ toc-depth: 3
 lang: en
 keywords: Netto-uyoku, netouyo, social media, Internet, alt-right, neo-nationalism, nationalism
 link-citations: true
+indent: true
 header-includes:
     - \usepackage{setspace}
     - \linespread{1.50}
@@ -116,34 +117,21 @@ In light of the above information, it is clear that the Internet as a medium pla
 
 Furthermore, former Donald Trump strategist and Breitbart News Network owner Steve Bannon praised Prime Minister Shinzo Abe as being "Trump before Trump", while other Alt-Right and Identitarian Movement associates have praised Japan as an exemplary ethno-state.[^20] Journalist Audrea Lim, in her The New York times editorial, even goes so far to claim "yellow favor" (a sexual obsession with those of Asian descent) as a common trait amongst the Alt-Right, stating that many public figures in the movement have had documented relationships with Asian women [-@lim_opinion_2018].
 
-Thus, to reiterate, an increase of mainstream news reports claim online communities with an origin in discussing Japanese pop-culture to be hotbeds for right-wing radicalization and important electoral spaces for both right-wing populist political parties as politically motivated citizen movements in the United States and Europe. Members of these movements have praised Japan as the ideal of an "ethnostate", and have themselves gained political traction outside the realm of the digital. It is within this context that this paper would like to contribute to the English-language literature available on their supposed Japanese counter-part, the Netto-Uyoku. Existing literature has thus far viewed the Netto-Uyoku in a greater debate of (trans)national identity, discrimination and of questions to what qualifies as freedom of speech [@tsuji__2008;@yasuda_:_2013;@morris-suzuki_beyond_2015]. Yet this author feels there is sufficient place available to discuss and hypothesize on the socio-cultural background of the Netto-Uyoku, as well as on its ideology, demography and *modus operandi*. This paper intents to read the Netto-Uyoku not as a noisy fringe element of Japanese society, but as a movement with political agency, with an ability to mobilize both on and off-line, and the power to exert influence on public discourse. Second, while media-utilization is a strong trait of democratic elections worldwide, this paper argues that a shift of what could be considered top-down, mediated media such as newspapers, radio and television to so-called unmediated, bottom-up new media on the Internet brings new strategies and challenges to the political play-field, even in a country that in its post-war history has on a national scale, for all its intricacies, been mostly monopolized by a single party, the Liberal Democratic Party (LDP).
+Thus, to reiterate, an increase of mainstream news reports claim online communities with an origin in discussing Japanese pop-culture to 1. be hotbeds for right-wing radicalization, and 2. important electoral spaces for both right-wing populist political parties as for politically motivated citizen movements in the United States and Europe. Members of those movements have praised Japan as the ideal of an "ethnostate", and have themselves gained political traction outside the realm of the digital. It is thus within that context that this paper would like to contribute to the English-language literature available on their supposed Japanese counter-part, the Netto-Uyoku. 
 
-The first chapter of this paper serves to lay a common theoretical groundwork on concepts as neo-nationalism, populism, and media, and conciliate particular models with similar research by Japanese peers. The author follows @taggart_populism_2000, @laclau_populist_2005 and @mudde_oxford_2013 in their definitions of populism as a model antagonizing a homogeneous elite in contrast to "the People's Will", a homogeneous group of "ordinary people", utilizing a "us versus them" dichotomy. It then further analyzes compatibility with a so-called "Japanese model of populism" (*nihongata popyurizumu* 日本型ポピュリズム) as described by Japanese scholars such as @otake__2003, @kimura__2006, Matsutani Mitsuru [-@matsutani__2009; -@matsutani_nihon-gata_2010], @yoshida__2011, and @kobori_populism_2013. This is important for defining our view of neo-nationalism as distinct from nationalist ideology through its application of the above-defined thin-centered populism, which the author will attempt to apply to such instances of right-wing movements on the Internet as the Alt-Right and the Netto-Uyoku.
+Existing literature has thus far viewed the Netto-Uyoku in a greater debate of (trans)national identity, discrimination and of questions to what qualifies as freedom of speech [@tsuji__2008;@yasuda_:_2013;@morris-suzuki_beyond_2015]. Yet this author feels there is sufficient place available to discuss and hypothesize on the socio-cultural background of the Netto-Uyoku, as well as on its ideology, demography and *modus operandi*. This paper intents to read the Netto-Uyoku not as a noisy fringe element of Japanese society, but as a movement with political agency, with an ability to mobilize both on and off-line, and the power to exert influence on public discourse. Furthermore, while media-utilization is a strong trait of democratic elections worldwide, this paper argues that a shift of what could be considered top-down, mediated media (such as newspapers, radio and television) to so-called unmediated, bottom-up new media on the Internet brings new strategies and challenges to the political play-field. That, even in a country that since its post-war history has on a national scale, for all its intricacies, been mostly monopolized by a single party, the Liberal Democratic Party (LDP).
 
-In an attempt to a critical approach to media and politics, this chapter will then draw on the works of media studies-pioneers a Marshall McLuhan, Harrold Inis and Friedrich Kittler. Although rooted in technological determinism,[^22] McLuhan argued similarly to @azuma_ippan_2011, @tamura_niggling_2014 that the very nature of electronic media would shrink the world into a 'global village' and cause social change through increased social and political involvement and awareness. Precisely because of the general lack of gate-keepers and the dual role of the Internet-user as both consumer and producer does the the Internet as medium thus serve as perfect representation McLuhan's notion of 'global village'.[^21] This chapter will also draw from the works of social critics as Kitada Akihiro [-@kitada__2008;-@kitada_owaranai_2018].
+Within the context of Internet and politics, academics and journalists alike have to various degrees debated and hypothesized on the contribution of the Internet to political polarization, on the Internet's utilization by political actors applying populist strategies, and on the media effects of the so-called 'new media' on its users regarding political awareness and opinion-forming (such as the effects of so-called echo chambers).[^15] Although deliberate misinformation ("fake news") is by no means a new trend either,[^11] this too has thrived due the Internet's widespread usage. The lack of moderation and the spontaneity of social network platforms facilitates the (conscious) spreading and sharing of false information (or information seen loose of its context), without reflection or without source control, and has potentially far-reaching political consequences. While this paper refrains from taking a hard technological determinist position towards the Internet (the implication being that the existence of the Internet as new medium would by itself be a lead cause for societal change),[^22] and treats an increase in Netto-uyoku as a symptom of deeper cultural malaise, it does suggest that by no means should the Internet be dismissed as merely a tool of communication itself shaped by societal changes; two takes that both have often been reported in respects to the Netto-Uyoku and other online-based neo-nationalist movements (**sources here**). There is a great amount of scholarship on the topic of media, ideology and politics and the debate on understanding the extent to which media itself shapes (political) will prove to be crucial in deepening our understanding of the Netto-Uyoku. 
 
+The first chapter of this paper serves to lay a common theoretical groundwork on concepts as neo-nationalism, populism, and media, and conciliate particular models with corresponding research by Japanese peers. The author follows @taggart_populism_2000, @laclau_populist_2005 and @mudde_oxford_2013 in their definitions of populism as a model antagonizing a homogeneous elite in contrast to "the People's Will", a homogeneous group of "ordinary people", utilizing a "us versus them" dichotomy. It then further analyzes compatibility with a so-called "Japanese model of populism" (*nihongata popyurizumu* 日本型ポピュリズム) as described by Japanese scholars such as @otake__2003, @kimura__2006, Matsutani Mitsuru [-@matsutani__2009; -@matsutani_nihon-gata_2010], @yoshida__2011, and @kobori_populism_2013. This is important for defining our view of neo-nationalism as distinct from nationalist ideology through its application of the above-defined thin-centered populism, which the author will attempt to apply to such instances of right-wing movements on the Internet as the Alt-Right and the Netto-Uyoku.
 
-@kurahashi_:_2018
+In an attempt to a critical reading of the Internet and politics, this chapter will then draw on the works of media studies-pioneers a Marshall McLuhan, Harrold Inis and Friedrich Kittler. Although rooted in technological determinism, McLuhan argued similarly to @azuma_ippan_2011, @tamura_niggling_2014 that the very nature of electronic media would shrink the world into a 'global village' and cause social change through increased social and political involvement and awareness. Precisely because of the general lack of gate-keepers and the dual role of the Internet-user as both consumer and producer does the the Internet as medium thus serve as perfect representation McLuhan's notion of 'global village'.[^21] This chapter will also draw from the work of @appadurai_modernity_1996, @anderson_imagined_2006 and social critics as Kitada Akihiro [-@kitada__2008;-@kitada_owaranai_2018] and @murai_net_2012.
 
-
-
-These ideas also fits well political scientist Benedict Anderson's notion of Imagined Communities, coined during his research on nationalism and the rise of nation-states. Anderson suggests that nations are not communities in a strict sense, but 'imagined' communities at best, implying that the sense of kinship felt between its members is but a social construct based on mutual experiences evolved from print capitalism and the rise of mass-media, and thus develop both a sense of imagined sameness, as well as clearly defined paradigm of 'otherness'. In a similar sense, social media on the Internet creates a perceived sense of affinity between its members and the social and interpersonal change of this 'global village', or 'imagined cyber-community' can be argued to transcends that of it's nation. In similar fashion, anthropologist @appadurai_modernity_1996 too already argued early on that the rise of the Internet as a new 'mediascape' would lead to the creation of new, transnational and asynchronous imagined communities, based on ideology rather than on national narratives, and diverting from traditional mass-media. Murai Shusuke (-@murai_net_2012, 375–76) argues however the opposite; precisely due Japanese Internet-users' monolingualism, not withstanding full global access through the Internet, any possibility of trans-nationality is severely limited. Within the anonymity of on-line bulletin boards such as 2channel, social markers remain thus primarily defined by language and nation-based ideology. (Naoki Sakai here?) @sakai_translation_1997
-
-
-populism, media, etc
-
-Within the context of Internet and politics, academics and journalists alike have to various degrees debated and hypothesized on the contribution of the Internet to political polarization, on the Internet's utilization by political actors applying populist strategies, and on the media effects of the so-called 'new media' on its users regarding political awareness and opinion-forming (such as the effects of so-called echo chambers).[^15] Although deliberate misinformation ("fake news") is by no means a new trend either,[^11] this too has thrived due the Internet's widespread usage. The lack of moderation and the spontaneity of social network platforms facilitates the (conscious) spreading and sharing of false information (or information seen loose of its context), without reflection or without source control, and has potentially far-reaching political consequences. While this paper refrains from taking a hard technological determinist position towards the Internet (the implication being that the existence of the Internet as new medium would by itself be a lead cause for societal change), and treats an increase in Netto-uyoku as a symptom of deeper cultural malaise, it does suggest that by no means should the Internet be dismissed as merely a tool of communication itself shaped by societal changes; two takes that both have often been reported in respects to the Netto-Uyoku and other online-based neo-nationalist movements. There is a great amount of scholarship on the topic of media, ideology and politics and the debate on understanding the extent to which media itself shapes (political) will prove to be crucial in deepening our understanding of the Netto-Uyoku. 
-
-
-
-The second chapter of this paper will through a media studies perspective, give a brief overview on the development of the Internet both on a global scale and on its implementation in Japan. While the Internet's transnational means of communication are of key importance in 21th century globalism, the Internet does not exist in a void: the cultural background of say, mainland China in comparison to the United States means a different logistical implementation of the Internet, and thus have given rise to different expression of the Internet in daily life. For this part, the author will draw heavily from Japanese cultural critics as Azuma Hiroki and Kitada Akihiro.
-
-
-Furthermore, within the field of social psychology Eun-Ju Lee applies a social identity approach (focusing on deindividuation and group polarization on the internet) and argues that the lack of social signals 
-
+Based on the framework put in place in the first chapter, the second chapter will give a brief overview on the development of the Internet both on a global scale and on its implementation in Japan. While the Internet's transnational means of communication are of critical importance to \nth{21} century globalism, the Internet does not exist in a void and when seen as a cultural artifact,  the cultural background of say, mainland China in comparison to the United States means a different logistical implementation of the Internet, and thus have given rise to different expression of the Internet in daily life. For this part, the author will draw heavily from Japanese cultural critics as @azuma__2007; @azuma_ippan_2011 and @kitada__2008; @kitada_owaranai_2018, @kurahashi_:_2018, @matsuda_uwasa_2014 @__2017-1.
 
 
 The third chapter offers a closer look on the Netto-Uyoku, attempting to answer such questions as:
+
 
 This could be seen through the actions of right-wing populist Zaitokukai founder Makoto Sakurai mobilizing followers for real-live demonstrations against the presence of Zainichi Koreans, but also through those of Prime Minister Shinzo Abe broadcasting his December 2012 speech in front of Akihabara (already a very deliberate choice of location) on popular video platform Niconico.
 
@@ -157,33 +145,11 @@ It would like to suggest a new definition of Netto-Uyoku as a loosely connected 
 - How does the movement organize and mobilize, both online and in real life?
 - Is there possibility for furthering a Netto-Uyoku political "agenda" by influencing  its international counterparts?
 
+@yasuda_netto_2012 @yasuda_:_2013 @yasuda_:_2019 @tsuji__2008 @schafer_japans_2017
+
+en @ota_saraba_2019
 
 (lack of Netto uyoku violence: Recent Trends in Political Extremism in Japan: a Decline in Physical Violence and a Rise in “Extremism by Other Means”)
-
-Finally, in its conclusion, this paper suggests
-
-
-
-This begs various questions:
-
-Is the current Japanese political climate prone to right-wing populism as seen in Europe and the USA?
-
-and gains further traction 
-
-
-
-A proper reading of the Internet from a media perspective is necessary to sufficiently grasp the intricacies 
-
-The political climate has changed 
-
-
-This begs the question:
-
-
-
-Shortly after, 
-
-Netto-uyoku -> neo-nationalism -> internet -> 
 
 The discourse analysis will use quantitative and qualitative methods using social networking platforms or forums as Twitter and 2channel to provide the bulk of its data. Additionally, a frequency analysis of both twitter data as newspapers might also prove a growing trend of right-wing terminology originated on the internet reaching mainstream discourse. For this purpose, this paper will heavily utilize methods from the Digital Humanities and Socio-Informatic domains.
 
@@ -192,7 +158,7 @@ Limitations: liquidity of data, copyright laws pertaining acquiring data, lack o
 \newpage
 
 
-#Chapter 1: Media, Populism and Japan - A Theoretical Framework
+#Chapter 1: Media, Populism and Japan
 
 ##Populism: a theoretical framework
 
@@ -253,17 +219,10 @@ Despite some cultural lag, there are now many theoretical options to approaching
 
 While the Toronto School of communication theory has some detractors due its reliance on dichotomies, its members Harrold Innis (of "The Bias of Communication") and Mcluhan argue that the invention of print-media led to both a horizontal (regional) and vertical (chronological) continuity and structures redefining our cognitive senses, bringing about a literate 'space-biased' culture rather than an oral 'time-biased' one, and thus a heightened sense of individualism, capitalism and nationalism.[^23] With his idea of a 'global village', McLuhan however hypothesized that a shift towards electronic media, referring at the time primarily to radio and television, would again shift society. This time from a literate culture to a 'post-literate' visual culture that stimulates all senses and transcends time and space, thus leading individualism to a collective, homogeneous identity, in which the lack of a physical body or physical cues creates a different relation to oneself and one's surroundings. (McLuhan, 1962, p. 156, McLuhan 1967:63). Amongst other important early scholars within Media Studies stands Friedrich Kittler, generally associated with the German media theory school. Unlike McLuhan, who argues media as an extension of human senses, Kittler approaches media through his New Materialism theory and his concept of 'discourse networks', applying Foucoult's concept of power and archeology of knowledge in function of media, to allows media its own agency.
 
-##Political Theory
-
-###A theoretical approach: Mudde and Taggart
-
-Ideologies are present in politics in many ways. More concretely, I shall look for three specific ideological traits in this thesis. First, political actors construct and act upon images of friends and enemies – normative images of themselves as the right electoral choice in comparison to their enemies, which may be concrete (political competitors) or more abstract phenomena (e.g. capitalism, globalization). Certainly, such images need also explanations of why the cause of the protagonist is more important than other causes.
+These ideas also fits well political scientist Benedict Anderson's notion of Imagined Communities, coined during his research on nationalism and the rise of nation-states. Anderson suggests that nations are not communities in a strict sense, but 'imagined' communities at best, implying that the sense of kinship felt between its members is but a social construct based on mutual experiences evolved from print capitalism and the rise of mass-media, and thus develop both a sense of imagined sameness, as well as clearly defined paradigm of 'otherness'. In a similar sense, social media on the Internet creates a perceived sense of affinity between its members and the social and interpersonal change of this 'global village', or 'imagined cyber-community' can be argued to transcends that of it's nation. In similar fashion, anthropologist @appadurai_modernity_1996 too already argued early on that the rise of the Internet as a new 'mediascape' would lead to the creation of new, transnational and asynchronous imagined communities, based on ideology rather than on national narratives, and diverting from traditional mass-media. Murai Shusuke (-@murai_net_2012, 375–76) argues however the opposite; precisely due Japanese Internet-users' monolingualism, not withstanding full global access through the Internet, any possibility of trans-nationality is severely limited. Within the anonymity of on-line bulletin boards such as 2channel, social markers remain thus primarily defined by language and nation-based ideology. (Naoki Sakai here?) @sakai_translation_1997
 
 
-
-###Populism in Japan - State of the Art
-
-In order to find an answer to the question of ever-changing media-dynamics, the next chapters will, throughout three "eras of media" closely study political actors with an ideology commonly associated with populism, and their respective media-play. It is however necessary to note that is just one of many narratives on populism and media in Japan. Secondly, this paper portrays the media focused upon in the next chapters as just one, albeit an import one, of many elements leading to the actor's growth, and thus should not be seen loose from a bigger context. Further study of said context would however fall outside the limited scope of what this paper aims to achieve: **namely to map political strategies of media-usage in Japan's ever-evolving media-landscape.**
+    Ideologies are present in politics in many ways. More concretely, I shall look for three specific ideological traits in this thesis. First, political actors construct and act upon images of friends and enemies – normative images of themselves as the right electoral choice in comparison to their enemies, which may be concrete (political competitors) or more abstract phenomena (e.g. capitalism, globalization). Certainly, such images need also explanations of why the cause of the protagonist is more important than other causes.
 
 
 Edward Said:
@@ -271,6 +230,9 @@ Edward Said:
 The alternative to an exclusionary representational system for Said would be one that is “participatory and collaborative, non-coercive, rather than imposed”, yet he recognised the extreme difficulty involved in bringing about such an alternative.[14] Difficult because advances in the “electronic transfer of images” is increasing media concentration in the hands of powerful, transnational conglomerates.[
 
 Dus: internet onder amazon, google, etc, strengthens orientalism
+
+Furthermore, within the field of social psychology Eun-Ju Lee applies a social identity approach (focusing on deindividuation and group polarization on the internet) and argues that the lack of social signals 
+
 
 #Chapter 2: The Japanese Internet - A Digital Love Story
 
@@ -308,6 +270,8 @@ Globalisation of the Internet
 ###Youtube
 
 ###Instagram
+
+##Fake news (デマ)
 
 #Chapter 3: Netto-Uyoku - Expressions of Nationalism in the Age of the Internet
 
@@ -431,6 +395,8 @@ There is a great amount of scholarship on the topic of media, ideology and polit
 
 It is important to touch upon the development of the Internet both on a global scale and on its implementation in Japan. While the Internet's transnational means of communication are key in 21th century globalism, the Internet does not exist in a void: the cultural background of say, mainland China in comparison to the United States means a different logistical implementation of the Internet, and thus have given rise to different expression of the Internet in daily life.
 
+Memes[^24]
+
 Echo chambers
 
 Algorithms
@@ -549,10 +515,10 @@ Appendix
 [^7]: "The Group Seeking Recovery of Sovereignty" (*Shuken Kaifuku wo Mezasu Kai* 主権回復を目指す会).
 [^8]: "The Citizens’ Group Refusing to Tolerate Special Rights for Zainichi Koreans" (*Zainichi Tokken wo Yurusanai Shimin no Kai* 在日特権を許さない市民の会).
 [^9]: Although @higuchi_japans_2016 describe the ACM and Zaitokukai as ultranationalist in nature, this paper agrees with @gill_nativist_2018 in that "‘ultra’ implies a *quantitative* increase in the degree of extremism, from ‘right’ to ‘far right’ to ‘ultra-right’". It will instead utilize the term neo-nationalism to sufficiently distinct the ACM from the ultranationalist Japanese militants collectively known as *uyoku dantai* (右翼団体, "right wing groups"). While often used in the context of mid 2010's European and North-American movements, the term neo-nationalism refers to a type of nationalism marked by right-wing populism, cultural racism, anti-globalisation and nativism, and arguably most closely describes the ACM ideologically [@dougherty_new_2016; @hirsh_why_2016]. This will be covered to greater detail in chapter one and three.
-[^10]: In another note-worthy intersection, a youth subdivision of Vlaams Belang hosted Alt-Right Youtube influencer and The Rebel Media-associate Lauren Southern as guest-speaker during a congress supervised by Vlaams Belang leader Tom Van Grieken [@rennenberg_vlaams_2018]. 
+[^10]: In another note-worthy intersection, a youth subdivision of Vlaams Belang hosted Lauren Southern as guest-speaker during a congress supervised by Vlaams Belang leader Tom Van Grieken [@rennenberg_vlaams_2018]. 
 [^11]: @soll_long_2016 traces fake news in the west as a concept back to the invention of print media five centuries ago, to Gutenberg's invention of the printing press in 1439. In his essay, he recalls for example an account in 1475 of deliberate use of misinformation to persecute a Jewish community in Trent, Italy. 
 [^12]: *2-channeru* 2ちゃんねる. Albeit in October 2017 renamed to 5channel (*5-channeru* 5ちゃんねる, accessible at <https://5ch.net>), this paper will for the sake of continuity with previous literature on the topic, continue to refer to this message board as 2channel.
-[^13]: During the terror attack, the perpetrator referenced an online trend concerning Swedish Youtube influencer Felix Khellberg (known by his online handler PewDiePie and as of writing subscribed to by over 95 million followers). Khellberg came under increasing scrutiny for racial remarks and has been referred to as part of a gateway to the reactionary right[@lewis_alternative_2018; @dickson_why_2019; @roose_mass_2019]. In the perpetrator's manifesto, the perpetrator describes himself as "just an ordinary White man, 28 years old." and makes references to a white supremacy conspiracy theory popularized by Youtube influencer Lauren Southern ("The Great Replacement"), featured on the Identitarian Movement's homepage and adopted by populist right-wing figures such as Dutch politician Geert Wilters, Hungarian Prime Minister Viktor Orbán as well as President of the United States Donald Trump, who has shared tweets with the hashtag "#whitegenocide" [@weiss_opinion_2018; @manjoo_opinion_2019].
+[^13]: During the terror attack, the perpetrator referenced an online trend concerning Swedish Youtube influencer Felix Khellberg (known by his online handler PewDiePie and as of writing subscribed to by over 95 million followers). Khellberg came under increasing scrutiny for racial remarks and has been referred to as part of a gateway to the reactionary right[@lewis_alternative_2018; @dickson_why_2019; @roose_mass_2019]. In the perpetrator's manifesto, the perpetrator describes himself as "just an ordinary White man, 28 years old." and makes references to a white supremacy conspiracy theory popularized by Alt-Right Youtube influencer and The Rebel Media-associate Lauren Southern ("The Great Replacement"). This theory is featured on the Identitarian Movement's homepage and has been adopted by populist right-wing figures such as Dutch politician Geert Wilters, Hungarian Prime Minister Viktor Orbán as well as President of the United States Donald Trump, who has shared tweets with the hashtag "#whitegenocide" [@weiss_opinion_2018; @manjoo_opinion_2019].
 [^14]: This paper is an abridged version of the author's undergraduate thesis [@poppe_digitaal_2017], written under the supervision of Prof. Dr. Dimitri Vanoverbeke. In his undergraduate thesis, the author examined the Netto-Uyoku as potential electorate of populist politicians on both a national and regional scale.
 [^15]: Reinforcement of one's ideas through repeated confrontation with opinions and news aligning with one's ideas.
 [^16]:  In the second article, @laurent_nordactu_2016 describes the *fachosphère* as part of the Identitarian Movement and "une nébuleuse de sites, de comptes sur les réseaux sociaux, visant à diffuser de la « réinformation », en clair de la propagande allant dans le sens des militants qui les animent", a nebula of websites and accounts on social networks, designed to disseminate "réinformation" or in other words propaganda embracing the ideas of the activists, amongst the users of those platforms.
@@ -568,3 +534,5 @@ Appendix
 [^23]: Walter J. Ong, impact of orality to literacy 
 [^5]: One report, published on the conservative Nippon Foundation platform <nippon.com>, claims that "disturbing as the voice of cyber-extremism may be, its influence on Japanese politics and society remains limited, and its heyday is nearing an end" [@furuya_roots_2016].
 
+
+[^24]: @davison_language_2012 defines a "meme" as a "a piece of culture, typically a joke, which gains influence through online transmission." (**pagenumber**)
