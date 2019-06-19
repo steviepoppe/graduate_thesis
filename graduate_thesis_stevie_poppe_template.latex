@@ -465,6 +465,7 @@ $endif$
   \addtocounter{footnote}{-1}%
   \endgroup
 }
+\interfootnotelinepenalty=10000
 
 \begin{document}
 
