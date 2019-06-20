@@ -17,7 +17,7 @@ I use following ST plug-ins:
 - [Wordcount](https://github.com/titoBouzout/WordCount)
 - [IMESupport](https://github.com/chikatoike/IMESupport)
 
-##Why?
+## Why?
 
 Cross-platform compatibility, pretty type-setting, version control with git, ease of sourcing and footnoting, seperation of form and content and more control over layout with latex than WYSYWYG-editors as Word, I like the concept of [sustainable authorship](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) and I'm a tech-hipster (read: nerd).
 
@@ -45,13 +45,13 @@ I "compile" to PDF with Pandoc for work in progress versions but export to latex
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>6</kbd> | Add footnote |
 | <kbd>Ctrl</kbd>+<kbd>R</kbd><kbd>U</kbd> | outline view of the document |
 
-##To do
+## To do
 
 Writing an undergraduate or graduate thesis is borderline doable in one document but anything longer is definitely unmanageable. In this case, a work-flow involving markdown documents per chapter are preferable, using a compile script for pandoc to export everything to tex, compile them in one final tex document and export to the final pdf (like [this](https://bartschat.github.io/post/thesis_workflow/)).
 
 Also, zotero is not multilingual. Juris-M is a good variant with multilingual support, necessary for managing sources in multiple languages. HOWEVER there is no multilingual support for bibtex formats. My current workflow is thus to obtain my pre-final latex file, export the correct citation format with both the Japanese / Korean and English translations and manually replace my Japanese sources in the latex file with the correct citations, and then export to my final PDF. This is tedious. Not an issue when using a citation style that uses romaji instead though.
 
-##More
+## More
 
 Check these for more information:
 

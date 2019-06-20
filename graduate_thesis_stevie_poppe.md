@@ -315,7 +315,7 @@ McLuhan: medium message: internet as carrier of new history memory narrative
 
     "Our discontents rather flow from informational and perceptual overload combined with a cultural acceleration neither our psyche nor our senses are that well equipped to handle. The faster we are pushed into a global future that does not inspire confidence, the stronger we feel the desire to slow down, the more we turn to memory for comfort. But what comfort from memories of the twentieth century?!?"
 
-##Media Theory
+## Media Theory
 
 USE MATSUDA HERE FOR SOURCES ON MEDIA USAGE IN JAPAN
 
@@ -339,13 +339,13 @@ Dus: internet onder amazon, google, etc, strengthens orientalism
 Furthermore, within the field of social psychology Eun-Ju Lee applies a social identity approach (focusing on deindividuation and group polarization on the internet) and argues that the lack of social signals 
 
 
-##Conclusion
+## Conclusion
 
 \newpage
 
 \epigraph{I sometimes suspect that we're seeing something in the Internet as significant as the birth of cities. It's something that profound and with that sort of infinite possibilities. It's really something new; it's a new kind of civilization. \\ --- \fauxsc{William Gibson}\small\textup{, 1995}}
 
-#Chapter 2: The Japanese Internet - A Digital Love Story
+# Chapter 2: The Japanese Internet - A Digital Love Story
 
 https://www.fastcompany.com/3061574/the-new-nationalism-of-brexit-and-trump-is-a-product-of-the-digital-age
 
@@ -364,7 +364,7 @@ https://neojaponisme.com/2011/05/06/structure-and-power-1983/
     “I wonder if deconstruction is truly so easy in Japan. I have my doubts about whether we can say that deconstruction is a direct element in Japanese-type thought. Certainly, Japanese often say that Buddhist thought or the Zen of Dogen was already a kind of deconstruction, but I wonder if that is so. If that were really so, then why, for example, has Asada’s book [Structure and Power] received such tremendous attention? If that phenomenon of Asada were nothing more than a repetition of deconstructive elements already found within Japanese thought, then it shouldn’t have called down such an enormous response in contemporary Japan.”
 
 
-##Media-usage: some statistics
+## Media-usage: some statistics
 
 As Neil Postman states, new technology offers a new mode of discourse.
 
@@ -382,7 +382,7 @@ Also https://www.buzzfeednews.com/article/ryanhatesthis/the-far-right-weeb-army
 
 
 
-##Narratives on the Internet and the World Wide Web
+## Narratives on the Internet and the World Wide Web
 
 it was in 1989, a year forever etched in our cultural collective memories among other due the opening of the Berlin Wall, the Tiananmen Square protests in China and the beginning of the Heisei period in Japan, that we too saw the development of the World Wide Web, and the first Internet connections in Japan.
     
@@ -406,15 +406,15 @@ What the Dormouse Said: How the Sixties Counterculture Shaped the Personal Compu
 
 Technologically: "“The crucial thing is the URL. The crucial thing is that you can link to anything." - Tim-berners Lee
 
-##Development of the Internet in Japan
+## Development of the Internet in Japan
 
     the philosopher Slavoj Zizek noted after Sanders lost the primaries, left and right are in some sense outdated ideas. The new division in politics is those who favor the current global hegemony and those who are against it. Like the Hollywood heroes, right and left have been competing to become this new radical anti-status quo party. And so far, in both Europe and America, the right has won, implying that, as Arendt predicted, the powerlessness created by bourgeoisie systems of capitalist exploitation might once again implode into far right totalitarianism.
 
-##Early Cyber-communities (90's - 00's)
+## Early Cyber-communities (90's - 00's)
 
-###Garakei
+### Garakei
 
-###2chan
+### 2chan
 
 http://echo-news.net/en/ldp-sponsored-and-benefited-by-underground-anonymous-2channel-board
 
@@ -434,9 +434,9 @@ http://echo-news.net/en/ldp-sponsored-and-benefited-by-underground-anonymous-2ch
 
     As an aside, 2ch is related to Dwango, which runs a popular video sharing site, and is very, very friendly with the center-right LDP; a nephew of former PM Taro Aso is on its board of directors (and that of Kadokawa, a prolific licensor of novels and manga). Ever wonder why the '政治' category on the latter website is the Japanese equivalent of Breitbart? Now you know.
 
-###Matome-blogs
+### Matome-blogs
 
-###Niconico
+### Niconico
 
 http://echo-news.net/en/japans-nico-video-recklessly-collects-big-data-and-brain-wash-you
 
@@ -444,24 +444,24 @@ http://echo-news.net/en/japans-nico-video-recklessly-collects-big-data-and-brain
 https://features.japantimes.co.jp/heisei-moments-part-3-introspection/
 
 
-##Recent trends ('10s)
+## Recent trends ('10s)
 
 Globalisation of the Internet
 
 subcultural self-identification
 
-###Twitter
+### Twitter
 
-###Youtube
+### Youtube
 
 Reference Nobita as influential racist youtuber btw and also Black Pigeon Speaks as youtube influencer who operated the travel channel TVShinjuku, hosting discussion with Nobita and Yoko Mada (pictured with Steven Bannon)
 
 (also kind of ironic that anti-globalism is a common ideology )
 https://hopenothate.com/2018/04/20/japan-and-the-alternative-right/
 
-###Instagram
+### Instagram
 
-##Fake news (デマ)
+## Fake news (デマ)
 
 -> Manufacturing conspiracy theories: (see shaun)
 
@@ -476,13 +476,13 @@ Whole books could be (and already have been) written on the topic of Fake News. 
 (coming to peace with idea that politicians lie)
  Fake news as a global 
 
-##不適切投稿
+## 不適切投稿
 
 \newpage
 
 
 
-#Chapter 3: Netto-Uyoku - Expressions of Nationalism in the Age of the Internet
+# Chapter 3: Netto-Uyoku - Expressions of Nationalism in the Age of the Internet
 
 Netto Uyoku and much of the Japanese 2ch subculture is also tied to the disaffected and materially and socially challenged. It has slightly more history than the other movements abroad because they are borne out of the lost two decades, while many others are indirect results of the 2008 financial crisis.
 
@@ -491,17 +491,17 @@ https://www.researchgate.net/publication/296688263_Subculture_as_social_knowledg
 https://www.buzzfeednews.com/article/ryanhatesthis/the-far-right-weeb-army also crucial
 
 
-##Political ties
+## Political ties
 
 https://matome.naver.jp/odai/2144299876931181001
 
-###Legislation
+### Legislation
 
-###LDP's Second Fall: the 2009 Elections
+### LDP's Second Fall: the 2009 Elections
 
-###3/11 and Internet Backlash
+### 3/11 and Internet Backlash
 
-###local elections and internet support
+### local elections and internet support
 
 https://www.upi.com/Top_News/World-News/2018/04/15/South-Koreas-ruling-party-members-hit-with-online-comment-rigging-allegations/9571523771907/
 
