@@ -17,6 +17,7 @@ $endif$
   \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
   \do\Y\do\Z}
 
+
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
@@ -55,30 +56,11 @@ $endif$
 $if(CJKmainfont)$
     \usepackage{xeCJK}[2012/04/08 v3.0.0]
     \xeCJKDeclareSubCJKBlock{Hangul}{"1100 -> "11FF, "3130 -> "318F, "A960 -> "A97F, "AC00 -> "D7AF, "D7B0 -> "D7FF}
-    %\xeCJKDeclareSubCJKBlock{Kana}{"3040 -> "309F, "30A0 -> "30FF, "31F0 -> "31FF, "1B000 -> "1B0FF}
     \setCJKmainfont[$for(CJKoptions)$$CJKoptions$$sep$,$endfor$]{$CJKmainfont$}
     \setCJKmainfont[Hangul]{Gulim}
 $endif$
-%$if(CJKmonofont)$
-%    \usepackage{xeCJK}
-%    \setCJKmonofont[$for(CJKoptions)$$CJKoptions$$sep$,$endfor$]{$CJKmonofont$}
-%$endif$
-
-
-
-%\setmainfont{CMU Serif}
-
-%\usepackage{xeCJK}
-%\setCJKmainfont{Kozuka Mincho Pro} % for Cn & Jp
-%\setCJKmonofont{Gulim} % for Kr
-
-%\usepackage{xeCJK}[2012/04/08 v3.0.0]
-
 
 \usepackage{enumitem}
-
-%\setCJKmainfont{SimSun}
-%\setCJKmainfont[Kana]{Kozuka Mincho Pro}
 
 \fi
 % use upquote if available, for straight quotes in verbatim environments
@@ -94,26 +76,9 @@ $endif$
 
 \usepackage[stable,multiple,bottom]{footmisc} 
 
-
-$if(lang)$
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[shorthands=off,$for(babel-otherlangs)$$babel-otherlangs$,$endfor$main=$babel-lang$]{babel}
-$if(babel-newcommands)$
-  $babel-newcommands$
-$endif$
-\else
-  \usepackage{polyglossia}
-  \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
-$for(polyglossia-otherlangs)$
-  \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
-$endfor$
-\fi
-$endif$
-
 $if(natbib)$
 \usepackage{natbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
-
 $endif$
 
 $if(biblatex)$
@@ -123,6 +88,11 @@ $for(bibliography)$
 \addbibresource{$bibliography$}
 $endfor$
 $endif$
+
+\usepackage{xkeyval} 
+\usepackage[utf8]{inputenc}
+\usepackage[italian,french,dutch,UKenglish,english]{babel}
+
 
 $if(listings)$
 \usepackage{listings}
@@ -155,31 +125,8 @@ $if(graphics)$
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
 \makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
+
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-
-
-
-%\makeatletter
-%\def\ScaleWidthIfNeeded{%
-% \ifdim\Gin@nat@width>\linewidth
-%    \linewidth
-%  \else
-%    \Gin@nat@width
-%  \fi
-%}
-%\def\ScaleHeightIfNeeded{%
-%  \ifdim\Gin@nat@height>0.9\textheight
-%    0.9\textheight
-%  \else
-%    \Gin@nat@width
-%  \fi
-%}
-%\makeatother
-
-%\setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
 
 $endif$
 
@@ -322,21 +269,6 @@ $endif$
 \newcommand*{\intro}{\begingroup
 \topskip0pt
 
-% \textbf{Onderzoeksthema}
-
-% $Onderzoeksthema$
-
-%\textbf{researchtheme}
-
-%$researchtheme$
-
-%\textbf{Deelvragen}
-
-%\begin{itemize}
-%\tightlist
-%$for(Deelvragen)$ \item $Deelvragen$ $endfor$
-%\end{itemize}
-
 \textbf{Abstract}
 
 $abstract$
@@ -346,7 +278,6 @@ $abstract$
 $keywords$
 
 \blfootnote{$blfootnote$}
-
 
 \endgroup}
 
@@ -416,11 +347,8 @@ $endif$
 \verbatimfont{\setmainfont{Meiryo}}
 
 \usepackage{float}
-%\floatstyle{boxed} 
+\floatstyle{plain}
 \restylefloat{figure}
-
-% \renewcommand{\figurename}{Figuur}
-% \renewcommand{\tablename}{Tabel}
 
 \usepackage{array}
 \usepackage{ragged2e}
@@ -458,6 +386,8 @@ $endif$
     \scalebox{\Cscale}[1]{#1}\fi\else\scalebox{\Cscale}[1]{#1}\fi%
   \ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
 
+\usepackage{svg}
+
 % footnotes https://tex.stackexchange.com/questions/30720/footnote-without-a-marker
 \newcommand\blfootnote[1]{%
   \begingroup
@@ -475,20 +405,13 @@ $endif$
 \clearpage\titleTH
 \thispagestyle{empty}
 
-% BoldFont={Meiryo Bold}, 
-% ItalicFont={Meiryo Italic},
-% BoldItalicFont={Meiryo Italic}
 \setmainfont[
  BoldFont={Meiryo Bold}, 
  ItalicFont={Meiryo Italic},
  BoldItalicFont={Meiryo Bold Italic}
  ]{$mainfont$}
 
-% BoldFont={CMU Serif Bold}, 
-% ItalicFont={CMU Serif Italic},
-% BoldItalicFont={CMU Serif BoldItalic} 
 \newpage
-
 
 \setcounter{page}{1}
 
@@ -499,10 +422,8 @@ $for(include-before)$
 $include-before$
 $endfor$
 
-
 $if(toc)$
 {
-% \renewcommand{\contentsname}{Inhoudsopgave}
 $if(colorlinks)$
 \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
 $endif$
@@ -519,10 +440,6 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
-
-
-
-% \setlength{\parindent}{2em}
 
 \setcounter{section}{-1}
 
@@ -541,28 +458,12 @@ $endif$
 $endif$
 
 
-
-%{\footnotesize\bibliography{bibfile}}
-
-
-%\bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
-
 $endif$
 $endif$
 $if(biblatex)$
 \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
 
 $endif$
-
-
-%\newpage
-
-%\makeatletter
-%\def\@seccntformat#1{%
-%  \expandafter\ifx\csname c@#1\endcsname\c@section\else
-%  \csname the#1\endcsname\quad
-%  \fi}
-%\makeatother
 
 $for(include-after)$
 $include-after$
