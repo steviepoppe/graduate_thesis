@@ -1,5 +1,5 @@
 
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$,openany]{$documentclass$}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
@@ -16,6 +16,33 @@ $endif$
   \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
   \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
   \do\Y\do\Z}
+\usepackage{subcaption}
+\usepackage[T1]{fontenc}
+\usepackage{kpfonts}
+\setSingleSpace{1.1}
+\SingleSpacing
+\usepackage{calc, blindtext}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+\definecolor{chaptercolor}{gray}{0.8}
+% helper macros
+\newcommand\numlifter[1]{\raisebox{-2cm}[0pt][0pt]{\smash{#1}}}
+\newcommand\numindent{\kern37pt}
+\newlength\chaptertitleboxheight
+
+\usepackage{etoolbox}
+
+
+\DisemulatePackage{setspace}
+
+\usepackage[font=small,labelsep=period,labelfont=bf]{caption}
+
+\usepackage{epigraph}
+\setlength\epigraphwidth{1\textwidth}
+\setlength\beforeepigraphskip{1\baselineskip} % space before and after epigraph
+\setlength\afterepigraphskip{2\baselineskip}
+\renewcommand*{\textflush}{flushright}
+\renewcommand*{\epigraphsize}{\normalsize\itshape}
 
 
 $if(linestretch)$
@@ -91,7 +118,7 @@ $endif$
 
 \usepackage{xkeyval} 
 \usepackage[utf8]{inputenc}
-\usepackage[italian,french,dutch,UKenglish,english]{babel}
+\usepackage[japanese,italian,french,dutch,UKenglish,english]{babel}
 
 
 $if(listings)$
@@ -112,7 +139,6 @@ $if(verbatim-in-note)$
 $endif$
 
 
-\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 % \rowcolors{3}{}{gray!25}
 
 $if(tables)$
@@ -269,9 +295,11 @@ $endif$
 \newcommand*{\intro}{\begingroup
 \topskip0pt
 
-\textbf{Abstract}
+\begin{abstract}
 
 $abstract$
+
+\end{abstract}
 
 \textbf{Keywords}
 
@@ -325,15 +353,13 @@ $endif$
 
 \usepackage{pdfpages}
 \usepackage{fancyhdr}
- 
+\usepackage{amsmath,amsfonts}
 \usepackage{rotating}
 \usepackage{pdflscape}
 
 \XeTeXlinebreaklocale "ja"         % for Japanese
 \XeTeXlinebreakskip 0pt plus 0.1pt % sets the skip
 
-\pagestyle{fancy}
-\fancyhf{}
 \rhead{Stevie Poppe}
 \lhead{Netto-Uyoku}
 \cfoot{\thepage}
@@ -366,14 +392,7 @@ $endif$
 
 %\usepackage{sectsty}
 %\allsectionsfont{\normalfont\sffamily\bfseries}
-\usepackage{epigraph}
-\setlength\epigraphwidth{1\textwidth}
-\setlength\epigraphrule{0pt} % no line between
-\setlength\beforeepigraphskip{1\baselineskip} % space before and after epigraph
-\setlength\afterepigraphskip{2\baselineskip}
-\renewcommand*{\textflush}{flushright}
-\renewcommand*{\epigraphsize}{\normalsize\itshape}
-%\documentstyle[fancychapters]{report}
+
 \usepackage{graphicx}
 \newcommand\fauxsc[1]{\fauxschelper#1 \relax\relax}
 \def\fauxschelper#1 #2\relax{%
@@ -402,7 +421,8 @@ $endif$
 \pagenumbering{Roman}
 \sloppy
 
-\clearpage\titleTH
+\clearpage
+\titleTH
 \thispagestyle{empty}
 
 \setmainfont[
