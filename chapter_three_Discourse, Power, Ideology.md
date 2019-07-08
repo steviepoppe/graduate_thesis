@@ -39,49 +39,14 @@ Ideology for Gramsci is a specific historical phenomenon (a "historicist" approa
 
 Some concrete examples of this reasoning. If orthodox Marxism were to view the contradictory nature of increasing student debt in the United Stages and the ideological narratives of neo-liberal capitalism[^51] as a trigger for working class awareness and the inevitable overthrow of capitalism, then in Gramsci's interpretation, civil society would be the stage for counter-hegemonic processes in passive revolution. 2011 saw widespread resentment directed at Wall Street in the populist Occupy Wall Street, with ideological slogans as "We are the 99%" [@rehmann_bernie_2016]. In 2019, politicians Bernie Sanders, Elizabeth Warren and Alexandria Ocasio-Cortez are running on a counter-hegemonic platform to cancel student debt. Likewise, although the democratic impact of the 1994 electoral system reforms in Japan is questionable considering the near constant dominance of the Liberal Democrat Party on national politics since [@komatsu_first_2017], the 1993 Japanese general election and fall of the 1955 system[^53] could also be read through this lens. 
 
-Although not explicitly referring to Gramsci or Marxist traditions of ideology, the language of @dower_peace_1993 in his narrative assessment of the New Left and late '60 political movements certainly seem to suggest such logic as well. As Dower states, the growth of Japan as a cultural and economical powerhouse brought to light contradictions in society—the *San Francisco System*, the ambiguous position of Okinawa and environmental issues (mercury poisoning in Minamata), to name a few—pitting "liberal and left-wing critics against the dominant conservative elites" and introducing "a more radical anti-imperialist critique to the discourse on peace and democracy.". In light of rapid economical growth, hegemonic ideologies of nationalism, capitalism, peace and democracy retained a strong grip on public consent, or as @dower_peace_1993 puts it, the "conservative hegemony-the bedrock of the 1955 System-continued to rule japan" [@dower_peace_1993, pp.5-6,p.21]. Nevertheless this counter-hegemonic shakes society in the late '60s.
+When Japan, as elsewhere, entered a late-capitalist phase of mass consumerism, different contradictions arose. Although not explicitly referring to Gramsci or Marxist traditions of ideology, the language of @dower_peace_1993 in his narrative assessment of the New Left and late '60 political movements certainly seem to suggest such logic as well. As Dower states, the growth of Japan as a cultural and economical powerhouse brought to light contradictions in society—the *San Francisco System*, the ambiguous position of Okinawa and environmental issues (mercury poisoning in Minamata), to name a few—pitting "liberal and left-wing critics against the dominant conservative elites" and introducing "a more radical anti-imperialist critique to the discourse on peace and democracy.". In light of rapid economical growth, hegemonic ideologies of nationalism, capitalism, peace and democracy retained a strong grip on public consent, or as @dower_peace_1993 puts it, the "conservative hegemony-the bedrock of the 1955 System-continued to rule japan" [@dower_peace_1993, pp.5-6,p.21]. Nevertheless this counter-hegemonic shakes society in the late '60s.
 
 >"It is estimated that between 1967 and 1970 alone, more than eighteen million Japanese took to the streets to protest the war in Vietnam and demand the reversion of Okinawa to Japan. Uncounted others were involved in the university struggles and citizens' movements against the ravages of the growth-oriented state. As elsewhere, "people's power" entered the Japanese lexicon at this time as a legitimate and essential alternative to bourgeois parliamentary politics; and, as elsewhere, the theory and practice of "people's power" ranged from peaceful protest to wanton violence. By the mid-1970s the nationwide people's movement was moribund, but it left as legacies the memory and experience of grass-roots mobilization that could be evoked in more particularistic causes thereafter." [@dower_peace_1993, p.22]
 
-Can we then interpret this world-wide growth of neo-nationalist movements as counter-hegemonic process? 
-
-But first, let us briefly observe the notions of neo-nationalism and populism.
-
-counter-
-
-This was a period of hegemonic crisis, and 
-Nevertheless, The political society responded with violence.
-
-As Japan, as elsewhere, entered a late-capitalist phase of mass consumerism, different contradictions arose.
-
-and high profile political scandals as the Lockheed bribery
-
-in the wake of economic growth previously manufactured consent (Akio Morita and Shintaro Ishihara's 1989 essay *The Japan That Can Say No* has not aged particularly well)
-
-false awareness
+This was a period of hegemonic crisis, but one that in its aftermath did leave a considerably sour aftertaste in the mouths of many. Communists groups associated with New Left thought, such as the Red Army, proceeded directly to direct action and vise-versa so did the political society too respond with violence. Furthermore, in light of economic growth and relative public wealth, the hegemonic ideologies of economic and ethnic nationalism (what @dower_peace_1993 coins a "late-Showa cult of exceptionalism" [-@dower_peace_1993, p.6]) had despite high profile political scandals as the Lockheed bribery thus far helped retain a strong, manufactured grip on consent. Nevertheless, with the collapse of the bubble economy so too did contradictions in the dominant, hegemonic ideology once again become unearthed (Akio Morita and Shintaro Ishihara's 1989 essay *The Japan That Can Say No* has not aged particularly well), renewing distrust in established politics and the political system behind it. In other words, the political reform of the 1955 System by temporarily allied political outsiders in 1994 was the logical outcome of an increased alienated Japanese civil society. 
 
 
-What @dower_peace_1993 coins a "late-Showa cult of exceptionalism" [-@dower_peace_1993, p.6]
-
-
-
-In light of economic growth, the hegemonic ideologies of capitalism, peace and democracy had thus far, despite public scandals as Lockheed, retained a strong grip on consent.
-
-Public consent did waver much.
-
-a strong grip 
-
-
-
- In the wake of economic growth, critical voices gained little consent
-
-The collapse of the bubble economy unearthed contradictions in the dominant, hegemonic ideology that had in the wake of economic growth previously manufactured consent, despite ()
-
-
-1955 system 
-
-
-This line of reasoning is in itself of course highly ideological and if any of this sounds unapologetically populist, that is no coincidence. I consider this logic an important tactic of what I call *digital populists*, populists focusing on cultural-ideological warfare on the Internet and whose rhetoric is shaped by sub-cultures online. I maintain that this Gramscian understanding of ideology and hegemony is beneficial in understanding the processes of reasoning behind populist and neo-nationalist ideology. Following his logic, the open and public nature of the Internet and social media would present an ideal public space for the under-represented to form a cultural identity and engage in ideological struggle with the hegemonic dominant ideology. The rise of online *influencers* using social media such as Youtube, Niconico, Twitter, Instagram and Facebook to spread politically inspired messages, and right-wing populists utilizing this medium to sell a narrative of revolution, certainly seem to suggest so. Furthermore, As I will expand on in the next chapter, its very creation is commonly framed as being rooted in the American libertarian counter-culture movement of the sixties, after all. 
+This line of reasoning is in itself of course highly ideological and if any of this sounds unapologetically populist, that is no coincidence. I consider this logic an important tactic of what I call *digital populists*, populists focusing on cultural-ideological warfare on the Internet and whose rhetoric is shaped by sub-cultures online. I maintain that this Gramscian understanding of ideology and hegemony is beneficial in understanding the processes of reasoning behind populist, neo-nationalist (and ultimately, 'cyber-nationalist') ideology. Following his logic, the open and public nature of the Internet and social media would present an ideal public space for the under-represented to form a cultural identity and engage in ideological struggle with the hegemonic dominant ideology. The rise of online *influencers* using social media such as Youtube, Niconico, Twitter, Instagram and Facebook to spread politically inspired messages, and right-wing populists utilizing this medium to sell a narrative of revolution, certainly seem to suggest so. Furthermore, As I will expand on in the next chapter, its very creation is commonly framed as being rooted in the American libertarian counter-culture movement of the sixties, after all. 
 
 @buttigieg_gramsci_1995[^49]
 

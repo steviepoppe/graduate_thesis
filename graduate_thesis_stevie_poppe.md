@@ -1,4 +1,3 @@
-
 ---
 documentclass: memoir
 banner: "images/banner.png"
@@ -32,11 +31,12 @@ header-includes:
     - \usepackage{setspace}
     - \linespread{1.50}
 ---
+
+
+\pagestyle{plain}
+\fancyhf{}
 \chapterstyle{thatcher}
 \setsecnumdepth{subsection}
-
-\pagestyle{fancy}
-\fancyhf{}
 
 \rhead{ポッペ・スティーヴィー}
 \lhead{日本における「サイバーナショナリズム」　ー　「ネット右翼」は思想があるか？}
@@ -119,8 +119,6 @@ header-includes:
 \end{otherlanguage}
 \newpage
 
-\pagenumbering{arabic}
-
 \rhead{Stevie Poppe}
 \lhead{The Logics of Japanese Cyber-nationalism}
 
@@ -128,6 +126,7 @@ header-includes:
 
 \listoffigures
 
+\listoftables
 
 \begingroup
 \clearpage
@@ -137,6 +136,9 @@ header-includes:
 \endgroup
 \epigraphhead[50]{\epigraph{I sometimes suspect that we're seeing something in the Internet as significant as the birth of cities. It's something that profound and with that sort of infinite possibilities. It's really something new; it's a new kind of civilization.}{\fauxsc{William Gibson}\small\textup{, 1995}\\}}
 
+\pagestyle{plain}
+
+\pagenumbering{arabic}
 
 On 2010-08-28 *The New York times* published an article titled "New Dissent in Japan Is Loudly Anti-Foreign", referring to a rise in politically motivated protest marches associated with a supposed Japanese 'Net-Right'. In his article, Martin Fackler describes this 'Net-Right' (hereinafter referred to by its Japanese term *Netto-Uyoku* ネット右翼)[^2] as "a new type of ultranationalist group ... a virtual community". He goes on to state that "while these groups remain a small if noisy fringe element here, they have won growing attention as an alarming side effect of Japan’s long economic and political decline" [@fackler_new_2010-1].[^1] A small fringe element that is nevertheless noisy enough to reach print press in the United States. In its most commonly applied form the term Netto-Uyoku applies to a loosely connected, decentralized group of Internet users disseminating a form of extreme right-wing discourse online and who are active primarily on social media platforms such as *Twitter*, the anonymous messaging board *2channel* (*2-channeru* 2ちゃんねる),[^12] and streaming services such as *Youtube* and *Niconico* (ニコニコ).[^58]
 
@@ -144,23 +146,23 @@ Far from benign expressions of free speech limited to shadowy corners of the Int
 
 Nevertheless, nearly a decade after Fackler's publication in *The New York Times*, coverage of the Netto-Uyoku and related topics such as the ACM and Zaitokukai remains relatively scarce.[^4] Moreover, whenever the topic does reach mainstream outlets, there appears to be a tendency of framing the Netto-Uyoku as little more than a fringe movement and side-effect of economical malaise with little real-life influence [ @furuya_roots_2016][^5].[^59] This is in spite of the fact that, as shown above, actions associated with this movement have had real-life consequences, not the least including the 2016 adoption of an anti-discrimination law in order to curb hate speech. Additionally, a 2017 paper on political bots in Japan even went as far as to suggest a hidden nationalist agenda of Prime Minister Abe Shinzo tied to that of the Netto-Uyoku, and viewing them as a potential "enormous online support army of Abe’s agenda" [@schafer_japans_2017], something that the author of this paper too has previously alluded to.[^14]
 
-It goes without saying that expressions of neo-nationalist sentiment taking place largely within the confines of social media and shaped by a distinct Internet discourse are by no means limited to Japanese territory. The outcome of the United States' 2016 presidential elections, the 2016 British Brexit-referendum and the rise of neo-nationalist (that is to say, right-wing populist) ideology amongst various European political campaigns can be seen as trends of greater global political struggles. When more closely examined it will then too come to no big surprise, considering the extent it has penetrated our daily lives, that the role of the Internet and social media was of no small importance in those outcomes. Facebook came under strong public scrutiny, in the wake of the Cambridge Analytica data scandal[^46], for example, and backing the cult of amongst others personality of respective presidents Vladimir Putin, Recep Tayyip Erdoğan and Xi Jinping, as well as the in 2016 elected president of the Philippines Rodrigo Duterte, are supposed "online troll armies". Deliberately and both on a voluntary or paid basis spreading disinformation on social media and attacking self-perceived enemies of their respective presidents, these online troll armies have on multiple instances been accredited with manipulation of political discourse online in order to influence elections, including in more recent memory the 2016 presidential elections in the United States. In the case of state-sponsored Internet propaganda, Marko Kovic defines this practice as "digital astroturfing", calling it "a form of manufactured, deceptive and strategic top-down activity on the Internet initiated by political actors that mimics bottom-up activity by autonomous individuals" [-@kovic_digital_2018, p.71].
+It goes without saying that expressions of neo-nationalist sentiment taking place largely within the confines of social media and shaped by a distinct Internet discourse are by no means limited to Japanese territory. The outcome of the United States' 2016 presidential elections, the 2016 British Brexit-referendum and the rise of neo-nationalist (that is to say, right-wing populist) ideology amongst various European political campaigns can be seen as trends of greater global political struggles. When more closely examined it will then too come to no big surprise, considering the extent it has penetrated our daily lives, that the role of the Internet and social media was of no small importance in those outcomes. Facebook came under strong public scrutiny in the wake of the Cambridge Analytica data scandal for example,[^46] and backing the cult of amongst others personality of respective presidents Vladimir Putin, Recep Tayyip Erdoğan and Xi Jinping, as well as the in 2016 elected president of the Philippines Rodrigo Duterte, are supposed 'online troll armies'. Deliberately and both on a voluntary or paid basis spreading disinformation on social media and attacking self-perceived enemies of their respective presidents, these online troll armies have on multiple instances been accredited with manipulation of political discourse online in order to influence elections, including in more recent memory the 2016 presidential elections in the United States. A practice Marko Kovic has, particularly in the case of state-sponsored Internet propaganda defined as 'digital astroturfing', calling it "a form of manufactured, deceptive and strategic top-down activity on the Internet initiated by political actors that mimics bottom-up activity by autonomous individuals" [-@kovic_digital_2018, p.71].
 
-Moreover, the *Alt-Right* (arguably the western counterparts to the Netto-Uyoku and associated primarily with the United States) have drawn much ire after a white nationalist terror attack[^29] (i.e. ideologically driven violence) in Charlottesville, Virginia during its Unite the Right rally, and again after little public disavowal by the President of the United States.[^24] In similar fashion and overlapping ideologically with the Alt-Right, we find associated foremost with (Western) Europe, Australia and New Zealand, the so-called *Identitarian Movement*. It should then be noted too that the perpetrator of the March 2019 terror attack in New Zealand sprinkled his manifesto with deeply ironic Internet culture rhetoric inherent to those movements.[^13] In Belgium, the mid-2019 elected politician Dries van Langenhove (aligned with populist far right party Vlaams Belang),[^31] acquired attention through his mimicry of rhetoric used by online-based far-right nationalist movements such as the Alt-Right on platforms as *Facebook* and gaming chat application *Discord*,[^25] as revealed in a 2018 documentary of notorious Identitarian youth movement *Schild & Vrienden*[^30].[^10] In France, the term *fachosphère* came to denote similar trends on the French Internet after *Le Monde* published a series of articles linking Marine Le Pen's populist far-right Front National, Online video-game community *jeuxvideo.com* and "Internet trolls" [@laurent_nordactu_2016;@audureau_les_2017].[^16] In South Korea, the populist far-right Liberty Korea Party (LKP) has been condemned for its usage of "online Internet trolls", its former chairman, presidential candidate and Youtuber Hong Joon-Pyo has seen comparisons to Donald Trump [@he-rim_firebrand_2018;@bo-gyung_youtube_2019], and the online platform *Ilbe Storage* is described as hosting the South Korean equivalent of the Japanese Netto-Uyoku [@shim_hardcore_2015]. 
+Moreover, the *Alt-Right* (arguably the western counterparts to the Netto-Uyoku and associated primarily with the United States) have drawn much ire after a white nationalist terror attack[^29] (i.e. ideologically driven violence) in Charlottesville, Virginia during its Unite the Right rally, and again after little public disavowal by the President of the United States.[^24] In similar fashion and overlapping ideologically with the Alt-Right, we the find associated foremost with (Western) Europe, Australia and New Zealand, the so-called *Identitarian Movement*. It should then be noted too that the perpetrator of the March 2019 terror attack in New Zealand sprinkled his manifesto with deeply ironic Internet-driven sub-culture rhetoric inherent to those movements.[^13] In Belgium, the mid-2019 elected politician Dries van Langenhove (aligned with populist far right party Vlaams Belang),[^31] acquired attention through his mimicry of rhetoric used by online-based far-right nationalist movements including the Alt-Right on platforms as *Facebook* and gaming chat application *Discord*,[^25] (which was brought to light in a 2018 documentary on the Belgian Identitarian youth movement *Schild & Vrienden*[^30]).[^10] In France, the term *fachosphère* came to denote similar trends on the French Internet after *Le Monde* published a series of articles linking Marine Le Pen's populist far-right Front National, Online video-game community *jeuxvideo.com* and 'Internet trolls' [@laurent_nordactu_2016;@audureau_les_2017].[^16] In South Korea, the populist far-right Liberty Korea Party (LKP) has been condemned for its usage of 'online Internet trolls'. Furthermore, its former chairman, previous presidential candidate and Youtuber Hong Joon-Pyo has seen comparisons to Donald Trump [@he-rim_firebrand_2018;@bo-gyung_youtube_2019]. Finally, the online platform *Ilbe Storage* is described as hosting the South Korean equivalent of the Japanese Netto-Uyoku [@shim_hardcore_2015]. 
 
-If the actions of those online movements had any measurable effect on the outcome of the elections is wholly debatable, but in light of the above information, it is at the very least sensible to claim the Internet as a medium plays an undeniable role, not just in the organization of neo-nationalist movements, but in shaping elements of its discourse as well; a narrative that is by the way increasingly amplified by numerous mainstream news outlets.[^26] Furthermore, Japan's international *soft power* has without a doubt left its mark on many of those communities abroad, seeping particularly into the Alt-Right and Identitarian Movement.[^32] Former Donald Trump strategist and Breitbart News Network owner Steve Bannon, for example, was a speaker at the 2017 *Japanese Conservative Political Action Conference* (J-CPAC) and praised Prime Minister Shinzo Abe as being "Trump before Trump", while Alt-Right and Identitarian Movement associates as Richard Spencer (who coined the term Alt-Right) have praised Japan as being an exemplary *ethno-state*. Other such Alt-Right associates include for example the white supremacist author Jared Taylor (who was born in Japan and speaks fluent Japanese) and Vice Magazine co-founder and Proud Boys[^33] founder Gavin McInnes, who participated in a reenactment of the 1960 assassination of Japanese Socialist Party (JSP) chairman Inejiro Asanuma by ultra-nationalist Otoya Yamaguchi [@feuer_founder_2018].[^20] Journalist Audrea Lim, in her The New York times editorial, even goes so far to assert "yellow fever" (a sexual obsession with those of Asian descent) as a common trait amongst the Alt-Right, stating that many public figures in the movement have had documented relationships with Asian women [-@lim_opinion_2018].
+If the actions of those online movements had any measurable effect on the outcome of the elections is wholly debatable, but in light of the above information, it is at the very least sensible to claim the Internet as a medium plays an undeniable role, not just in the organization of neo-nationalist movements, but in shaping elements of its discourse as well; a narrative that is by the way increasingly amplified by numerous mainstream news outlets.[^26] Furthermore, Japan's international *soft power* has without a doubt left its mark on many of those communities abroad, seeping particularly into the Alt-Right and Identitarian Movement.[^32] To name some examples, former Donald Trump strategist and Breitbart News Network owner Steve Bannon participated as speaker at the 2017 *Japanese Conservative Political Action Conference* (J-CPAC) and praised Prime Minister Shinzo Abe as being "Trump before Trump". Alt-Right and Identitarian Movement associates including white supremacists Richard Spencer (who coined the term Alt-Right) and Jared Taylor (who himself was born in Japan and speaks fluent Japanese) often sing praise of Japan as an exemplary *ethno-state*. Finally, other such Alt-Right associates include Vice Magazine co-founder and Proud Boys[^33] founder Gavin McInnes, who participated in a reenactment of the 1960 assassination of Japanese Socialist Party (JSP) chairman Inejiro Asanuma by ultra-nationalist Otoya Yamaguchi [@feuer_founder_2018].[^20] Journalist Audrea Lim, in her The New York times editorial, even goes so far to assert "yellow fever" (a sexual obsession with those of Asian descent) as a common trait amongst the Alt-Right, stating that many public figures in the movement have had documented relationships with Asian women [-@lim_opinion_2018].
 
-This soft power influence is observable on a grass-roots level as well. [@charity_why_2016] states it is increasingly common to encounter images online of Japanese animation characters sporting political symbols ranging from neo-Nazi imagery to Trump-related iconography such as MAGA hats. The English-language anonymous messaging board *4chan* in particular,[^17] currently owned by *2channel* founder Hiroyuki Nishimura, started as a North-American copy of its Japanese equivalent *2channel*, with an intended focus on discussing Japanese pop-culture, but came under heavy scrutiny in 2014 for its association with the *Gamergate* controversy[^18] and the Alt-Right. Preliminary research on such microcosmic English-language Internet communities (such as the political discussion section of *4chan* and the conservative political section of *Reddit*)[^56] observe strong neo-nationalist rhetoric exemplary of the Alt-Right. Moreover, they argue these Internet communities to be hubs for influencing mainstream political discourse and setting "the narrative agenda for mainstream media outlets" [@hine_kek_2016; @pearson_scientists_2016; @zannettou_web_2017; @zannettou_origins_2018]. Alt-right appropriated *viral* imagery ("*memes*")[^19] such as that of a green anthropomorphic frog ("Pepe the Frog") find their roots in those communities, and have been shared in some form by members of the current White House, including Donald Trump and Donald Trump Jr. [@lee_understanding_2016; @ohlheiser_analysis_2016; @phillips_alt-right_2016]. 
+This soft power influence is observable on a grass-roots level as well. @charity_why_2016 for example reports on the increasingly common phenomenon of encountering online imagery containing politically-tinted *anime* characters (wearing political symbols ranging from neo-Nazi symbols to Trump-related iconography such as MAGA hats). The English-language anonymous messaging board *4chan* in particular[^17] (since September 2015 publically owned by *2channel* founder Hiroyuki Nishimura) started as a North-American copy of its Japanese equivalent *2channel* with an intended focus on discussing Japanese pop-culture, but came under heavy scrutiny in 2014 for its association with the *Gamergate* controversy[^18] and the Alt-Right. Preliminary research on such microcosmic English-language Internet communities (such as the political discussion section of *4chan* and the conservative political section of *Reddit*)[^56] observe strong neo-nationalist rhetoric exemplary of the Alt-Right. Moreover, they argue these Internet communities to be hubs for influencing mainstream political discourse and setting "the narrative agenda for mainstream media outlets" [@hine_kek_2016; @pearson_scientists_2016; @zannettou_web_2017; @zannettou_origins_2018]. Alt-right appropriated *viral* imagery (in colloquial terms known as 'memes')[^19] such as that of a green anthropomorphic frog ('Pepe the Frog') find their roots in those communities, and have been shared in some form by members of the current White House, including Donald Trump and Donald Trump Jr. [@lee_understanding_2016; @ohlheiser_analysis_2016; @phillips_alt-right_2016]. 
 
-Thus, to reiterate, an increase of mainstream news reports, as mentioned above, claim occidental online communities with an origin in discussing Japanese pop-culture to effectively be 1. hotbeds for right-wing radicalization, and 2. important electoral spaces for both right-wing populist political parties and for politically motivated citizen movements in the United States and Europe. Members of those movements have praised Japan as the ideal of an "ethno-state", and have themselves gained political traction outside the realm of the digital. Moreover, in this chapter I've discussed a global trend of neo-nationalist discourse on the Internet and shown that terms as *fachosphere*, Netto-Uyoku and Alt-Right are conceived of as expressions of such phenomena. Nevertheless the *fachosphere* for example refers uniquely to the French language cyberspace in which such a discourse finds place (with the added connotation of fascism), while the Alt-Right, now as a term unquestionably grown beyond its intended use, was originally conceived of as applying to a particular ideological movement in the United States. 
+Thus, to reiterate, an increase of mainstream news reports, as mentioned above, claim occidental online communities with an origin in discussing Japanese pop-culture are effectively 1. hotbeds for right-wing radicalization, and 2. important electoral spaces for both right-wing populist political parties and for politically motivated citizen movements in the United States and Europe. Members of those movements have praised Japan as the ideal of an 'ethno-state', and have themselves gained political traction outside the realm of the digital. Moreover, in this chapter I've discussed a global trend of neo-nationalist discourse on the Internet and shown that terms as *fachosphere*, Netto-Uyoku and Alt-Right are conceived of as expressions of such phenomena. Nevertheless the *fachosphere* for example refers uniquely to the French language cyberspace in which such a discourse finds place (with the added connotation of fascism), while the Alt-Right, now as a term unquestionably grown beyond its intended use, was originally conceived of as applying to a particular ideological movement in the United States. 
 
-As I demonstrate in the next chapter, a common factor in literature on the Netto-Uyoku is the connection with ideologically driven ACM movements like the Zaitokukai (arguably the *real* counterpoint to the original Alt-Right). The term Netto-Uyoku however, leans in meaning most closely to this phenomenon of Internet-driven right-wing populist nationalism; a phenomenon I would like to further conceptualize as the ideological movement of *cyber-nationalism* (i.e. a form of neo-nationalism centered around the peculiarities of the Internet as a medium). Although overlapping with recent conceptualizations of neo-nationalism, I feel that the *neo* aspect does not yet permit enough agency to the Internet as a medium. After all, as McLuhan famously describes, "the medium is the message" (McLuhan 1964) and, with roots in libertarian counter-movements, so too is the Internet and World Wide Web (as I will delve into in the fourth chapter) undeniably political. Although rooted in technological determinism, McLuhan argued similarly to @azuma_ippan_2011, @tamura_niggling_2014 that the very nature of electronic media would shrink the world into a 'global village' and cause social change through increased social and political involvement and awareness. Precisely because of the general lack of gate-keepers and the dual role of the Internet-user as both consumer and producer does the the Internet as medium thus serve as perfect representation McLuhan's notion of 'global village'.[^21]
+As I demonstrate in the next chapter, a common factor in literature on the Netto-Uyoku is the connection with ideologically driven ACM movements like the Zaitokukai (arguably the *real* counterpoint to the original Alt-Right). The term Netto-Uyoku however, leans in meaning most closely to this phenomenon of Internet-driven right-wing populist nationalism; a phenomenon I would like to further conceptualize as the ideological movement of *cyber-nationalism* (i.e. a form of neo-nationalism centered around the peculiarities of the Internet as a medium). Although overlapping with recent conceptualizations of neo-nationalism, I feel that the *neo* aspect does not yet permit enough agency to the Internet as a medium. After all, as McLuhan famously describes, "the medium is the message" (McLuhan 1964) and, with roots in libertarian counter-movements, so too is the Internet and World Wide Web (as I will delve into in the fourth chapter) undeniably political. Although rooted in technological determinism, McLuhan argued similarly to @azuma_ippan_2011, @tamura_niggling_2014 that the very nature of electronic media would shrink the world into a 'global village' and cause social change through increased social and political involvement and awareness. Precisely because of the general lack of gate-keepers and the dual role of the Internet-user as both consumer and producer does the the Internet as medium thus serve as perfect representation of McLuhan's 'global village'.[^21]
 
-In this chapter, I've also argued that is a meaningful topic to research. The space of the Internet is increasingly politicized and fertile soil for both grass-roots level Internet activism and large-scale political warfare. Within the context of Internet and politics, academics and journalists alike have to various degrees debated and hypothesized on the contribution of the Internet to political polarization, on the Internet's utilization by political actors applying populist strategies and antagonizing mainstream press, and on the media effects of the so-called 'new media' on its users regarding political awareness and opinion-forming (such as the effects of so-called echo chambers).[^15] Although deliberate misinformation ("fake news") is by no means a new trend either,[^11] this too has thrived due to the Internet's widespread usage. The lack of moderation and the spontaneity of social network platforms facilitates the (conscious) spreading and sharing of false information (or information seen loose of its context), without reflection or without source control, and has potentially far-reaching political consequences. 
+In this chapter, I've also argued that this is a meaningful topic to research. The space of the Internet is increasingly politicized and fertile soil for both grass-roots levels of Internet activism as large-scale political warfare. Within the context of Internet and politics, academics and journalists alike have to various degrees debated and hypothesized on the contribution of the Internet to political polarization, on the Internet's utilization by political actors applying populist strategies and antagonizing mainstream press, and on the media effects of the so-called 'new media' on its users regarding political awareness and opinion-forming (such as the effects of so-called echo chambers).[^15] Although deliberate misinformation ('fake news') is by no means a new trend either,[^11] this too has thrived due to the Internet's widespread usage. The lack of moderation and the spontaneity of social network platforms facilitates the (conscious) spreading and sharing of false information (or information seen loose of its context), without reflection or without source control, and has potentially far-reaching political consequences. 
 
-Thus, while this paper refrains from taking too hard a technological determinist position towards the Internet (the implication being that the existence of the Internet as new medium would by itself be a lead cause for societal change),[^22] and treats the Netto-Uyoku in part as a symptom of deeper cultural malaise, it does suggest that by no means should the Internet be dismissed as merely a tool of communication that is itself shaped by societal changes; two takes that both have often been reported in respects to the Netto-Uyoku and other cyber-nationalist movements (**sources here, news article claiming the Internet caused right-wing populism, and visa versa**). Nevertheless, in many ways I cover over the next chapter, populism, and ironically nationalism too, thrives through the Internet. Although the term Netto-Uyoku and its idiosyncrasies are in no doubt shaped by Japanese occurrences, as seen in the framing of more recent works I describe in the next chapter, I maintain that this phenomenon is a good starting point for conceptualizing a universally applicable notion of *cyber-nationalism*.
+Thus, while this paper refrains from taking too hard a technological determinist position towards the Internet (the implication being that the existence of the Internet as new medium would by itself be a lead cause for societal change),[^22] and treats the Netto-Uyoku in part as a symptom of deeper cultural malaise, it does suggest that by no means should the Internet be dismissed as merely a tool of communication that is itself shaped by societal changes; two takes that both have often been reported in respects to the Netto-Uyoku and other cyber-nationalist movements (**sources here, news article claiming the Internet caused right-wing populism, and visa versa**). Nevertheless, as I will cover over the next chapters, in many ways populism, and ironically nationalism too, thrives on the Internet. Although the term Netto-Uyoku and its idiosyncrasies are in no doubt shaped by Japanese occurrences, as seen in the framing of more recent works I describe in the next chapter, I maintain that this phenomenon is a good starting point for conceptualizing a universally applicable notion of *cyber-nationalism*.
 
-This paper consists of five chapters, including this introductory first chapter. The second chapter intents to built a narrative on the Netto-Uyoku through a literature review of both several seminal writings and studies, both in the English and Japanese language. As a relatively young and volatile term, 'Netto-Uyoku' has gone through shifts in meaning. Earlier works viewed the Netto-Uyoku not as an actual group with group identity, but loosely as people utilizing the Internet and engaging in aggressive, politically-driven (ultra-nationalist) rhetoric online (**Sources**). With the widespread pejorative usage of the term (in particular the abbreviation *netouyo*), those at the receiving end of this critique have had ambiguous reactions. Some denounced the term (a common thread is the normative implication that they are merely 'normal Japanese citizens' voicing the concerns of the people), while others have mockingly appropriated it (as is the case, for example, with Zaitokukai-founder Makoto Sakurai). Through the social constructionist act of naming this phenomenon, so thus arises a group identity with the discursive implication of both in-group normalization and out-group polarization. Early scholarly work referring to the Netto-Uyoku does so in a greater context debating politicians with populist tendencies (Toru Hashimoto, Shintaro Ishihara, Abe Shinzo), the revisionist organization Nippon Kaigi, or the actions of ACM-affiliated protest movements as Zaitokukai. The social platform of 2channel is however a red line throughout these works, as well as occasional references to Channel Sakurai, Niconico Doga, Youtube and Twitter. Those works have far often viewed the Netto-Uyoku in a greater debate of (trans)national identity, discrimination and of questions to what qualifies as freedom of speech [@tsuji_eng:_2008;@yasuda_eng:_2012;@yasuda_:_2013;@murai_net_2012;@morris-suzuki_beyond_2015]. State of the art literature in contrast discusses and hypothesize on the socio-cultural background of the Netto-Uyoku, as well as on its ideology, demography and *modus operandi* [@schafer_japans_2017;@kitada_owaranai_2018;@kurahashi_:_2018;@ota_saraba_2019;@yasuda_:_2019]. 
+This paper consists of five chapters, including this introductory first chapter. The second chapter intents to built a narrative on the Netto-Uyoku through a literature review of both several seminal and newer writings and studies, both in the English and Japanese language. As a relatively young and volatile term, 'Netto-Uyoku' has gone through shifts in meaning. Earlier works viewed the Netto-Uyoku not as an actual group with group identity, but loosely as people utilizing the Internet and engaging in aggressive, politically-driven (ultra-nationalist) rhetoric online (**Sources**). With the widespread pejorative usage of the term (in particular the abbreviation *netouyo*), those at the receiving end of this critique have had ambiguous reactions. Some denounced the term (a common thread is the normative implication that they are merely 'normal Japanese citizens' voicing the concerns of the people), while others have mockingly appropriated it (as is the case, for example, with Zaitokukai-founder Makoto Sakurai). Through the social constructionist act of naming this phenomenon, so thus arises a group identity with the discursive implication of both in-group normalization and out-group polarization. Early scholarly work referring to the Netto-Uyoku does so in a greater context debating politicians with populist tendencies (Toru Hashimoto, Shintaro Ishihara, Abe Shinzo), the revisionist organization Nippon Kaigi, or the actions of ACM-affiliated protest movements as Zaitokukai. The social platform of 2channel is however a red line throughout these works, as well as occasional references to Channel Sakurai, Niconico Doga, Youtube and Twitter. Those works have far often viewed the Netto-Uyoku in a greater debate of (trans)national identity, discrimination and of questions to what qualifies as freedom of speech [@tsuji_eng:_2008;@yasuda_eng:_2012;@yasuda_:_2013;@murai_net_2012;@morris-suzuki_beyond_2015]. State of the art literature in contrast discusses and hypothesize on the socio-cultural background of the Netto-Uyoku, as well as on its ideology, demography and *modus operandi* [@schafer_japans_2017;@kitada_owaranai_2018;@kurahashi_:_2018;@ota_saraba_2019;@yasuda_:_2019]. 
 
 This paper then too intents to read the Netto-Uyoku not as a noisy fringe element of Japanese society, but as an ideologically driven movement with political agency, and keeping in the mind the context laid out in this chapter, the power to exert influence on public discourse. Based on this premise, several questions do come to mind. How then do the Netto-Uyoku and Japanese Internet sub-cultures fit in Japanese politics? Is there then a likelihood of radicalization amongst the Netto-Uyoku, with the offset chance of major political shifts or increases in politically-motivated violence, or is there just too great a difference between the socio-cultural context of the Netto-Uyoku and that of its equivalents worldwide to even imagine such events occurring? Are there similar trends of online culture wars on Japanese social media? I attempt to answer these in the next few chapters.
 
@@ -170,7 +172,7 @@ In the fourth and fifth chapter I attempt to lay bare underlying ideological str
 
 Finally, the fifth chapter builds on one particular event in recent Netto-Uyoku history: The Netto-Uyoku Ban Festival (*netouyo ban matsuri *ネトウヨBAN祭り). Earlier I inquired on the existence of a Japanese equivalent of online culture wars. While setting up the outline of my paper, this question answered itself. The latter uses methods of mass-reporting on Youtube and Twitter for automatic removal of Netto-Uyoku related accounts. With a quantitative approach I attempt to prove that the focus of those labeled Netto-Uyoku has (not unlike the 'Left versus Right' wars as perceived elsewhere) shifted away from the traditional targets of Korea as the cultural other. For this, I built a library of Netto-Uyoku-related keywords which I categorize according to a typology based on my definition of cyber-nationalism. 
 
-Over the course of this paper, I attempt to answer such questions as:
+Concretely, over the course of this paper I attempt to answer such questions as:
 
 - What is the demography of the Netto-Uyoku movement?
 - How should we define Netto-Uyoku ideology, if at all present in Netto-Uyoku rhetoric?
@@ -181,30 +183,44 @@ Over the course of this paper, I attempt to answer such questions as:
 - How does the movement organize and mobilize, both online and in real life?
 - Is there possible space for furthering a Netto-Uyoku political "agenda" through influencing its international counterparts?
 
-Finally, it should be mentioned that any research involving the Internet and social networks online is bound to have some risks and limitations. In this case risks and limitations involve liquidity of data, copyright laws pertaining acquiring data and lack of reliability due anonymity masking intent of the original author.[^57] As I referred to earlier, one issue that arose during my writing process was the effect of an on-going online *culture war* between Netto-Uyoku members and anti-hate speech movements. I concur that limiting public access to ideological extremist material reduces chances of radicalization,[^55] but for the purposes of research it drastically impacted my ability to assess network influence and trickle-down affects of extremist rhetoric on mainstream platforms. Other issues are the extraction of online data from an ethical viewpoint and the concept of informed consent, more so in light of the Cambridge Analytica scandal. The dataset contains data created independent of the researcher (or as *Doing Qualitative Research Online* author @salmons_doing_2016 puts it, an *extant* method), on platforms that are either explicitly open (Youtube, 2channel, Reddit, *matome* blogs, Twitter and *wiki*-style encyclopedias) or that is publicly accessible once logged in with a profile (public figures on Facebook, Niconico). In other words, data that is openly available to group-outsiders and explicitly intended to be so (including user-names) on online spaces that are not expected to be private spaces. With the ratification of the General Data Protection Regulation (GDPR)[^47] on 25 May 2018, 2channel has blocked all access from EU IP addresses. All data was however legally obtained during my presence in Japan, and according to the Terms of Service of platforms I have an account on. Finally, following Janet Salmons argument for a synthesis between different traditions on research ethics, it is therefore reasonable to argue that informed consent from the researcher is not applicable in this case.
+Finally, it should be mentioned that any research involving the Internet and social networks online is bound to have some risks and limitations. In this case risks and limitations involve liquidity of data, copyright laws pertaining acquiring data and lack of reliability due anonymity masking intent of the original author.[^57] As I referred to earlier, one issue that arose during my writing process was the effect of an on-going online *culture war* between Netto-Uyoku members and anti-hate speech movements. I concur that limiting public access to ideological extremist material reduces chances of radicalization,[^55] but for the purposes of research it drastically impacted my ability to assess network influence and trickle-down effects of extremist rhetoric on mainstream platforms. Other issues are the extraction of online data from an ethical viewpoint and the concept of informed consent, more so in light of the Cambridge Analytica scandal. The dataset contains data created independent of the researcher (or as *Doing Qualitative Research Online* author @salmons_doing_2016 puts it, an *extant* method), on platforms that are either explicitly open (Youtube, 2channel, Reddit, *matome* blogs, Twitter and *wiki*-style encyclopedias) or that is publicly accessible once logged in with a profile (public figures on Facebook, Niconico). In other words, data that is openly available to group-outsiders and explicitly intended to be so (including user-names) on online spaces that are not expected to be private spaces. With the ratification of the General Data Protection Regulation (GDPR)[^47] on 25 May 2018, 2channel has blocked all access from EU IP addresses. All data was however legally obtained during my presence in Japan, and according to the Terms of Service of platforms I have an account on. Finally, following Janet Salmons argument for a synthesis between different traditions on research ethics, it is therefore reasonable to argue that informed consent from the researcher is not applicable in this case.
  
 Japanese and Korean names are written in the autonomous usage, with family name preceding the given name. Macrons have been used to identify long vowels in Japanese, with the exception of well-known place names such as Tokyo, Osaka and Kyoto. 
 
 \newpage
 
-#The Phenomenology of Netto-Uyoku ー A Literature Review
+#The Phenomenology of Netto-Uyoku — A Literature Review
 
 To demonstrate the extent of reach the Netto-Uyoku have had, this paper's introduction briefly touched upon an English-language print article in The New York Times. It goes without saying the term has been in use since much earlier. The first English-language mention in mainstream media can be traced back to March. 14, 2006, when Journalist Eric Johnston wrote a piece for The Japan Times on right-wing nationalism and the Internet in Japan, "Net boards venue for faceless rightists". In his piece, Johnston associates these 'faceless rightists' (who he further refers to as *Net Uyoku*) with hate-speech towards Koreans, the anonymous Internet forum *2Channel*, online video platform *Channel Sakura* and the conservative political organization *Nippon Kaigi* [@johnston_net_2006]. These topics are presented to some extent in virtually all writings I will review. 
-In Japan, the term first reached print press in a 2005 Mainichi Shimbun article by @sasaki_netto-uyoku_2005, a journalist with a lengthy publishing record on Japanese Internet discourse. Almost two decades have passed since its first usage in mainstream press and almost a decade since the journalist @yasuda_eng:_2012 brought the phenomenon in connection to the 
+In Japan, the term first reached print press in a 2005 Mainichi Shimbun article by @sasaki_netto-uyoku_2005, a journalist with a lengthy publishing record on Japanese Internet discourse. Almost two decades have passed since its first usage in mainstream press and almost a decade since the journalist @yasuda_eng:_2012 brought the phenomenon in public connection to the The Action-Conservative Movement.
 
 As illustrated on **Figure \ref{fig:nettouyoku}** 
 
 \begin{figure}[!htb]
   \centering
+      \caption{\label{fig:nettouyoku} The Google Trends of Netto-Uyoku \& Japan (15 Years).}
     \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/nettouyoku.eps}
-    \caption{\label{fig:nettouyoku} The Google Trends of Netto-Uyoku \& Japan (15 Years).}
 \end{figure}
 
-##The Action-Conservative Movement
+In one of the first English language academic writings on the topic, Tessa Morris-Suzuki[^60] [-@morris-suzuki_freedom_2013] warns against the dangers of social media as a tool for populist mobilization, and paradoxical usage of "freedom of speech". While not explicitly using the term Netto-Uyoku or *net-right*, she describes trends of "violently xenophobic or racist messages, recycling wartime language and imagery that had long disappeared from public discourse in Japan" on the anonymous Internet forum 2channel as a trend of *Internet nationalism* . Based on a 2012 social media white paper showcasing 2channel users to be predominantly young and male, she then frames Netto-Uyoku as "lonely, frustrated *otaku* (an isolated person with obsessive interests), probably unemployed or in a dead-end job, seeking some sense of identity by sharing anger and bitterness with nameless others". She further hints that as the social media-scape shifts, so too then finds this 2channel-inspired Netto-Uyoku discourse its way to other platforms. The image of the lonely Netto-Uyoku as an *otaku* seeking comfort in nationalism and group-bonding online is indeed a compelling narrative, although purely speculative and of course highly stereotypical.
 
-###Zaitokukai
+Like Yasuda Koichi, she ties 2channel to the ACM (or rather, the "emergence of new forms of far right movement in Japan") such as the Shinshakai Undo and more specifically the Zaitokukai. Of note to her is the Zaitokukai's active use of social media for propagating ideology, hinting a radicalizing effect by claiming such media usage is how the Zaitokukai "recruit the young". Their usage of hate speech then, while through various interpretations of the Penal Code illegal, so argues Morris-Suzuki, goes unpunished "because such laws could limit freedom of speech". Finally she claims that, despite a lack of violence, these movements both on and offline should be taken seriously. Why? She recalls an incident in January 2001, when shortly before the planned public broadcast of an NHK documentary on wartime acts of violence against women by the Japan military, the national broadcast service NHK was forced to cut parts including testimony and preliminary findings. The reason for this, as turns out later, was an implied censorship and political interference by Abe Shinzo, unsupportive of the biased nature of the show. As the media-scape shifted, however, so too did Abe Shinzo and a number of Japanese politicians including Hashimoto Toru take "to social media with great enthusiasm".[^3] In particular, she recalls an incident in which Abe's secretary mobilized Abe's friends and followers on his Facebook page (at the time counting at respectively 4,800 and 230,000) for an online attack, again, on the NHK (including a *fake news* story of one panel member on the show). Rather than condemning this, and contradictory to his public statement of "Japan’s diplomacy must always be rooted in democracy" in 2012", Abe instead perpetuates this attack by responding to that public message on his Facebook with another *ad hominem* attack.[^61]
 
-###Makoto Sakurai
+
+## The Action-Conservative Movement
+
+### Makoto Sakurai (桜井誠)
+
+As both founder of the Zaitokukai and Japan First Party, and himself a quintessential Netto-Uyoku member, Makoto Sakurai is present in virtually every paper dealing with Netto-Uyoku. Yet relatively little personal information on him is publicly available (and even his actual birth-name was left unknown for several years).[^62] @yasuda_eng:_2012 spends considerable time uncovering elements of Sakurai Makoto's past, elements he himself has later repeated in an interview with the conservative right-wing newspaper @sankei_news__2016 (one of few mainstream outlets covering his political ambitions during the 2016 Tokyo gubernatorial elections).
+
+Sakurai (reportedly born in Fukuoka on 15-02-1972 and raised by a single mother) recalls some potentially fictitious accounts leading up to his distrust of established left-wing institutions and ethnic Korean citizens, including acts of violence by students from a nearby North-Korean affiliated high school, corruption amongst local politicians and a dislike for the Japan Teachers' Union.
+
+Yasuda traces the start of his activism (or particularly the anti-Korean element of it, kenkan katsudō 嫌韓活動) back to the 2002 FIFA world championship organized in Seoul, South-Korea. Despite immense support towards South-Korea, Sakurai claims an anti-Japanese presence on the Internet, with such slogans as "Lose, Japan!" (*nihon makero* 「日本負けろ」).
+
+
+
+### Zaitokukai
+
 
 ##Counter-movements
 
@@ -228,11 +244,9 @@ https://lite-ra.com/2019/07/post-4813.html
 
 
 
-\newpage
+#Cybernationalism and Japan — Connecting the Dots
 
-#Cybernationalism and Japan - Connecting the Dots
-
-In chapter one, I've suggested that the Netto-Uyoku adhere ideologically to a form of right-wing populist nationalism (which I'll further refer to as neo-nationalism). I've further argued that media and this current wave of populism sweeping the world are intrinsically linked. Finally, we can from the very meaning of the Japanese term Netto-Uyoku (the 'Internet Right') draw an implied importance of the Internet and social media. These loaded statements inevitably lead to several challenges. As it is, concepts as ideology, populism and nationalism (along with such terms as freedom and democracy) are due their over-inflation in usage at an increasing risk of becoming neigh reduced to trending political abstractions; or to borrow from Laclau's [-@laclau_populist_2005, p.70] theorization of semiotics and political identity, empty signifiers. 
+In chapter one, I've suggested that the Netto-Uyoku adhere ideologically to a form of right-wing populist nationalism (which I'll further refer to as neo-nationalism). I've further argued that media and this current wave of populism sweeping the world are intrinsically linked. Finally, we can from the very meaning of the Japanese term Netto-Uyoku (the 'Internet Right') draw an implied importance of the Internet and social media. These loaded statements lead to several inevitable challenges. Concepts such as ideology, populism and nationalism (along with such terms as freedom and democracy) are due their over-inflation in usage at an increasing risk of becoming neigh reduced to trending political abstractions; or to borrow from Laclau's [-@laclau_populist_2005, p.70] theorization of semiotics and political identity, empty signifiers. 
 
 Secondly, without specifically defining these terms in a universal way applicable to a Japanese context (if at all possible), *such loaded statements lead to the pitfall of judging a phenomenon by my own sets of values, rooted in my western upbringing. Populism in particular, due its renewed interest as a field of study in political science, deserves a closer look. The question remains if these concepts can be defined in a universally applicable way without succumbing to the pitfalls of sociological positivism or ahistorical structuralism.* **rewrite**
 
@@ -242,7 +256,7 @@ Secondly, without specifically defining these terms in a universal way applicabl
 
 Actions of the Netto-Uyoku are, intentional or not, ideologically motivated. By studying the discourse and rhetoric of the Netto-Uyoku, we can uncover the underlying ideological mechanisms of the Netto-Uyoku, and by unearthing these processes, we can then understand how its discourse is formed. Keeping in mind Mannheim's Paradox, that this paper too is ideologically predisposed,[^50] a critical reading of the Netto-Uyoku's discourse and ideological stances could help to unravel any contradictions in, and give more insight of, greater social trends facing our world today.
 
-###Conceptualizing ideology
+###Conceptualizing ideology (feudal Japan)
 
 Conceptualization of ideology has known many approaches. Historically, the concept finds its roots in the French Revolution as a positivist attempt to develop a new scientific framework of Enlightenment ideas ('the discourse of patterns'), a form of skeptical scientific materialism [@eagleton_ideology:_1991: p.70]. Following Napoleon's attack of the French "ideologues" as, in @mudde_oxford_2013 (**Page number**)'s words, "unrealistic escapism and philosophical reverie", ideology has since gone through several shifts in meaning. From a classical Marxist view, as interpreted by @eagleton_ideology:_1991, ideology too represented a false or misleading awareness of the human situation. Ideology was however to be understood as an instrument of those in control of the means of production. That is to say, steering—whether intentional or not—the economically subservient class away from a scientific, objective reality (and hence from what is in the best interests of the dominated class) with a *false consciousness*, of one's ability to self-identify as an economic class and express a political will. Hence  maintaining the equilibrium this mode of production.[^3] In other words, classical Marx' materialist theory places ideology as a superstructure in contrast to reality within an economic, dialectic basis-superstructure relationship. The dominant ideology is tied directly to the base, the mode of production, and visa-versa. On the precondition of being universally applicable, we might then for example view the *kokutai* (国体) notion or state-Shintoism to be ideological means for morally *justifying* exploitation[^38] (perhaps viewing the *zaibatsu* conglomerate as part of a Japanese *bourgeoisie*)[^54], while in contrast during the era of the 'Economic Miracle', the ideologies of economical growth and the *nihonjinron* (日本人論) breed of ethnocentric nationalism would then function to deprive of or obscure from the subservient class the objective reality; thus maintaining or legitimizing the *status quo* of society and its economic structures of exploitation.[^37] This line of thinking is however economically determinist. Furthermore, failure of Marx' proposed collapse of capitalist society betrays its rigid scientism. after all, despite hints of a Taisho-era democracy we cannot pinpoint an exact bourgeois revolution within the transition from feudalism to capitalism in Japan. 
 
@@ -255,7 +269,7 @@ Forward, Karl Mannheim approached ideology as dynamic and being shaped both by t
 5. Like 4, "ideas and beliefs which help to legitimate the interests of a ruling group or class" but specifically through "distortion and dissimulation" [@eagleton_ideology:_1991, p30].
 6. False or deceptive beliefs[^39] "arising not from the interests of a dominant class but from the material structure of society as a whole" [@eagleton_ideology:_1991, p30], such as Marx's theory of commodity fetishism. The economic base determines the superstructure of ideology.
 
-###Gramsci, Lukács and Althusser
+### Gramsci, Lukács & Althusser (Post-War Japan & The Economic Miracle)
 
 The epistemologically neutral definitions we have seen courtesy of the Oxford Dictionary fit in the first two descriptions given above, while the last three are akin the Marxist tradition; the last one in particular relating to so-called *vulgar* or economically reductionist Marxism. In these, power is a zero-sum game. The dominant possession of power invariably reduces the power of the subservient class. With that in mind, and for importance to this thesis, are the next generation of Marxists: Gramsci, Lukács and Althusser—three crucial thinkers in expanding Marxist theory on ideology. 
 
@@ -269,17 +283,34 @@ Ideology for Gramsci is a specific historical phenomenon (a "historicist" approa
 
 Some concrete examples of this reasoning. If orthodox Marxism were to view the contradictory nature of increasing student debt in the United Stages and the ideological narratives of neo-liberal capitalism[^51] as a trigger for working class awareness and the inevitable overthrow of capitalism, then in Gramsci's interpretation, civil society would be the stage for counter-hegemonic processes in passive revolution. 2011 saw widespread resentment directed at Wall Street in the populist Occupy Wall Street, with ideological slogans as "We are the 99%" [@rehmann_bernie_2016]. In 2019, politicians Bernie Sanders, Elizabeth Warren and Alexandria Ocasio-Cortez are running on a counter-hegemonic platform to cancel student debt. Likewise, although the democratic impact of the 1994 electoral system reforms in Japan is questionable considering the near constant dominance of the Liberal Democrat Party on national politics since [@komatsu_first_2017], the 1993 Japanese general election and fall of the 1955 system[^53] could also be read through this lens. 
 
-Although not explicitly referring to Gramsci or Marxist traditions of ideology, the language of @dower_peace_1993 in his narrative assessment of the New Left and late '60 political movements certainly seem to suggest such logic as well. As Dower states, the growth of Japan as a cultural and economical powerhouse brought to light contradictions in society—the *San Francisco System*, the ambiguous position of Okinawa and environmental issues (mercury poisoning in Minamata), to name a few—pitting "liberal and left-wing critics against the dominant conservative elites" and introducing "a more radical anti-imperialist critique to the discourse on peace and democracy.". In light of rapid economical growth, hegemonic ideologies of nationalism, capitalism, peace and democracy retained a strong grip on public consent, or as @dower_peace_1993 puts it, the "conservative hegemony-the bedrock of the 1955 System-continued to rule japan" [@dower_peace_1993, pp.5-6,p.21]. Nevertheless this counter-hegemonic shakes society in the late '60s.
+When Japan, as elsewhere, entered a late-capitalist phase of mass consumerism, different contradictions arose. Although not explicitly referring to Gramsci or Marxist traditions of ideology, the language of @dower_peace_1993 in his narrative assessment of the New Left and late '60 political movements certainly seem to suggest such logic as well. As Dower states, the growth of Japan as a cultural and economical powerhouse brought to light contradictions in society—the *San Francisco System*, the ambiguous position of Okinawa and environmental issues (mercury poisoning in Minamata) to name a few; pitting "liberal and left-wing critics against the dominant conservative elites" and introducing "a more radical anti-imperialist critique to the discourse on peace and democracy". In light of rapid economical growth, hegemonic ideologies of nationalism, capitalism, peace and democracy retained a strong grip on public consent, or as @dower_peace_1993 puts it, the "conservative hegemony-the bedrock of the 1955 System-continued to rule japan" [@dower_peace_1993, pp.5-6,p.21]. Nevertheless this counter-hegemonic shakes society in the late '60s.
 
 >"It is estimated that between 1967 and 1970 alone, more than eighteen million Japanese took to the streets to protest the war in Vietnam and demand the reversion of Okinawa to Japan. Uncounted others were involved in the university struggles and citizens' movements against the ravages of the growth-oriented state. As elsewhere, "people's power" entered the Japanese lexicon at this time as a legitimate and essential alternative to bourgeois parliamentary politics; and, as elsewhere, the theory and practice of "people's power" ranged from peaceful protest to wanton violence. By the mid-1970s the nationwide people's movement was moribund, but it left as legacies the memory and experience of grass-roots mobilization that could be evoked in more particularistic causes thereafter." [@dower_peace_1993, p.22]
 
-###The Frankfurt School & Post-Ideology
+This was a period of hegemonic crisis, but one that in its aftermath did leave a considerably sour aftertaste in the mouths of many. Communists groups associated with New Left thought, such as the Japanese Red Army and the East Asia Anti-Japan Armed Front, proceeded directly to direct action and vise-versa so did the political society too respond with violence. Furthermore, in light of economic growth and relative public wealth, the hegemonic ideologies of economic and ethnic nationalism (what @dower_peace_1993 coins a "late-Showa cult of exceptionalism" [-@dower_peace_1993, p.6]) had despite high profile political scandals as the Lockheed bribery thus far helped retain a strong, manufactured grip on consent. Nevertheless, with the collapse of the bubble economy so too did contradictions in the dominant, hegemonic ideology once again become unearthed (Akio Morita and Shintaro Ishihara's 1989 essay *The Japan That Can Say No* has not aged particularly well), renewing distrust in established politics and the political system behind it. In other words, the political reform of the 1955 System by temporarily allied political outsiders in 1994 was the logical outcome of an increased alienated Japanese civil society. 
 
-\newpage
+###The Frankfurt School & Post-Ideology (The Lost Decades)
+
+The Frankfurt School of Critical Theory furthers the theoretical approach to how culture shapes ideology. In particular, Adorno and Horkheimer's Dialectic of Enlightenment
+
+
+This line of reasoning is in itself of course highly ideological and if any of this sounds unapologetically populist, that is no coincidence. I consider this logic an important tactic of what I call *digital populists*, populists focusing on cultural-ideological warfare on the Internet and whose rhetoric is shaped by sub-cultures online. I maintain that this Gramscian understanding of ideology and hegemony is beneficial in understanding the processes of reasoning behind populist, neo-nationalist (and ultimately, 'cyber-nationalist') ideology. Moreover, the open and public nature of the Internet and social media would present an ideal public space for the under-represented to form a cultural identity and engage in ideological struggle with the hegemonic dominant ideology. The rise of online *influencers* using social media such as Youtube, Niconico, Twitter, Instagram and Facebook to spread politically inspired messages, and right-wing populists utilizing this medium to sell a narrative of revolution, certainly seem to suggest so. Furthermore, As I will expand on in the next chapter, its very creation is commonly framed as being rooted in the American libertarian counter-culture movement of the sixties, after all. 
+
+The debate on ideology far from stopped since. Francis Fukuyama for example claimed in his essay *The End of History?* that we've reached a post-ideological worl in which western liberal democracy was the end-point of ideological evolution, an idea that could not be improved upon. On the other side, and furthering Lukács' ideas on alienation due the increased importance of commodity fetishism in capitalist society, Žižek views late-capitalist cynicism as inherent to modern-day ideology, summarized best as "they know very well what they are doing, but still, they are doing it". We are aware of the contradictions, of the false consciousness, but we renounce it only in cynical subversion [-@zizek_mapping_2012, p.18, pp312-5].
+
 
 ##Neo-Nationalism
 
+Can we then interpret this world-wide growth of neo-nationalist movements as counter-hegemonic process? 
+
 ###Populism
+
+How then are we to understand populism? Open just about any recent article on politicians such as Donald Trump, Bernie Sanders, Viktor Orbán, Corbyn, Jair Bolsenaro or Beppe Grillo and the possibility is high any of them will have been name-called a populist, disregarding any dissimilarities in either political agenda or geographical situation. Often used in a pejorative fashion, there is however little explanation if any at all offered in those takes, and with an unprecedented soar in the frequency of usage of this term in Western discourse (a Google Trends search for populism both worldwide and in Japan over the past 10 years, as illustrated on **Figure \ref{fig:populism-gt}**, reveal a worldwide rise of public interest in populism correlating to the political shifts referred to earlier),[^35] the term populist is increasingly used interchangeable or combined with demagoguery.[^28]
+
+\begin{figure}[!htb]
+  \centering
+    \caption{\label{fig:populism-gt} The Google Trends of Populism Worldwide \& Japan (10 Years).}
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/populismtrends.eps}\end{figure}
 
 ####Theory
 
@@ -290,20 +321,29 @@ http://www.tokyoreview.net/2018/09/antonio-inoki-fighting-spirit-diplomacy/
 
 ###Nativism
 
+Vanaf hier specifiek over rechts nu en netouyo praten
+
 ###Nationalism
 
 ##Cyber-Nationalism
 
+https://en.wikipedia.org/wiki/Cyber-nationalism
 
 ###The Medium is the Message
 
-https://en.wikipedia.org/wiki/Cyber-nationalism
+Despite some cultural lag, there are now many theoretical options to approaching the Internet, new media, and politics. In an early stage, Rimmer and Morris-Suzuki (1999), following sociologists Kumon Shumpei and Masuda Yoneji's writings on a 'teledemocracy', take an utopian view and predicted the Internet would serve democracy by fundamentally altering its users thinking patterns and leading to a power-shift away from mass-media. Recent debate on the Internet's role in populist politics in East-Asia (Youngmi Kim 2009, Azuma Hiroki 2011, Tamura en Kobayashi 2014) have instead taken a distinct dystopian turn, employing such terms as 'the People's Will 2.0', and again arguing that due the very nature of computer-mediated communication and social media, with traits such as anonymity, filter-bubbles and so-called 'echo-chambers', the individual 'will' has been reduced to a general 'will' led by emotion rather than rationality. Thus, following this logic, Internet as an open medium for communication would become an invaluable tool for political leaders utilizing a populist narrative.
+
+While the Toronto School of communication theory has some detractors due its reliance on dichotomies, its members Harrold Innis (of "The Bias of Communication") and Mcluhan argue that the invention of print-media led to both a horizontal (regional) and vertical (chronological) continuity and structures redefining our cognitive senses, bringing about a literate 'space-biased' culture rather than an oral 'time-biased' one, and thus a heightened sense of individualism, capitalism and nationalism.[^23] With his idea of a 'global village', McLuhan however hypothesized that a shift towards electronic media, referring at the time primarily to radio and television, would again shift society. This time from a literate culture to a 'post-literate' visual culture that stimulates all senses and transcends time and space, thus leading individualism to a collective, homogeneous identity, in which the lack of a physical body or physical cues creates a different relation to oneself and one's surroundings. (McLuhan, 1962, p. 156, McLuhan 1967:63). Amongst other important early scholars within Media Studies stands Friedrich Kittler, generally associated with the German media theory school. Unlike McLuhan, who argues media as an extension of human senses, Kittler approaches media through his New Materialism theory and his concept of 'discourse networks', applying Foucoult's concept of power and archeology of knowledge in function of media, to allows media its own agency.
 
 ###Virtual (cyber)-communities
+
+These ideas also fits well political scientist Benedict Anderson's notion of Imagined Communities, coined during his research on nationalism and the rise of nation-states. Anderson suggests that nations are not communities in a strict sense, but 'imagined' communities at best, implying that the sense of kinship felt between its members is but a social construct based on mutual experiences evolved from print capitalism and the rise of mass-media, and thus develop both a sense of imagined sameness, as well as clearly defined paradigm of 'otherness'. In a similar sense, social media on the Internet creates a perceived sense of affinity between its members and the social and interpersonal change of this 'global village', or 'imagined cyber-community' can be argued to transcends that of it's nation. In similar fashion, anthropologist @appadurai_modernity_1996 too already argued early on that the rise of the Internet as a new 'mediascape' would lead to the creation of new, transnational and asynchronous imagined communities, based on ideology rather than on national narratives, and diverting from traditional mass-media. Murai Shusuke (-@murai_net_2012, 375–76) argues however the opposite; precisely due Japanese Internet-users' monolingualism, not withstanding full global access through the Internet, any possibility of trans-nationality is severely limited. Within the anonymity of on-line bulletin boards such as 2channel, social markers remain thus primarily defined by language and nation-based ideology. (Naoki Sakai here?) @sakai_translation_1997
 
 ##Model
 
 **Tabel 1.2** Model of Cyber-Nationalism
+
+If we were to built a model on neo-nationalism, it would like this.
 
 |      Ideology    |    Topics              |        Keywords |
 |-------------------|--------------------------------------|-----------------|
@@ -313,7 +353,19 @@ https://en.wikipedia.org/wiki/Cyber-nationalism
 | Revisionism           | ...     | ...               |
 | Populism         | Media  | ...                |
 
+
+
 ##Conclusion
+
+This paper takes a critical approach to ideology, basing itself primarily on the work of Gramsci and thinkers aligned with the Frankfurt School of critical theory. Thus in this paper I view ideology as a world-view rooted in class-conflict and in capitalist nations that rely on consent over coercion, a means to consolidate power. Consolidating power over civil society as done by those in control of the political society (the 'elite' or establishment) through disseminating ideology (by means of popular culture and mainstream media: the hegemonic ideology). Contradictions in society, a direct consequence of the capitalist nature of commodity fetishism, lead to alienation among exploited classes and therefore to class-awareness and an opening for counter-hegemonic processes in civil society.
+
+This reasoning is a strong element of populist rhetoric and neo-nationalists. I adhere to @mudde_oxford_2013's definition of populism as a thin-centered ideology based on the antagonizing of an 'elite' in function of a homogeneous 'will' of 'the people'. Right-wing populists view the 'elite' in this case as primarily a left-wing entity utilizing the media to spread manufactured consent through a *fake* world-view. In this narrative the populists *are* the counter-hegemonic forces. They utilize alternative means in civil-society to appeal to 'the people', the exploited classes that are more often than not defined based on nationalist ideologies: ethnic background or cultural values (i.e. Judeo-christian values). This *fake* world-view borders on a nativist conspiracy theory wherein globalist values of the elite lead to clashes of culture and the disintegration of 'the people's' best interest.
+
+What the French Fachosphere, the Japanese Netto-Uyoku and the American Alt-Right have in common is exactly that: a neo-nationalist ideology of populism, nationalism and nativism. I argue however a difference between those that adhere to this ideology and utilize the Internet purely for organizational means (ie. protest marches), and *netizens* as a sub-culture adhering to an ideology of Internet as a 'new frontier'
+
+ For them, however, the Internet forms an escape in the form of a 'new frontier'; one that ought to be free from elite interference. With some violent exceptions, there is a difference between 
+
+ In other words, what I have defined as cyber-nationalism.
 
 #  The (Japanese) Internet ー A Critical Reading
 
@@ -321,7 +373,42 @@ Digital rights
 
 Western hegemony and Japan as the subaltern?
 
+##Wikipedia
 
+Wikipedia is a free online encyclopedia based on transparent, open collaboration and as of 2019 the 5th most visited website in the world. Japan is the second most represented language on Wikipedia, with a share of 7% of all articles. The specific mannerism of utilizing Wikipedia have formed distinct subcultures and group dynamics. One particular element that has become part of this is vandalism and so-called *edit-wars*; disputes over content through reverting and adjusting user contributions. The open nature of the Wikipedia platforms allows us a look into topics that Wikipedia editors place high importance on. **Table** \ref{tab:50mostcont}[^64] for example displays the top 50 most contentious articles on the Japanese Wikipedia (eg. articles that have high rates of such *edit-warring*) as of 2019.
+
+\begin{table}
+\footnotesize
+\centering
+\setlength{\tabcolsep}{5pt}
+\caption{50 most contentious articles on the Japanese Wikipedia (2019)}\label{tab:50mostcont}
+\scalebox{0.8}{
+\begin{tabular}{@{}p{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}l@{}}
+\toprule
+1&Nanjing Massacre&14&Soka Gakkai&27&Keisuke Honda&40&HKT48\\
+2&Netto Uyoku&15&Emperor&28&SKY PerfecTV! Channel List&41&South Korea\\
+3&Japan&16&Taiwan&29&List of terms in ONE PIECE&42&Shuriken Sentai Ninninger\\
+4&Maeda Atsuko (AKB48)&17&Mr. Osomatsu&30&List of monsters in Kamen Rider Series&43&Hatsune Miku\\
+5&Shichibukai (One Piece)&18&Yuna Kim&31&K-on!&44&Witchy PreCure!\\
+6&Devil's Fruit (One Piece)&19&Zaitokukai&32&Kantai Collectrion-Kancolle-&45&Fate / Grand Order\\
+7&One Piece&20&Rino Sashihara (HKT48)&33&Navy (One Piece)&46&Magical Girl Madoka $\star$ Magica\\
+8&Watanabe Mayu (AKB48)&21&Zainichi Koreans in Japan&34&Takahashi Minami (AKB48)&47&Kimura Takuya (SMAP)\\
+9&Nogizaka46&22&Sakurai Sho (Arashi)&35&Kamen Rider Ghost&48&Naruto Characters\\
+10&AKB48&23&Akihito&36&Hitoshi Matsumoto&49&Minecraft\\
+11&Abe Shinzo&24&YouTube&37&Doubutsu Sentai Zyuohger&50&Korea origin theory\\
+12&Keyakizaka46&25&Monkey D. Luffy (One Piece)&38&DPR Korea\\
+13&Yukio Hatoyama&26&Asahi Shimbun&39&Hiroiki Ariyoshi\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+<https://www.inf.uni-konstanz.de/exalgo/software/wikievent/>
+<http://visone.info/wiki/index.php/Wikipedia_edit_networks_(tutorial)>
+
+Using WikiEvents in Japanese: -> ja -> not netto-uyoku but %E3%83%8D%E3%83%83%E3%83%88%E5%8F%B3%E7%BF%BC
+
+<https://ja.wikipedia.org/w/index.php?title=%E7%89%B9%E5%88%A5:%E7%B7%A8%E9%9B%86%E5%B1%A5%E6%AD%B4%E3%81%AE%E5%A4%9A%E3%81%84%E3%83%9A%E3%83%BC%E3%82%B8&limit=500&offset=0>
 
 \newpage
 
@@ -330,8 +417,8 @@ Western hegemony and Japan as the subaltern?
 
 ##Wikipedia Wars
 
-Japan is the second most represented language on Japan, with a share of 7% of all articles (). Social dynamics
 
+https://ja.wikipedia.org/wiki/Wikipedia:%E7%B7%A8%E9%9B%86%E5%9B%9E%E6%95%B0%E3%81%AE%E5%A4%9A%E3%81%84%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E4%B8%80%E8%A6%A7 40th most edited page on Japanese wikipeia is JapaneseA's contributions
 
 \newpage
 
@@ -374,52 +461,9 @@ Finally I've demonstrated a higher awareness of group identity amongst those who
 [^45]
 \newpage
 
-\appendix
 
-#Appendix
-
-##Images
-
-###\ref{fig:searchengine}
-
-The web-portal *Yahoo! Japan* (a joint venture between the American Yahoo! and Son Masayoshi's SoftBank) retains a monopolistic grip on the Japanese Internet market as its most visited website. Nevertheless, as seen on **Figure \ref{fig:searchengine}**, Google is by far the dominant search engine, more so when taken in account Yahoo! Japan's search engine has since 2010 implemented Google's search engine algorithms (which may account for its increase in market share since). Results based on Google's statistics can therefore be argued to effectively reflect the overall interest of Internet users in Japan.
-
-\begin{figure}[!htb]
-  \centering
-    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/searchengine.eps}
-    \caption{\label{fig:searchengine} Search Engine Market Share Japan (10 Years).}
-\end{figure}
-
-###Google Trends
-\label{appendix:googletrends}
-
- This graph indicates peak interest over a duration of time and contrasts interest thus on a relative scale; it does not scale Japanese results to worldwide results quantitatively.
-
-###\ref{fig:politictrends}
-
-(als ik tijd heb deze figuren nog online zetten dynamisch me anotaties btw)
-
-**Figure \ref{fig:politictrends}** suggests a global increase in public awareness of politics (the frequency of searches in part of the total amount of searches has practically double) and dominantly overshadowed by the search interest in Left-Wing topics (crossed one only in November 2016, in the wake of the presidential elections).
-
-**Figure \ref{fig:searchengine}**
-
-\begin{figure}[!htb]
-  \centering
-    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/politictrends.eps}
-    \caption{\label{fig:politictrends} The Google Trends of Right-Wing and Left-Wing Politics Worldwide \& Japan (15 Years).}
-\end{figure}
-
-**Figure \ref{fig:nettouyoku}**
-
-\begin{figure}[!htb]
-  \centering
-    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/nettouyoku.eps}
-    \caption{\label{fig:nettouyoku} The Google Trends of Netto-Uyoku \& Japan (15 Years).}
-\end{figure}
-
-\newpage
-
-\chapterstyle{default}
+\begingroup
+\chapterstyle{thatcher}
 
 \chapter*{References}
 \addcontentsline{toc}{chapter}{References}  
@@ -434,6 +478,131 @@ This document utilizes the author-date citation system of The Chicago Manual of 
 \vspace{4mm}
 \setlength{\parskip}{0em}
 \footnotesize
+
+<div id="refs"></div>
+\endgroup
+
+\newpage
+
+\appendix
+\pagenumbering{Roman}
+\chapterstyle{thatcher}
+
+#Appendix
+
+##Images
+
+###\ref{fig:searchengine}
+
+The web-portal *Yahoo! Japan* (a joint venture between the American Yahoo! and Son Masayoshi's SoftBank) retains a monopolistic grip on the Japanese Internet market as its most visited website. Nevertheless, as seen on **Figure \ref{fig:searchengine}**, Google is by far the dominant search engine, more so when taken in account Yahoo! Japan's search engine has since 2010 implemented Google's search engine algorithms (which may account for its increase in market share since). Results based on Google's statistics can therefore be argued to effectively reflect the overall interest of Internet users in Japan.
+
+\begin{figure}[!htb]
+  \centering
+    \caption{\label{fig:searchengine} Search Engine Market Share Japan (10 Years).}
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/searchengine.eps}
+    \end{figure}
+
+###Google Trends
+\label{appendix:googletrends}
+
+ This graph indicates peak interest over a duration of time and contrasts interest thus on a relative scale; it does not scale Japanese results to worldwide results quantitatively.
+
+###\ref{fig:politictrends}
+
+(als ik tijd heb deze figuren nog online zetten dynamisch me anotaties btw)
+
+**Figure \ref{fig:politictrends}** suggests a global increase in public awareness of politics (the frequency of searches in part of the total amount of searches has practically doubled) and dominated by a search interest in left-wing topics (crossed by right-wing topics one only in November 2016, in the wake of the presidential elections). In Japan however, interest in political topics as measured by Google Trends remains however fairly stable throughout the line, with one significant  voorbarig
+
+\begin{figure}[!htb]
+    \caption{\label{fig:politictrends} The Google Trends of Right-Wing and Left-Wing Politics Worldwide \& Japan (15 Years).}
+  \centering    
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/politictrends.eps}
+\end{figure}
+
+**Figure \ref{fig:nettouyoku}**
+
+\begin{figure}[!htb]
+    \caption{\label{fig:nettouyoku} The Google Trends of Netto-Uyoku \& Japan (15 Years).}
+  \centering
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/nettouyoku.eps}
+\end{figure}
+
+##Wikipedia Reverts
+
+In order to calculate contentious Japanese Wikipedia pages I use a rudimentary way of comparing the total amount of reverts to the total amount of revisions on a page (limited to articles, I exclude *namespaces* for pages such as *Userpages*). I wrote a script in the Java programming language to obtain the top 1000 revised articles (both in total and during a certain time span). My dataset is a 5GB data-dump (*jawiki-20190620-stub-meta-history.xml.gz*) obtained from <https://dumps.wikimedia.org/jawiki/20190620/>. This compressed file contains an XML file with meta-data of every Japanese Wikipedia page (such as title, namespace, and revision information) up to 2019-06-20.[^63] Reverts are then based on keywords (eg. 'rv', '取り消し', '巻き戻し') in the comments of revisions and are therefore not completely exhaustive (this would most likely include reverts of acts of vandalism, but will not include the actual act of vandalism in which one reverts parts of- or even the complete article). While this methodologically requires further attention, preliminary results undeniable show in quantifiable ways particular political topics to be in the top of so-called '*Wiki edit-wars*'.
+
+I've run the script for each year between the range of 2003 (the beginning of the data-dump) and 2019. Per year I've included levels of controversy based both on the total amount of revisions and reverts up to that year, as well as solely on the revisions and reverts committed in that particular frame of time.
+
+###Japanese Wikipedia Top 50 (as of 2019)
+\label{sec:wikiappendix}
+
+Based on respectively my measurement of controversy (reverts divided by revisions), the total amount of revisions and the total amount of reverts, I've compiled a list of the 50 highest ranking articles.  
+
+
+\begin{table}
+\footnotesize
+\centering
+\setlength{\tabcolsep}{5pt}
+\caption{50 most contentious, revised and reverted articles on the Japanese Wikipedia (2019)}\label{tab:50expanded}
+\scalebox{0.9}{
+\begin{tabular}{@{}p{0.1cm}lll@{}}
+\toprule
+&Top 50 contentious articles&Top 50 revised articles&Top 50 reverted articles\\
+\midrule
+1&南京事件&ZIP!&AKB48\\
+2&ネット右翼&海賊戦隊ゴーカイジャー&安倍晋三\\
+3&日本&ONE PIECEの登場人物一覧&日本\\
+4&前田敦子&天才てれびくんシリーズのドラマ&ONE PIECE\\
+5&王下七武海&ゲゲゲの鬼太郎の登場キャラクター&前田敦子\\
+6&悪魔の実&WWEに所属する人物一覧&乃木坂46\\
+7&ONE PIECE&オールスター感謝祭&創価学会\\
+8&渡辺麻友&アニメ+&南京事件\\
+9&乃木坂46&めざましテレビ&悪魔の実\\
+10&AKB48&名探偵コナンの登場人物&王下七武海\\
+11&安倍晋三&ちちんぷいぷい (テレビ番組)&ネット右翼\\
+12&欅坂46&相棒の登場人物&けいおん!\\
+13&鳩山由紀夫&ONE PIECEの登場人物一覧&ONE PIECEの登場人物一覧\\
+14&創価学会&3年B組金八先生)&海賊 (ONE PIECE)\\
+15&天皇&SASUKE&渡辺麻友\\
+16&中華民国&青森放送&仮面ライダーシリーズ登場怪人一覧\\
+17&おそ松さん&海賊 (ONE PIECE)&大韓民国\\
+18&金妍兒&AKB48/log20110116&天皇\\
+19&在日特権を許さない市民の会&イナズマイレブンの登場人物&嵐 (グループ)\\
+20&指原莉乃&情報ライブ ミヤネ屋&海軍 (ONE PIECE)\\
+21&在日韓国・朝鮮人&フジテレビジョン&モンキー・D・ルフィ\\
+22&櫻井翔&福山潤&在日特権を許さない市民の会\\
+23&上皇明仁&SMAP&鳩山由紀夫\\
+24&YouTube&グルメチキンレース・ゴチになります!&在日韓国・朝鮮人\\
+25&モンキー・D・ルフィ&新日本プロレス&プリキュアシリーズ\\
+26&朝日新聞&仮面ライダーフォーゼ&仮面ライダーゴースト\\
+27&本田圭佑&ゲームセンターCX&SMAP\\
+28&スカパー! チャンネル一覧&めちゃ×2イケてるッ!&SKE48\\
+29&ONE PIECEの用語一覧&スーパー戦隊シリーズ&水樹奈々\\
+30&仮面ライダーシリーズ登場怪人一覧&AKB48&AKB48\\
+31&けいおん!&読売ジャイアンツ&指原莉乃\\
+32&艦隊これくしょん -艦これ-&相棒&中華民国\\
+33&海軍 (ONE PIECE)&プリキュアシリーズ&福山潤\\
+34&高橋みなみ&モーニング娘。&Hey! Say! JUMP\\
+35&仮面ライダーゴースト&仮面ライダーディケイド&欅坂46\\
+36&松本人志&24時間テレビ 「愛は地球を救う」&ドラえもん\\
+37&動物戦隊ジュウオウジャー&成田国際空港&サザエさんの登場人物\\
+38&朝鮮民主主義人民共和国&アニメ版ポケットモンスターの登場人物&ONE PIECEの用語一覧\\
+39&有吉弘行&仮面ライダー電王&本田圭佑\\
+40&HKT48&銀魂 (アニメ)&魔法少女まどか$\star$マギカ\\
+41&大韓民国&BLEACHの登場人物&相棒\\
+42&手裏剣戦隊ニンニンジャー&関西国際空港&B'z\\
+43&初音ミク&安倍晋三&イチロー\\
+44&魔法つかいプリキュア!&仮面ライダー鎧武/ガイム&朝鮮民主主義人民共和国\\
+45&Fate/Grand Order&阪神タイガース&上皇明仁\\
+46&魔法少女まどか$\star$マギカ&トリコ&織田信長\\
+47&木村拓哉&龍が如くシリーズの登場人物&二宮和也\\
+48&NARUTO -ナルト-の登場人物&ジャニーズJr.&ドラゴンボール\\
+49&Minecraft&スーパーJチャンネル&櫻井翔\\
+50&韓国起源説&SKE48&FAIRY TAILの登場人物\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
 
 [populism_trends]: images/populism_trends.jpg
 
@@ -451,10 +620,10 @@ This document utilizes the author-date citation system of The Chicago Manual of 
 [^14]: This paper expands upon the author's undergraduate thesis [@poppe_digitaal_2017], written under the supervision of Prof. Dr. Dimitri Vanoverbeke. In his undergraduate thesis, the author examined the Netto-Uyoku as potential electorate of populist politicians on both a national and regional scale.
 [^15]: Reinforcement of one's ideas through repeated confrontation with opinions and news aligning with one's ideas.
 [^16]:  In the second article, @laurent_nordactu_2016 describes the *fachosphère* as part of the Identitarian Movement and "une nébuleuse de sites, de comptes sur les réseaux sociaux, visant à diffuser de la « réinformation », en clair de la propagande allant dans le sens des militants qui les animent", a nebula of websites and accounts on social networks, designed to disseminate "réinformation" or in other words propaganda embracing the ideas of the activists, amongst the users of those platforms.
-[^17]:  Since its launch in 2003 4chan has been commonly accredited with popularizing many aspects now common to Internet communities. The message-board has several sections devoted to Japanese pop-culture, and in 2019 claimed over 27,700,000 unique visitors per month.Of note is the self-assessed demography of its users, consisting of a a mostly millennial, male user-base from the United States and Western Europe, listing interests as "Japanese culture, anime, manga, video games, comics, technology, music, movies" [@noauthor_advertise_nodate; @ellis_4chan_2018].
+[^17]:  Since its launch in 2003 4chan has been commonly accredited with popularizing many aspects now common to Internet communities. The message-board has several sections devoted to Japanese pop-culture, and in 2019 claimed over 27,700,000 unique visitors per month. Of particular note is the self-assessed demography of its users, consisting of a a mostly millennial, male user-base from the United States and Western Europe, listing interests as "Japanese culture, anime, manga, video games, comics, technology, music, movies" [@noauthor_advertise_nodate; @ellis_4chan_2018].
 [^18]: A co-ordinated and reactionary harassment campaign against women targeting sexism in video game culture and the multi-billion video game industry, the Gamergate Controversy can be interpreted as a culture war against diversification of a supposed gamer identity (a cultural identity that has traditionally been associated with men). The controversy has had widespread coverage, including condemnation by Canadian Prime Minister Justin Trudeau, and was extensively covered by Alt-Right key-figure Milo Yiannopoulos on the far-right website Breitbart News Network. The outcome of this campaign has been claimed to have had radicalizing effects amongst its supporters [@wofford_is_2014; @johnston_chat_2014;@morgan_analysis_2016; @martens_rally_2017].
-[^20]: It should be noted that a short news-report on Youtube covering this topic, "A Lot Of White Supremacists Seem To Have An Asian Fetish (HBO)" by @vice_news_lot_2017, had as of writing, a ratio of 6,1K dislikes to 5,6K likes. The author identified a newly posted comment by "Notification Email" (barring a play-list of game-related videos an otherwise empty account) to state "absolute state of (((modern journalism))) ... the truth is people longing culture about sincerity, chivalry, family value, etc. the west is beyond saved from the sinner, hedonist, liar, and degenerate." Another comment, by the account "ShadyxFiascoX 32", had 166 likes and stated "Personally Hitler loved Japan and said they had a good culture. What the hell is (((Vice))) talking about". In both cases the triple parentheses (originated from Alt-Right discourse) implies Jewish ownership of the video's owner, Vice News. One comment, by "Ochiai's Channel" misinterprets this video's content by posting "I am Japanese, and can I consider his talk as a hate speech against us?!". His channel, with a follower count of 610 subscribers and viewed over 87K times as of writing, states both in Japanese and English *2-Channeru-nado ni katte ni rinku o iron'na tokoro ni hattari,nan nara katte ni bideo o ichibu o kiritotte riyō suru no, OKdesu! ... Tada, han'nichi no hitotachi wa, do no yōna katachideare, riyō wa okotowarishimasu.* (「２ちゃんねる等に勝手にリンクを色んな所に貼ったり、なんなら勝手にビデオを一部を切り取って利用するの、OKです！ ... ただ、反日の人達は、どのような形であれ、利用はお断りします。」) and "You can paste my videos anywhere, or you can even download it and edit to use it. ... However, if you're anti-Japan or pro-migration, you're not welcome to do any of those in any means" [@noauthor_ochiais_nodate].
-[^21]: It is fitting too then that former Vice President of the United States, Al Gore, referred to the Internet in a 1994 speech for the International Telecommunication Union, as "information superhighways" that would serve as a "metaphor of democracy" and lead to a "gobal community". The text is available in full at <http://vlib.iue.it/history/internet/algorespeech.html>.
+[^20]: It should be noted that a short news-report on Youtube covering this topic, "A Lot Of White Supremacists Seem To Have An Asian Fetish (HBO)" by @vice_news_lot_2017, had as of writing, a ratio of 6,1K dislikes to 5,6K likes. In the comment section I identified a newly posted comment by "Notification Email" (barring a play-list of several game-related videos an otherwise empty account) to state "absolute state of (((modern journalism))) ... the truth is people longing culture about sincerity, chivalry, family value, etc. the west is beyond saved from the sinner, hedonist, liar, and degenerate." Another comment, by the account "ShadyxFiascoX 32", had 166 likes and stated "Personally Hitler loved Japan and said they had a good culture. What the hell is (((Vice))) talking about". In both cases the triple parentheses (originated from Alt-Right discourse) implies Jewish ownership of the video's owner, Vice News. One comment, by "Ochiai's Channel" misinterprets this video's content by posting "I am Japanese, and can I consider his talk as a hate speech against us?!". His channel, with a follower count of 610 subscribers and viewed over 87K times as of writing, states both in Japanese and English *2-Channeru-nado ni katte ni rinku o iron'na tokoro ni hattari,nan nara katte ni bideo o ichibu o kiritotte riyō suru no, OKdesu! ... Tada, han'nichi no hitotachi wa, do no yōna katachideare, riyō wa okotowarishimasu.* (「２ちゃんねる等に勝手にリンクを色んな所に貼ったり、なんなら勝手にビデオを一部を切り取って利用するの、OKです！ ... ただ、反日の人達は、どのような形であれ、利用はお断りします。」) and "You can paste my videos anywhere, or you can even download it and edit to use it. ... However, if you're anti-Japan or pro-migration, you're not welcome to do any of those in any means" [@noauthor_ochiais_nodate].
+[^21]: It is fitting too then that former Vice President of the United States, Al Gore, referred to the Internet in a 1994 speech for the International Telecommunication Union, as "information superhighways" that would serve as a "metaphor of democracy" and lead to a "global community". The text is available in full at <http://vlib.iue.it/history/internet/algorespeech.html>.
 [^22]: "Determinism is a philosophical system that posits every physical event, including human cognition and action, is causally determined by an unbroken chain of past occurrences and therefore makes it possible for us to know future effects with certainty. Technological determinism claims that technology is an autonomous, "self-controlling, self-determining, self-generating, self-propelling, self-propelling, selfperpetuating and self-expanding force ... out of human control, changing under its own momentum and 'blindly' shaping society" [@chandler_act_1995, p.1]
 [^5]: A conservative Nippon Foundation platform *nippon.com* English-language publication by author Furuya Tsunehiro (a cultural critic, online personality and until 2014 himself a frequent guest on Channel Sakurai). He claims that "disturbing as the voice of cyber-extremism may be, its influence on Japanese politics and society remains limited, and its heyday is nearing an end" [@furuya_roots_2016].
 [^25]: In another note-worthy intersection with the Alt-Right, Vlaams Belang leader Tom Van Grieken hosted an event debating the UN migration compact with amongst others Steve Bannon [@gotev_vlaams_2018]. Moreover, a youth subdivision of Vlaams Belang hosted Lauren Southern (see footnote 13) as guest-speaker during another congress supervised by Van Grieken [@rennenberg_vlaams_2018]. 
@@ -502,7 +671,12 @@ This document utilizes the author-date citation system of The Chicago Manual of 
 
 [^56]: On 26/07/2019 A *New York Times* article on this reddit sub-community, The_Donald, reports that after repeated incitement to violence, aimed increasingly at police officers and public officials, the forum has now been "quarantined". This means that its content is no longer algorithmically featured on the front-page of the platform, that users have to log-in and specifically agree to enter the sub-community, and that no revenue will be generated through ads [@chokshi_reddit_2019]. Both Donald Trump's campaign manager and social media manager visit The_Donald on a daily basis  visits this community everyday [@parscale_reddit_2016;@restuccia_get_2019] and Donald Trump himself reportedly gave a Q&A in the community [@robertson_donald_2016].
 [^55]: Widespread social media platforms as Youtube, Facebook and Twitter are already making efforts to remove contents that is deemed hateful or contains "bigoted ideologies". Trump has criticized this move as being biased against conservative users[@stack_trump_2019;@roose_youtube_2019]
-[^57]: Particularly on 4chan and 2channel are ambiguity and cynicism inherent elements of discourse, increasing the difficulty of a critical reading. A blatantly offense message could be masked as irony either as defense for actual offensive intent, or as a deadpan form of inter-textual parody. This phenomenon is often referred to as Poe's Law.
+[^57]: Particularly on 4chan and 2channel are ambiguity and cynicism inherent elements of discourse, increasing the difficulty of a critical reading. A blatantly offense message could be masked as irony either as defense for actual offensive intent, or as a deadpan form of inter-textual parody. This phenomenon is referred to as Poe's Law.
 [^58]: With social media, I refer to all online platforms used for computer-mediated communication and in which can be built.
 [^59]: The English-language article portrays Netto-Uyoku as "Japanese neo-nationalists who interact almost entirely within their own cyber community, shut off from the rest of Japanese society" and who "first appeared on the Internet during the Lost Decade, which was an economic crisis in Japan from the 1990s to 2010s". This perpetuating the idea of Netto-Uyoku as a disenfranchised by-product of the Lost Decade. The page was created on 2016-06-01 with the most recent revision made on 2019-07-17. On 2018-11-11, A user by the name of "Normal Japanese" replaced the page contents with "anti-Japanese left wings will perish", which was reverted one minute afterwards.
 [^23]: Another interesting expression considering this very word is rooted in capitalist commodity fetishism.
+[^60]: Tessa Morris-Suzuki is professor of Japanese History and frequent contributor to *The Asia-Pacific Journal: Japan Focus*. Her academic work focuses primarily on the topic of identity and politics in Japan.
+[^61]: She ends with a cautious warning that, reminiscent of Karl Popper's *paradox of tolerance*, "democracy is left impoverished when freedom of hate speech is protected more zealously than freedom of reasoned political debate" @morris-suzuki_freedom_2013.
+[^62]: In the wake of the arrest of several Zaitokukai-members, @nikkei_news__2013 published an article revealing his birth name to be Takada Makoto (高田誠). Due the wide spread of his pen name, I will continue to refer to him as Sakurai Makoto.
+[^63]: For more information on the elements of this XML dump, see <https://glimmerphoenix.github.io/WikiDAT/pages/meta-history/>.
+[^64]: This is a translation. For the methodology used as well as the original, slightly more expanded list, I refer to section \ref{sec:wikiappendix} and **table \ref{tab:50expanded}** on page \pageref{tab:50expanded}.

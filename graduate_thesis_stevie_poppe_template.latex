@@ -32,6 +32,13 @@ $endif$
 
 \usepackage{etoolbox}
 
+\usepackage{booktabs}
+\usepackage{caption}
+
+\captionsetup[table]{position=top,labelfont={sc},textfont={sl}}
+
+%\renewcommand{\thetable}{\Roman {table}}
+\renewcommand{\arraystretch}{1.2} 
 
 \DisemulatePackage{setspace}
 
@@ -103,18 +110,6 @@ $endif$
 
 \usepackage[stable,multiple,bottom]{footmisc} 
 
-$if(natbib)$
-\usepackage{natbib}
-\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
-$endif$
-
-$if(biblatex)$
-\usepackage$if(biblio-style)$[style=$biblio-style$]$endif${biblatex}
-$if(biblatexoptions)$\ExecuteBibliographyOptions{$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$}$endif$
-$for(bibliography)$
-\addbibresource{$bibliography$}
-$endfor$
-$endif$
 
 \usepackage{xkeyval} 
 \usepackage[utf8]{inputenc}
@@ -292,7 +287,13 @@ $endif$
 
 \endgroup}
 
+%----------------------------------------------------------------------------------------
+% INTRO 
+%----------------------------------------------------------------------------------------
+
 \newcommand*{\intro}{\begingroup
+\pagestyle{plain}
+
 \topskip0pt
 
 \begin{abstract}
@@ -418,7 +419,7 @@ $endif$
 
 \begin{document}
 
-\pagenumbering{Roman}
+\pagenumbering{roman}
 \sloppy
 
 \clearpage
@@ -431,11 +432,13 @@ $endif$
  BoldItalicFont={Meiryo Bold Italic}
  ]{$mainfont$}
 
-\newpage
+\clearpage
+\thispagestyle{plain}
 
 \setcounter{page}{1}
 
 \intro
+
 \newpage
 
 $for(include-before)$
@@ -465,28 +468,5 @@ $endif$
 
 $body$
 
-
-
-$if(natbib)$
-$if(bibliography)$
-$if(biblio-title)$
-$if(book-class)$
-\renewcommand\bibname{$biblio-title$}
-$else$
-\renewcommand\refname{$biblio-title$}
-$endif$
-$endif$
-
-
-$endif$
-$endif$
-$if(biblatex)$
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-
-$endif$
-
-$for(include-after)$
-$include-after$
-$endfor$
 
 \end{document}
