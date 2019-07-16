@@ -12,7 +12,8 @@ subtitle2: Contextualizing Ideology in the Age of the Internet — Uniquely Japa
 year: 2018 - 2019
 supervisor: Prof. Dr. Dimitri Vanoverbeke
 characters: undetermined
-abstract: "Abstract (Dutch)."
+abstractnl: "Abstract (Dutch)."
+abstract: "With the unexpected outcome of—amongst various political events—the presidential election campaign in the United States and the UK independence movement, the pivotal year of 2016 brought to light the extent right-wing populism has infiltrated the political realm in democratic nations across the world. Furthermore, with an increasingly dominant position of the Internet and social media in our daily lives, so too has computer mediated communication become a critical aspect of political campaigning, with the additional risk of polarization and radicalization on fringe sub-culture communities. Terms as 'troll armies', 'alt-right', '*fachosphère*' and the Japanese '*Netto-Uyoku*' (ネット右翼, lit. 'Net Right') have in their respective languages entered the mainstream discourse and refer to a particular phenomenon of right-wing populism occurring on social media an the Internet. This paper attempts to conceptualize this phenomenon as cyber-nationalism, and through a critical analysis of Netto-Uyoku discourse, further argues as the ideological flavor the latter adhere to. A reading of right-wing populist rhetoric reveals a distinct flavor of Frankfurt School and Gramscian logic: established politics, left-wing educational institutions and mainstream media serve to manufacture consent to the hegemonic ideology of the 'elite', which does not adequately represent the 'people's will' and defers from self-perceived contradictions in society. In this sense, the Internet as imagined *public sphere* offers an ideal way for disseminating a counter-hegemonic ideology. Following McLuhan's notion of the medium as the message, neither are the Internet and the World Wide Web (the later shaped by libertarian counter-culture movements and more as once referred to as an 'electronic frontier') to be seen as free of ideology. Although early futurists as ... suggested that the Internet would cross the boundaries of nationalist ideology and offer a true 'Global Village', reality has indeed taken an ironic twist. Yet despite the existence of this Japanese term Netto-Uyoku implying an electorate for anti-establishment right-wing populists in Japan, as well as the existence of various ultra-nationalist grassroots movements such as the Zaitokukai and the foundation of a populist political party fashioned in Trump's image (The Japan First Party), the Liberal Democratic Party (LDP) retains its dominant grip on Japanese politics. My argument for that is twofold. While populist newcomers worldwide have capitalized on the distrust of established institutions experienced amongst these cyber-nationalists, the LDP has effectively done this several years earlier in the wake of the Democratic Party of Japan (DPJ)'s waning popularity after the 2011 earthquake. On a macro-level, the LDP has spread its ideological hegemony in the state-sponsored Cool Japan form of soft-power both nationally and internationally, while on a micro-level the LDP appeals to Japanese cyber-nationalists by manufacturing outrage and exploiting the same self-perceived contradictions in society that have lead to counter-hegemonic movements elsewhere."
 bibliography: "bibtex/Master.bib"
 csl: "bibtex/chicago-author-date-jp.csl"
 geometry: "lmargin=3.25cm, rmargin=2.95cm, tmargin=3cm, bmargin=3cm"
@@ -131,7 +132,7 @@ header-includes:
 \begingroup
 \clearpage
 \let\clearpage\relax
-\vspace*{2.2cm}
+\vspace*{4.5cm}
 \chapter{The Alt-Right, Netto-Uyoku, Online Culture Wars—What's in a Name?}
 \endgroup
 \epigraphhead[50]{\epigraph{I sometimes suspect that we're seeing something in the Internet as significant as the birth of cities. It's something that profound and with that sort of infinite possibilities. It's really something new; it's a new kind of civilization.}{\fauxsc{William Gibson}\small\textup{, 1995}\\}}
@@ -152,7 +153,7 @@ Moreover, the *Alt-Right* (arguably the western counterparts to the Netto-Uyoku 
 
 If the actions of those online movements had any measurable effect on the outcome of the elections is wholly debatable, but in light of the above information, it is at the very least sensible to claim the Internet as a medium plays an undeniable role, not just in the organization of neo-nationalist movements, but in shaping elements of its discourse as well; a narrative that is by the way increasingly amplified by numerous mainstream news outlets.[^26] Furthermore, Japan's international *soft power* has without a doubt left its mark on many of those communities abroad, seeping particularly into the Alt-Right and Identitarian Movement.[^32] To name some examples, former Donald Trump strategist and Breitbart News Network owner Steve Bannon participated as speaker at the 2017 *Japanese Conservative Political Action Conference* (J-CPAC) and praised Prime Minister Shinzo Abe as being "Trump before Trump". Alt-Right and Identitarian Movement associates including white supremacists Richard Spencer (who coined the term Alt-Right) and Jared Taylor (who himself was born in Japan and speaks fluent Japanese) often sing praise of Japan as an exemplary *ethno-state*. Finally, other such Alt-Right associates include Vice Magazine co-founder and Proud Boys[^33] founder Gavin McInnes, who participated in a reenactment of the 1960 assassination of Japanese Socialist Party (JSP) chairman Inejiro Asanuma by ultra-nationalist Otoya Yamaguchi [@feuer_founder_2018].[^20] Journalist Audrea Lim, in her The New York times editorial, even goes so far to assert "yellow fever" (a sexual obsession with those of Asian descent) as a common trait amongst the Alt-Right, stating that many public figures in the movement have had documented relationships with Asian women [-@lim_opinion_2018].
 
-This soft power influence is observable on a grass-roots level as well. @charity_why_2016 for example reports on the increasingly common phenomenon of encountering online imagery containing politically-tinted *anime* characters (wearing political symbols ranging from neo-Nazi symbols to Trump-related iconography such as MAGA hats). The English-language anonymous messaging board *4chan* in particular[^17] (since September 2015 publically owned by *2channel* founder Hiroyuki Nishimura) started as a North-American copy of its Japanese equivalent *2channel* with an intended focus on discussing Japanese pop-culture, but came under heavy scrutiny in 2014 for its association with the *Gamergate* controversy[^18] and the Alt-Right. Preliminary research on such microcosmic English-language Internet communities (such as the political discussion section of *4chan* and the conservative political section of *Reddit*)[^56] observe strong neo-nationalist rhetoric exemplary of the Alt-Right. Moreover, they argue these Internet communities to be hubs for influencing mainstream political discourse and setting "the narrative agenda for mainstream media outlets" [@hine_kek_2016; @pearson_scientists_2016; @zannettou_web_2017; @zannettou_origins_2018]. Alt-right appropriated *viral* imagery (in colloquial terms known as 'memes')[^19] such as that of a green anthropomorphic frog ('Pepe the Frog') find their roots in those communities, and have been shared in some form by members of the current White House, including Donald Trump and Donald Trump Jr. [@lee_understanding_2016; @ohlheiser_analysis_2016; @phillips_alt-right_2016]. 
+This soft power influence is observable on a grass-roots level as well. @charity_why_2016 for example reports on the increasingly common phenomenon of encountering online imagery containing politically-tinted Japanese animation characters (wearing political symbols ranging from neo-Nazi symbols to Trump-related iconography such as MAGA hats). The English-language anonymous messaging board *4chan* in particular[^17] (since September 2015 publically owned by *2channel* founder Hiroyuki Nishimura) started as a North-American copy of its Japanese equivalent *2channel* with an intended focus on discussing Japanese pop-culture @orsini_how_2015, but came under heavy scrutiny in 2014 for its association with the *Gamergate* controversy[^18] and the Alt-Right. Preliminary research on such microcosmic English-language Internet communities (such as the political discussion section of *4chan* and the conservative political section of *Reddit*)[^56] observe strong neo-nationalist rhetoric exemplary of the Alt-Right. Moreover, they argue these Internet communities to be hubs for influencing mainstream political discourse and setting "the narrative agenda for mainstream media outlets" [@hine_kek_2016; @pearson_scientists_2016; @zannettou_web_2017; @zannettou_origins_2018]. Alt-right appropriated *viral* imagery (in colloquial terms known as 'memes')[^19] such as that of a green anthropomorphic frog ('Pepe the Frog') find their roots in those communities, and have been shared in some form by members of the current White House, including Donald Trump and Donald Trump Jr. [@lee_understanding_2016; @ohlheiser_analysis_2016; @phillips_alt-right_2016]. 
 
 Thus, to reiterate, an increase of mainstream news reports, as mentioned above, claim occidental online communities with an origin in discussing Japanese pop-culture are effectively 1. hotbeds for right-wing radicalization, and 2. important electoral spaces for both right-wing populist political parties and for politically motivated citizen movements in the United States and Europe. Members of those movements have praised Japan as the ideal of an 'ethno-state', and have themselves gained political traction outside the realm of the digital. Moreover, in this chapter I've discussed a global trend of neo-nationalist discourse on the Internet and shown that terms as *fachosphere*, Netto-Uyoku and Alt-Right are conceived of as expressions of such phenomena. Nevertheless the *fachosphere* for example refers uniquely to the French language cyberspace in which such a discourse finds place (with the added connotation of fascism), while the Alt-Right, now as a term unquestionably grown beyond its intended use, was originally conceived of as applying to a particular ideological movement in the United States. 
 
@@ -183,7 +184,7 @@ Concretely, over the course of this paper I attempt to answer such questions as:
 - How does the movement organize and mobilize, both online and in real life?
 - Is there possible space for furthering a Netto-Uyoku political "agenda" through influencing its international counterparts?
 
-Finally, it should be mentioned that any research involving the Internet and social networks online is bound to have some risks and limitations. In this case risks and limitations involve liquidity of data, copyright laws pertaining acquiring data and lack of reliability due anonymity masking intent of the original author.[^57] As I referred to earlier, one issue that arose during my writing process was the effect of an on-going online *culture war* between Netto-Uyoku members and anti-hate speech movements. I concur that limiting public access to ideological extremist material reduces chances of radicalization,[^55] but for the purposes of research it drastically impacted my ability to assess network influence and trickle-down effects of extremist rhetoric on mainstream platforms. Other issues are the extraction of online data from an ethical viewpoint and the concept of informed consent, more so in light of the Cambridge Analytica scandal. The dataset contains data created independent of the researcher (or as *Doing Qualitative Research Online* author @salmons_doing_2016 puts it, an *extant* method), on platforms that are either explicitly open (Youtube, 2channel, Reddit, *matome* blogs, Twitter and *wiki*-style encyclopedias) or that is publicly accessible once logged in with a profile (public figures on Facebook, Niconico). In other words, data that is openly available to group-outsiders and explicitly intended to be so (including user-names) on online spaces that are not expected to be private spaces. With the ratification of the General Data Protection Regulation (GDPR)[^47] on 25 May 2018, 2channel has blocked all access from EU IP addresses. All data was however legally obtained during my presence in Japan, and according to the Terms of Service of platforms I have an account on. Finally, following Janet Salmons argument for a synthesis between different traditions on research ethics, it is therefore reasonable to argue that informed consent from the researcher is not applicable in this case.
+On a closing note, it should be mentioned that any research involving the Internet and social networks online is bound to have some risks and limitations. In this case risks and limitations involve liquidity of data, copyright laws pertaining acquiring data and lack of reliability due anonymity masking intent of the original author.[^57] As I referred to earlier, one issue that arose during my writing process was the effect of an on-going online *culture war* between Netto-Uyoku members and anti-hate speech movements. I concur that limiting public access to ideological extremist material reduces chances of radicalization,[^55] but for the purposes of research it drastically impacted my ability to assess network influence and trickle-down effects of extremist rhetoric on mainstream platforms. Other issues are the extraction of online data from an ethical viewpoint and the concept of informed consent, more so in light of the Cambridge Analytica scandal. The dataset contains data created independent of the researcher on platforms that are either explicitly open (Youtube, 2channel, Reddit, *matome* blogs, Twitter and *wiki*-style encyclopedias) or that is publicly accessible once logged in with a profile (public figures on Facebook, Niconico). In other words, data that is openly available to group-outsiders and explicitly intended to be so (including user-names) on online spaces that are not expected to be private spaces. With the ratification of the General Data Protection Regulation (GDPR)[^47] on 25 May 2018, 2channel has blocked all access from EU IP addresses. All data was however legally obtained during my presence in Japan, and according to the Terms of Service of platforms I have an account on. Finally, following Janet Salmons argument for a synthesis between different traditions on research ethics, it is therefore reasonable to argue that informed consent from the researcher is not applicable in this case.
  
 Japanese and Korean names are written in the autonomous usage, with family name preceding the given name. Macrons have been used to identify long vowels in Japanese, with the exception of well-known place names such as Tokyo, Osaka and Kyoto. 
 
@@ -202,7 +203,7 @@ As illustrated on **Figure \ref{fig:nettouyoku}**
     \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/nettouyoku.eps}
 \end{figure}
 
-In one of the first English language academic writings on the topic, Tessa Morris-Suzuki[^60] [-@morris-suzuki_freedom_2013] warns against the dangers of social media as a tool for populist mobilization, and paradoxical usage of "freedom of speech". While not explicitly using the term Netto-Uyoku or *net-right*, she describes trends of "violently xenophobic or racist messages, recycling wartime language and imagery that had long disappeared from public discourse in Japan" on the anonymous Internet forum 2channel as a trend of *Internet nationalism* . Based on a 2012 social media white paper showcasing 2channel users to be predominantly young and male, she then frames Netto-Uyoku as "lonely, frustrated *otaku* (an isolated person with obsessive interests), probably unemployed or in a dead-end job, seeking some sense of identity by sharing anger and bitterness with nameless others". She further hints that as the social media-scape shifts, so too then finds this 2channel-inspired Netto-Uyoku discourse its way to other platforms. The image of the lonely Netto-Uyoku as an *otaku* seeking comfort in nationalism and group-bonding online is indeed a compelling narrative, although purely speculative and of course highly stereotypical.
+In one of the first English language academic writings on the topic, Tessa Morris-Suzuki[^60] [-@morris-suzuki_freedom_2013] warns against the dangers of social media as a tool for populist mobilization, and paradoxical usage of "freedom of speech". While not explicitly using the term Netto-Uyoku or *net-right*, she describes trends of "violently xenophobic or racist messages, recycling wartime language and imagery that had long disappeared from public discourse in Japan" on the anonymous Internet forum 2channel as a trend of *Internet nationalism*. Based on a 2012 social media white paper showcasing 2channel users to be predominantly young and male, she then frames Netto-Uyoku as "lonely, frustrated *otaku* (an isolated person with obsessive interests), probably unemployed or in a dead-end job, seeking some sense of identity by sharing anger and bitterness with nameless others". She further hints that as the social media-scape shifts, so too then finds this 2channel-inspired Netto-Uyoku discourse its way to other platforms. The image of the lonely Netto-Uyoku as an *otaku* seeking comfort in nationalism and group-bonding online is indeed a compelling narrative, although purely speculative and of course highly stereotypical.
 
 Like Yasuda Koichi, she ties 2channel to the ACM (or rather, the "emergence of new forms of far right movement in Japan") such as the Shinshakai Undo and more specifically the Zaitokukai. Of note to her is the Zaitokukai's active use of social media for propagating ideology, hinting a radicalizing effect by claiming such media usage is how the Zaitokukai "recruit the young". Their usage of hate speech then, while through various interpretations of the Penal Code illegal, so argues Morris-Suzuki, goes unpunished "because such laws could limit freedom of speech". Finally she claims that, despite a lack of violence, these movements both on and offline should be taken seriously. Why? She recalls an incident in January 2001, when shortly before the planned public broadcast of an NHK documentary on wartime acts of violence against women by the Japan military, the national broadcast service NHK was forced to cut parts including testimony and preliminary findings. The reason for this, as turns out later, was an implied censorship and political interference by Abe Shinzo, unsupportive of the biased nature of the show. As the media-scape shifted, however, so too did Abe Shinzo and a number of Japanese politicians including Hashimoto Toru take "to social media with great enthusiasm".[^3] In particular, she recalls an incident in which Abe's secretary mobilized Abe's friends and followers on his Facebook page (at the time counting at respectively 4,800 and 230,000) for an online attack, again, on the NHK (including a *fake news* story of one panel member on the show). Rather than condemning this, and contradictory to his public statement of "Japan’s diplomacy must always be rooted in democracy" in 2012", Abe instead perpetuates this attack by responding to that public message on his Facebook with another *ad hominem* attack.[^61]
 
@@ -235,6 +236,10 @@ Yasuda traces the start of his activism (or particularly the anti-Korean element
 ###LDP
 
 https://lite-ra.com/2019/07/post-4813.html
+
+Japanese lawyer Tomomi Inada, who has served under Abe Shinzō as Minister of Defense and Minister in charge of the Cool Japan Strategy, is another member of the Nippon Kaigi. She has made controversial statements regarding stock elements of Japanese nationalism, such as denial in part of the Nanking Massacre and the Comfort Women system, stating there is no need to continuing expression of remorse towards other Asian countries.
+
+(zaitokukai donations?) 
 
 ###Nippon Kaigi
 
@@ -292,6 +297,8 @@ This was a period of hegemonic crisis, but one that in its aftermath did leave a
 ###The Frankfurt School & Post-Ideology (The Lost Decades)
 
 The Frankfurt School of Critical Theory furthers the theoretical approach to how culture shapes ideology. In particular, Adorno and Horkheimer's Dialectic of Enlightenment
+
+
 
 
 This line of reasoning is in itself of course highly ideological and if any of this sounds unapologetically populist, that is no coincidence. I consider this logic an important tactic of what I call *digital populists*, populists focusing on cultural-ideological warfare on the Internet and whose rhetoric is shaped by sub-cultures online. I maintain that this Gramscian understanding of ideology and hegemony is beneficial in understanding the processes of reasoning behind populist, neo-nationalist (and ultimately, 'cyber-nationalist') ideology. Moreover, the open and public nature of the Internet and social media would present an ideal public space for the under-represented to form a cultural identity and engage in ideological struggle with the hegemonic dominant ideology. The rise of online *influencers* using social media such as Youtube, Niconico, Twitter, Instagram and Facebook to spread politically inspired messages, and right-wing populists utilizing this medium to sell a narrative of revolution, certainly seem to suggest so. Furthermore, As I will expand on in the next chapter, its very creation is commonly framed as being rooted in the American libertarian counter-culture movement of the sixties, after all. 
@@ -367,15 +374,34 @@ What the French Fachosphere, the Japanese Netto-Uyoku and the American Alt-Right
 
  In other words, what I have defined as cyber-nationalism.
 
-#  The (Japanese) Internet ー A Critical Reading
+If self-perceived contradictions in society (such as immigration and terrorism) brought about a wave of right-wing populism with 2016 as a pivotal year, then 2009 - 2011 could be considered the same for Japan. Blatantly populist politicians as Shintaro Ishihara and Hashimoto Toru gain renewed fame, 
+
+#  The (Japanese) Internet ー From 2channel to Twitter and Wikipedia
+
+I illustrated in the previous chapter that Netto-Uyoku are often seen as an element occurring particularly on 2channel, Niconico and more recently Twitter [@katayama_2-channel_2007;@tsuji_eng:_2008,@rumi_koreans_2011;@murai_net_2012;@yasuda_eng:_2012;@morris-suzuki_freedom_2013;@taka_twitter_2015-1]. Furthermore, all of these belong to the top visited websites, with the latter two reaching the top 10.[^97]
+
+As Lev Manovich argues in *Software Takes Command: Extending the Language of New Media* [@manovich_software_2013], software determines our outlook and interaction with the world around us. When a user edits a political message on Twitter or wiki, they might do so on a desktop computer at home, using Chrome as browser on Windows 10, or or on an Apple iPhone. It is not just the hardware or connectivity with the internet, the downloading of HTML files being parsed in the browser, or different interfaces 
 
 Digital rights
 
 Western hegemony and Japan as the subaltern?
 
-##Wikipedia
+Introduction here: Internet, Internet in Japan, etc
 
-Wikipedia is a free online encyclopedia based on transparent, open collaboration and as of 2019 the 5th most visited website in the world. Japan is the second most represented language on Wikipedia, with a share of 7% of all articles. The specific mannerism of utilizing Wikipedia have formed distinct subcultures and group dynamics. One particular element that has become part of this is vandalism and so-called *edit-wars*; disputes over content through reverting and adjusting user contributions. The open nature of the Wikipedia platforms allows us a look into topics that Wikipedia editors place high importance on. **Table** \ref{tab:50mostcont}[^64] for example displays the top 50 most contentious articles on the Japanese Wikipedia (eg. articles that have high rates of such *edit-warring*) as of 2019.
+##2channel
+
+2channel (now 5channel) 
+###Sokuho
+
+###Matome-blogs
+
+###NanJ (なんｊ)
+
+##Wikipedia[^76]
+
+Lev Manovich
+
+Wikipedia is a free online encyclopedia based on transparent and open collaboration. As of 2019 it is the 5th most visited website in the world. Japan is the second most represented language on Wikipedia, with a share of 7% of all articles. The specific mannerisms of utilizing Wikipedia have formed distinct subcultures and group dynamics. One particular element that has become part of this is vandalism and so-called *edit-wars*; disputes over content through reverting and adjusting user contributions. The open nature of Wikipedia platforms permits us a glimpse into topics that Wikipedia editors place high importance on. **Table \ref{tab:50mostcont}**[^64] for example displays the top 50 most contentious articles on the Japanese Wikipedia (eg. articles that have high rates of such *edit-warring*) as of 2019.[^66]
 
 \begin{table}
 \footnotesize
@@ -403,26 +429,159 @@ Wikipedia is a free online encyclopedia based on transparent, open collaboration
 }
 \end{table}
 
-<https://www.inf.uni-konstanz.de/exalgo/software/wikievent/>
-<http://visone.info/wiki/index.php/Wikipedia_edit_networks_(tutorial)>
+Based on these statistics, I find that regardless whether sorted by total revisions, total reverts, or total contention, the lists of Wikipedia articles are dominated almost entirely with articles devoted to Japanese idol pop-artists (in particular AKB48) and animation (specifically One Piece). Sorted on either total reverts or total contention these lists include throughout the years articles on prime minister Abe Shinzo, Japan, Soka Gakkai, the Nanjing Massacre, Netto-Uyoku, both south and north Korea, and Zainichi Koreans. Throughout other years, this list has included topics such as the South Korean figure skater Yuna Kim (after rumors were spread on 2channel involving bribes **sources**), the topic of male discrimination (*dansei sabetsu* 男性差別), an article on a supposed *Korean origin theory* (*kankoku kigen-setsu* 韓国起源説), global warming, Ishihara Shintarō, Hashimoto Tōru and the former prime ministers Asō Tarō, Hatoyama Yukio, Kan Naoto and Koizumi Jun'ichirō. Of note is a seemingly distinct lack of articles that would otherwise be considered controversial topics, such as the territorial disputes of the Liancourt Rocks. These are missing primarily due administrators' ability to 'protect' articles from anonymous edits. That being said, on a platform that is dominated by articles on pop-culture pages when viewed over large time lapses, a closer look to individual months does reflect current events. The Japanese article on the Liancourt Rocks for example did reach first spot as most edited article on August 2012, when the dispute gained renewed traction. Moreover, so did between May and June 2006 articles related to Netto-Uyoku sentiment.[^81] 
 
-Using WikiEvents in Japanese: -> ja -> not netto-uyoku but %E3%83%8D%E3%83%83%E3%83%88%E5%8F%B3%E7%BF%BC
+During the early 2000's reverts are still uncommon to the point they're not a reliable means to express quantifiable controversy of a topic within the Japanese Wikipedia community. Based on the total amount of revisions as an indicator of perceived importance by the Japanese Wikipedia community, top articles in the early days of the Japanese Wikipedia contain however few articles related to such pop culture phenomena. Instead in 2003 the most revised articles include the topics of the Japanese railway,[^72] religion[^73]  as well as topics related to China[^74] and Japanese history.[^75] In 2004 2channel joins the top of this list as second most revised article, alongside articles related to media-channels[^80] and the Korean peninsula (大韓民国, 朝鮮民主主義人民共和国). It is only from 2005 onwards that we perceive an increase of mass-edited articles on pop-media (animation as *crayon shin-chan* クレヨンしんちゃん, *doraemon* ドラえもん, One Piece and Naruto reach the top of this list for example).
 
-<https://ja.wikipedia.org/w/index.php?title=%E7%89%B9%E5%88%A5:%E7%B7%A8%E9%9B%86%E5%B1%A5%E6%AD%B4%E3%81%AE%E5%A4%9A%E3%81%84%E3%83%9A%E3%83%BC%E3%82%B8&limit=500&offset=0>
+Using the statistic tool-set XTools,[^77] one can get further insights into the revision history of each article, as well as into the Wikipedia users contributing to them. An overview of revision statistics on two contested topics (see **figures \ref{fig:xtools-zainichi} and \ref{fig:xtools-asahi}** show a sharp increase of activity in the period of 2009 - 2011, an increase that cannot be explained solely by a rise in usage of Wikipedia as a platform but falls in line with a general increase of interest in right-wing politics (**figure \ref{fig:xtools-zainichi}**) and Netto-Uyoku (**figure \ref{fig:xtools-zainichi}**).
 
-\newpage
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/zainichi.jpg}
+    \end{subfigure}
+    \caption{Revision Statistics for Japanese Wikipedia Article \textit{'Zainichi Koreans'} (在日韓国・朝鮮人)}\label{fig:xtools-zainichi}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/asahi-shimbun.jpg}
+    \end{subfigure}
+    \caption{Revision Statistics for Japanese Wikipedia Article \textit{'Asahi Shimbun'} (朝日新聞)}\label{fig:xtools-asahi}
+\end{figure}
+
+**figure \ref{fig:xtools-zainichi}** displays similar information on the topic of Netto-Uyoku. An article that has seen 2,281 edits by 756 users since its creation on 2005-09-30 through an anonymous edit with the following information: 
+
+>ネット上で徘徊・跋扈する馬鹿な右翼のこと。２ちゃんねるなど無責任な管理者が運営する掲示板に生息する。また、まじめな議論をおこなおうとする、右翼に批判的な掲示板などを荒らすことも生業としている。２ちゃんねる風のプラカードをもって、杉並で「つくる会」教科書採択のために策動した連中もいる。
+>*Netto-jō de haikai bakko suru bakana uyoku no koto. 2-Chan neru nado musekinin'na kanrisha ga un'ei suru keijiban ni seisoku suru. Mata, majimena giron o okonaou to suru, uyoku ni hihantekina keijiban nado o arasu koto mo nariwai to shite iru. 2-Chan neru kaze no purakādo o motte, Suginami de `tsukurukai' kyōkasho saitaku no tame ni sakudō shita renchū mo iru.*
+
+>Stupid right-wingers loitering on the Internet. They inhabit bulletin board systems (BBS) such as 2channel, operated by irresponsible administrators. Moreover, they call for trolling BBS meant for attempting serious discussion and/or for making critical arguments against the right. There are also those that have participated in Suginawa protests on the adoption of a new school textbook with 2channel-themed placards.[^82]
+
+Since then the article has grown to contain 70,744 characters and is linked to from other pages 405 times. As shown above, the topic remains controversial. The very last two edits in my data-source (and thus the most recent at 02/07/2019) are an addition and its subsequent revert of the following line, by user '高畑政行' (*Takahata Masayuki*).[^83]
+
+>日本を取り戻し、世界でもっとも輝ける国にするために日々研鑽を惜しまない素晴らしい方達である。そのために、日本人による正当な民族差別を率先して行っている。
+>Nihon o torimodoshi, sekai de mottomo kagayakeru kuni ni suru tame ni hibi kensan o oshimanai subarashīi kata-tachi dearu. Sono tame ni, nihonjin ni yoru seitōna minzoku sabetsu o sossen shite itte iru.
+
+>These are wonderful people who do not spare time in order to restore Japan and making it the most glorious country in the world. To that end, they takes the initiative of legitimating ethnic discrimination by Japanese people.[^84]
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/netto-uyoku.jpg}
+    \end{subfigure}
+    \caption{Revision Statistics for Japanese Wikipedia Article \textit{'Netto Uyoku'} (ネット右翼)}\label{fig:xtools-asahi}
+\end{figure}
+
+A constant in these contested pages are large contributions by a small group of people. The top contributor to the article of *Nanking Massacre* (27.7% of all edits, between the period of 2009-11-01 and 2019-04-16) for example is a user by the handle of 大和屋敷 (*yamato-yashiki*, lit. 'the Yamato Mansion'). A user with as of 02-07-2019 16,682 edits over 3,229 pages including 139 edits to English-language Wikipedia articles (where he has since been blocked from contributing, having focused primarily on topics related to Korea, such as Korean Nationalism and the Japan-Korea Treaty of 1910, as well as 'softer' topics as Otaku, Yakiniku and 'Secret photography'). Moreover, this user has top reaching edits for other such contested topics as *Netto-Uyoku* (first place with 19.7%).[^68] The second largest contributor to this article (with 166 or 15.7% edits between 2015-10-21 and 2019-03-17) is 'Japanese Sincerity' (a twin-account of the since blocked account 'Japanese spirits' and most likely a reference to *yamato-damashii* 大和魂, a normative expression of *nihonjin*-style Japanese ethno-nationalism). A look at the profile page of 'Japanese Sincerity' on Wikipedia reveals the following information:
+
+>「得意分野
+日本史（特に昭和の時代）。イデオロギーでなく、事実の正確な記述や広い視点による解釈に固執します。記述に恣意的に反映するかどうかは別として、個人的には日本の皇室の大ファンであり、それも昭和天皇、上皇、今上天皇と戦後皇室の在り方に個人的には共感しています。」
+
+>*"Tokui bun'ya 
+nihonshi (tokuni Shōwa no jidai). Ideorogīdenaku, jijitsu no seikakuna kijutsu ya hiroi shiten ni yoru kaishaku ni koshū shimasu. Kijutsu ni shii-teki ni han'ei suru ka dō ka wa betsu to shite, kojin-teki ni wa Nihon no kōshitsu no dai fandeari, sore mo shōwadenkō, jōkō, kinjōten'nō to sengo kōshitsu no arikata ni kojin-teki ni wa kyōkan shite imasu."*
+
+>"Specialty
+Japanese history (in particular the Showa era). I am not ideological, and instead stick to writing accurate, factual descriptions and interpretations through broad perspectives. Regardless of whether it reflects in my articles, I am a big fan of the Imperial House of Japan, and feel sympathetic to the state of the Showa Emperor, Emperor Akihito, Emperor Naruhito and the postwar imperial family." (source: <https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Japanese_sincerity>)
+
+\begin{figure}[!htb]
+  \centering
+    \includegraphics[width=.9\textwidth]{images/wiki/japanese-spirits-abe.jpg}
+    \centering\caption{English Wikipedia Edits by User 'Japanese spirits' on 'Shinzō Abe'}\label{fig:js-abe}
+\end{figure}
+
+Contrary to that information, this user's topics of choice and particular edits do reveal a highly ideological background. Of particular note are this users' 455 contributions to the English language Wikipedia, as well as several to the Spanish (46) and French Wikipedia (28), dominantly on topics of Japanese war crimes. As shown in **\ref{fig:js-abe} and \ref{fig:js-inada}**, through the now banned twin-account of 'Japanese spirits' this user has formerly contributed to articles on Inada Tomomi and Abe Shinzō with apologetic, reactionary edits (the former which are as of 9-07-2019 still largely in-tact). Support for the revisionist agenda of Nippon Kaigi is in this user's logic an act of honor and patriotism. Criticism of the Yasukuni Shrine too is disrespectful towards "the souls of dead Japanese soldiers" and, furthermore, the 2017 critical documentary *Yasukuni* betrayed a Chinese tinted political agenda. Through their main account 'Japanese Sincerity', this user has since opted for a softer tone. Their last contribution, on the article for 'Pantingan River massacre', attempts to downplay events with the following line:
+
+>"Following Tsuji's abnormal order which was considered to be a war criminal and beyond his commission, Japanese 122 Regiment of Sixty-fifth Brigade executed the US and Philippine soldiers in the Pantingan River [2]. Colonel Takeo Imai, of another Japanese regiment, was doubt the authority of the order which came from the top but not clearly from who? and Imai ignored the cruel order and did not any execusion[3]."
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/japanese-spirits-inada1.jpg}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/japanese-spirits-inada2.jpg}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/japanese-spirits-inada0.jpg}
+    \end{subfigure}
+    \caption{English Wikipedia Edits by User 'Japanese spirits' on 'Tomomi Inada'}\label{fig:js-inada}
+\end{figure}
+
+Another prolific Wikipedia user (and contributor to the *Nanking Massacre* article with 10.5% of its edits done between 2009-12-03 and 2019-04-30) is the user '花蝶風月雪月花警部' (*kachō fūgetsu setsugetsuka keibu*).[^70] The actions of this user however involve policing primarily un-sourced or biased edits, and a Google search of this account reveals several topics accusing that user of being an 'Anti-Japanese left-wing traitor' (*han-nichi baikoku sayoku* 反日売国サヨク) and an ethnic Korean (*zainichi chōsenjin* 在日朝鮮人). One other such active user, 'JapaneseA' (2,655 pages created and 46,343 pages edited) has received similar critique and their policing conflicts have led to bans of active editors as 'Chichiii', who has added 11,999 edits to 3,926 articles and authored 572 articles including *Emperor Apologize request by Korea* (*Kankoku ni yoru ten'nō shazai yōkyū* 韓国による天皇謝罪要求),  *Foreign Regional Suffrage* (*gaikokujin chihō sansei-ken* 外国人地方参政権) and *The issue of the Chinese Embassy and Primary land acquisition in Tokyo* (*chūgoku taishikan tonai ittōchi baishū mondai* 中国大使館都内一等地買収問題).
+
+If we take a look at some of the other contested articles, similar trends arise. Going through the revision history of articles as *'Japan'* (*'nihon'*, 日本), *'Hatoyama Yukio'* (鳩山由紀夫), *'Foreign suffrage in Japan'* (*nihon ni okeru gaikokujin sanseiken*, 日本における外国人参政権), *'Zainichi Koreans'* (*zainichi kankoku・chōsenjin* 在日韓国・朝鮮人), *'Asahi Shimbun'* (朝日新聞) and *'Zaitokukai'* reveals primarily edits by 'Chichiii', '花蝶風月雪月花警部' (*kachō fūgetsu setsugetsuka keibu*) and '大和屋敷' (*yamato yashiki*).[^71] Another top contributor with a telling user name to that latter article is the user '竹島は日本' (*takeshima ha nihon* , 'Takeshima is Japanese'), who has also contributed to articles related to 2channel,[^78] Baseball star Suzuki Ichirō (popularly referred to as *Ichirō*, イチロー) and the Wikipedia article on Makoto Sakurai. 
+
+Although the Japanese Wikipedia has comparatively a high number of edits done anonymously (see **figure \ref{fig:anon-wiki}**,
+
+\begin{figure}[!htb]
+  \centering
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/anon-wiki.eps}
+    \centering\caption{Percentage of Anonymous Edits in Japanese and Worldwide (15 Years)}\label{fig:anon-wiki}
+\end{figure}
+
+One aspect of personalization on Wikipedia is the usage of badges on one's profile.[^89] Take for example the user 'S.S.Exp.Hashimoto', primarily active on railway-related articles but just as well a top contributor to the articles *'Netto-Uyoku'*, *'Taiwan'* and *'Foreign suffrage in Japan'* (with a total of 4,698 pages edited between 2004-02-28 and 2019-07-06, including several on the English Wikipedia). The user-page includes some information on the user's interest in railways (the handle itself is a reference to to the Keio Line semi-express train towards Hashimoto, Kanagawa prefecture) and 2channel. More interesting is however this user's usage of badges, as illustrated on **figure \ref{fig:hashimoto}**. Badges that by the way are not uncommon, as seen on the profile of a top contributor to *'asahi shimbun'*, '護国防共団' (*gokoku bōkyō-dan*, lit. 'anti-communist national defense corps') and *Taiwan* top editor `Kamakura' (who between 2003-08-19 and 2019-06-30 has made 7,616 edits to over 3,933 articles, including 315 edits on the English wikipedia), illustrated on respecively **figure \ref{fig:defense-corps}** and **figure \ref{fig:kamakura}**.
+
+In all three cases the users express support for the Self Defense Force (SDF). 'S.S.Exp.Hashimoto' and 'Kamakura' both take pride into their identity as 2channel users,[^69] have Shintoist beliefs and express their support for nuclear energy, while `S.S.Exp.Hashimoto' and '護国防共団' (*gokoku bōkyō-dan*) both describe themselves as conservative. '護国防共団' (*gokoku bōkyō-dan*) and 'Kamakura' show their support for the Emperor System and the LDP.  護国防共団 (*gokoku bōkyō-dan*) takes pride in being Japanese, shows support for the Nippon Kaigi, political visits to the Yasukuni Shrine and the LDP. 'S.S.Exp.Hashimoto' expresses a dislike against Mainland China and Communism, while simultaneously expressing love for Taiwan (as documented earlier, a Wikipedia topic this user is affiliated with) and the United States. Finally, 'Kamakura' has further syncretic tendencies expressing belief in Taoism and Buddhism. Nevertheless does 'Kamakura' just as well express support for the death penalty.[^79]
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/hashimoto.jpg}
+        \caption{\textbf{User}: `S.S. Exp.Hashimoto'}
+        \label{fig:hashimoto}
+    \end{subfigure}
+     \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/defense-corps.jpg}
+        \caption{\textbf{User}: `護国防共団' (\textit{gokoku bōkyō-dan})}
+        \label{fig:defense-corps}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{images/wiki/kamakura.jpg}
+        \caption{\textbf{User}: `Kamakura'}
+        \label{fig:kamakura}
+    \end{subfigure}
+    \caption{Examples of Wikipedia Badges}\label{fig:badge-examples}
+\end{figure}
+
+Furthermore, the possibilities of interlinking articles between different language variants of Wikipedia offers previously unseen ways of global interconnection. This has political consequences as well. I've shown above the tendency of editing articles on non-Japanese Wikipedia variants (primarily the English language variant) by several users depicting tropes common to the Netto-Uyoku. With heated tensions between Japanese and South-Korean nationalists, it is not unexpected to find traces of struggles online and on Wikipedia as well (as suggested by **figures \ref{fig:netto-altright}** and **\ref{fig:netto-altright-kor}**). Although the page on Zaitokukai has variants in different languages, The article on the umbrella term for such organizations as the Action Conservative Movement is available only on the Japanese and Korean Wikipedia. As another example of utilizing interlinking articles for nationalist purposes, a large-scale DDoS attack on 2channel's servers occurring on 01-03-2010 has an article in Japanese (*Kangokujin ni yoru 2-chan neru e no saibātero jiken* '韓国人による2ちゃんねるへのサイバーテロ事件') and Korean (*2010nyeon han·il sam-iljeol saibeo gong-gyeog sageon*, '2010년 한·일 삼일절 사이버 공격 사건'), as well as an English variant ('2010 Japan–South Korea cyber-warfare') created on 24-12-2014 by a Korean-speaking user.[^90] Translated to English, the Japanese title of the page is more akin to 'the cyber-terror incident on 2channel by South Koreans', explicitly using a reference to terrorism as an ideologically motivated attack. The Korean title then translates to "The 2010 South Korea-Japan 3-1 cyber-attack", with 3-1 (*sam-iljeol*, 삼일절) as an explicit reference to the Korean March 1st Movement in 1919. 
+
+Another common aspect of Wikipedia are lists or categories with correlations identified on an individual base. Take for example the category 'Anti-Japanese sentiment in Korea' (61 pages), its Japanese equivalent *Kankoku no han'nichi kanjō* 韓国の反日感情 (56 articles) and its Korean equivalent *daehanmingug-ui ban-il gamjeong* '대한민국의 반일 감정' (80 articles). The English page has an additional "See also: Category:Anti-Korean sentiment in Japan." tag that is present neither on the Japanese nor Korean variants.[^91] That category then contains 33 articles, including a link to 2channel, with edits made to this page primarily by users who have expressed Korean identity or interest into Korea in their user-pages (such as the user 'Caspian blue'[^85]). Between April and July 2019‎, an anonymous user made additions to several pages such as Japanese idol Chiba Reiko[^96] and film director and comedian Kitano Takeshi, including the Wiki-formatted reference `[[Category:Anti-Korean sentiment in Japan]]`. As of July 2019 Kitano Takeshi is still listed as belonging to this category, although neither the English nor Japanese variant contain mentions of anti-Korean sentiment either on the main document or in prior revisions).
+
+The revision pages of those pages conform what we have thus far demonstrated. Users are trying to influence public perception on sensitive topics both regionally and internationally. Of note here is the user '青鬼よし' (*ao-oniyoshi*), with 7,662 edits on 2,192 articles between 2009-02-22 and 2019-07-09, and a top editor on the Japanese article for '*Hatoyama Yukio*' and '*March 1st Movement*'. This user's edits included 577 edits on the English wikipedia, focusing primarily on the article for 'Kofun period' (87), 'Japan–Korea disputes' (30) and 'Korea under Japanese rule' (15) before this account on the English Wikipedia was locked.[^88] Since then, a 'Category:Suspected Wikipedia sockpuppets of Azukimonaka' lists '青鬼よし' as one of 25 double accounts of the same user contributing edits to controversial topics on Korean and Japanese history, including 'KoreanShoriSenyou' (which when written in Japanese characters could refer to the account as intended exclusively or possibly combatively for disposal or procession of anything Korean-related (コリアン処理専用 or コリアン処理戦用) and Azukimonaka (whose top edits include pages on 'Eugenics in Japan', 'Foreign relations of south Korea', 'Japanese expansionism' and 'Manga', as well as on the category of 'Anti-Japanese sentiment in Korea'). Speaking of the latter, another other user, 'Sennen goroshi' (千年殺し, a reference to a particular practical joke in the animation Naruto) has made 4,837 edits on 1,588 English Wikipedia pages between 2007-07-28 and 2019-06-16, dominantly on topics related to Japanese and Korean nationalism, yet does not appear to be Japanese.[^86] Nevertheless on the English language Wikipedia page for 'Anti-Korean sentiment in Japan', this user engages in a brief edit-war with user 'Caspian blue', as seen on **figure \ref{fig:caspian}**; taking sides based arguably through the soft-power influence of both South Korea and Japan.[^87] If soft-power is any indication, that could explain why 
+
+\begin{figure}[!htb]
+    \caption{\label{fig:caspian} Edit Skirmish on English Wikipedia Page 'Anti-Korean sentiment in Japan'.}
+  \centering
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/wiki/sennen-caspian.jpg}
+\end{figure}
 
 
-# Ban Matsuri ー Reflections of an Online Culture War
+###MediaWiki
 
-##Wikipedia Wars
+Whereas the software the Japanese 2channel and English 4chan are based on were influential in shaping online communities throughout the late '90's and early '00's, the software Wikipedia runs on, MediaWiki, has since its inception in 2002 gained much traction worldwide with uses ranging from the political realm[^94] to lighter topics.[^93] Mapping all Japanese media outlets utilizing MediaWiki and its variants is an unfeasible task, with Wiki-style sub-communities built around every possible aspect of popular culture.[^95] Some highly specific ones are Wiki's built particularly on 
+
+https://jawp2ch.miraheze.org/wiki/%E3%81%95%E3%81%88%E3%81%BC%E3%83%BC
+
+<https://ja.yourpedia.org/wiki/JapaneseA>
+<https://jawp2ch.miraheze.org/wiki/JapaneseA>
+<https://jawp2ch.miraheze.org/wiki/2019%E5%B9%B4JapaneseA%E3%81%AE%E6%9C%80%E5%BE%8C%E3%81%A3%E5%B1%81>
 
 
-https://ja.wikipedia.org/wiki/Wikipedia:%E7%B7%A8%E9%9B%86%E5%9B%9E%E6%95%B0%E3%81%AE%E5%A4%9A%E3%81%84%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E4%B8%80%E8%A6%A7 40th most edited page on Japanese wikipeia is JapaneseA's contributions
+### 'Ban Matsuri' (2018 - 2019)
+
+##Twitter
+
+##Conclusion
+
+In conclusion, like elsewhere in the world Wikipedia as a platform and the software behind it have both gained a strong grip on Japanese Internet users' methods for informing oneself. Nevertheless, as demonstrated on the previous pages political topics are dominantly revised by a small group of Wikipedians in order to express political ideology and influence the public opinion. I have furthermore shown ties between editors on the Japanese Wikipedia and 2channel, both in methods of organization (high tendencies for editing anonymously as well as using Wiki platforms for meta-discussions on Wikipedia) and in taking one's usage of 2channel as a source of pride and identity. Neither are these users expressing their interests on Wikipedia exclusively around political topics, with either histories of editing topics of popular culture topics, or direct references to popular culture on one's profile. The dominance of Japanese popular culture and the soft-power strategy of Cool Japan is further proven by the high percentage of articles[^92] and edits devoted to popular culture topics like Japanese animation and idol formations.
+
+Moreover, due the ease of intersection with other language versions of Wikipedia, the most dedicated among those editors attempt the same thing on a wider scale. Something that is not done solely as an expression of (Japanese) nationalism, either. National soft-power strategies for disseminating the hegemonic ideology have worked on a global scale, leading to interesting phenomena of neither native Korean nor Japanese citizens trying to tip the balance of information-making in favor of either nation. 
 
 \newpage
 
 \chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}  
 
 In my introductory first chapter, I've made the argument that the Internet has seen increasing politicization; ranging from populist usage of big-data and paid propaganda campaigns operating as *faux* grassroots activism, to microcosmic counter-culture subcultures in the West; primarily built around the discussion of Japanese pop-culture and disrupting the public discourse on political issues. Furthermore, I brought up the topic of online culture wars. While a lack of seemingly similar culture wars in Japan could be seen as a sign that the political shift of such subcultures as that on *4chan*'s political board reflects larger social trends within the United States and/or Europe and leaves little space for media agency, I tend to believe culture is a feedback loop and at the very least the political rhetoric utilized in this public discourse finds its roots in the particular culture developed in those communities. *Regardless, in Japan too have the Netto-Uyoku, the decentralized populist right-wing nationalist (that is, cyber-nationalist) voice on the Japanese Internet, shaken to some extent public discourse on politics, and can their rhetoric be traced back to those subcultures.*
 
@@ -458,7 +617,6 @@ As we see happening across the world, I argued these communities to be ripe for 
 
 Finally I've demonstrated a higher awareness of group identity amongst those who reject the Netto-Uyoku. If the Netto-Uyoku exist and are to be named, then those who have become aware of this phenomenon and feel rejection form a group identity too, both in the off-line public sphere as on the Internet. Offline we have of course various counter protests such as SealDs, C.R.A.C. and influenced by its Western counterparts, the Antifa. Online we have seen communities form around exposing and removing Netto-Uyoku means of radicalization (I refer in particular to the 2018 - 2019 Netouyo Ban Festival). It is forebearing to claim, but perhaps this too can be seen as a trend of greater political shifts?
 
-[^45]
 \newpage
 
 
@@ -494,7 +652,7 @@ This document utilizes the author-date citation system of The Chicago Manual of 
 
 ###\ref{fig:searchengine}
 
-The web-portal *Yahoo! Japan* (a joint venture between the American Yahoo! and Son Masayoshi's SoftBank) retains a monopolistic grip on the Japanese Internet market as its most visited website. Nevertheless, as seen on **Figure \ref{fig:searchengine}**, Google is by far the dominant search engine, more so when taken in account Yahoo! Japan's search engine has since 2010 implemented Google's search engine algorithms (which may account for its increase in market share since). Results based on Google's statistics can therefore be argued to effectively reflect the overall interest of Internet users in Japan.
+The web-portal *Yahoo! Japan* (a joint venture between the American Yahoo! and Son Masayoshi's SoftBank) retains a monopolistic grip on the Japanese Internet market as its most visited website. Nevertheless, as seen on **Figure \ref{fig:searchengine}**, Google is by far the dominant search engine, more so when taking into account that Yahoo! Japan's search engine has since 2010 implemented Google's search engine algorithms (which may account for its increase in market share since). Results based on Google's statistics can therefore be argued to effectively reflect the overall interest of Internet users in Japan.
 
 \begin{figure}[!htb]
   \centering
@@ -527,17 +685,63 @@ The web-portal *Yahoo! Japan* (a joint venture between the American Yahoo! and S
     \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/nettouyoku.eps}
 \end{figure}
 
-##Wikipedia Reverts
+**Figure \ref{fig:netto-altright}**
 
-In order to calculate contentious Japanese Wikipedia pages I use a rudimentary way of comparing the total amount of reverts to the total amount of revisions on a page (limited to articles, I exclude *namespaces* for pages such as *Userpages*). I wrote a script in the Java programming language to obtain the top 1000 revised articles (both in total and during a certain time span). My dataset is a 5GB data-dump (*jawiki-20190620-stub-meta-history.xml.gz*) obtained from <https://dumps.wikimedia.org/jawiki/20190620/>. This compressed file contains an XML file with meta-data of every Japanese Wikipedia page (such as title, namespace, and revision information) up to 2019-06-20.[^63] Reverts are then based on keywords (eg. 'rv', '取り消し', '巻き戻し') in the comments of revisions and are therefore not completely exhaustive (this would most likely include reverts of acts of vandalism, but will not include the actual act of vandalism in which one reverts parts of- or even the complete article). While this methodologically requires further attention, preliminary results undeniable show in quantifiable ways particular political topics to be in the top of so-called '*Wiki edit-wars*'.
+\begin{figure}[!htb]
+    \caption{\label{fig:netto-altright} Google Trends Breakdown by Region of Netto-Uyoku \& Alt-Right as Topics (15 Years).}
+  \centering
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/netto-altright.eps}
+\end{figure}
 
-I've run the script for each year between the range of 2003 (the beginning of the data-dump) and 2019. Per year I've included levels of controversy based both on the total amount of revisions and reverts up to that year, as well as solely on the revisions and reverts committed in that particular frame of time.
+**Figure \ref{fig:netto-altright-kor}**
 
-###Japanese Wikipedia Top 50 (as of 2019)
+\begin{figure}[!htb]
+    \caption{\label{fig:netto-altright-kor} The Google Trends of Netto-Uyoku \& South Korea Since 2010.}
+  \centering
+    \includegraphics[width=0.95\textwidth,trim=4 4 4 4,clip]{images/netto-altright-kor.eps}
+\end{figure}
+
+
+##Wikipedia
+
+###Wikipedia Reverts
+
+In order to calculate contentious Japanese Wikipedia pages I use a rudimentary way of comparing the total amount of reverts to the total amount of revisions on a page (limited to articles, I exclude *namespaces* for pages such as *Userpages*). I wrote a script in the Java programming language to obtain the top 1000 revised articles (both in total and during a certain time span). My dataset is a 5GB data-dump (*jawiki-20190620-stub-meta-history.xml.gz*) obtained from <https://dumps.wikimedia.org/jawiki/20190620/>. This compressed file contains an XML file with meta-data of every Japanese Wikipedia page (such as title, namespace, and revision information) up to 2019-06-20.[^63] Reverts are then based on keywords (eg. 'rv', '取り消し', '巻き戻し') in the comments of revisions and are therefore not completely exhaustive (this would most likely include reverts of acts of vandalism, but will not include the actual act of vandalism in which one reverts parts of- or even the complete article). While this methodologically requires further attention, preliminary results undeniable show in quantifiable ways particular political topics to be in the top of so-called '*Wiki edit-wars*'. I've run the script for each year between the range of 2003 (the beginning of the data-dump) and 2019. Per year I've included levels of controversy based both on the total amount of revisions and reverts up to that year, as well as solely on the revisions and reverts committed in that particular frame of time.
+
+## Tables
+
+###50 Most Popular Websites in Japan (2019)
+
+These statistics are calculated on a three-monthly basis, determined by a combined page views and unique visitors of all pages belonging to one particular domain [@noauthor_alexa_2019].  
+
+\begin{table}
+\footnotesize
+\centering
+\setlength{\tabcolsep}{5pt}
+\caption{50 Most Popular Websites in Japan (2019)}\label{tab:50mostpopjp}
+\scalebox{0.8}{
+\begin{tabular}{@{}p{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}lp{0.1cm}l@{}}
+\toprule
+1&Google.com&2&Youtube.com&3&Yahoo.co.jp&4&Amazon.co.jp&5&Google.co.jp\\
+6&Twitter.com&7&Facebook.com&8&Rakuten.co.jp&9&Wikipedia.org&10&Nicovideo.jp\\
+11&Fc2.com&12&T.co&13&Baidu.com&14&Instagram.com&15&Kakaku.com\\
+16&Livedoor.jp&17&Livedoor.com&18&Ameblo.jp&19&Dmm.co.jp&20&Pornhub.com\\
+21&Amazon.com&22&Yahoo.com&23&Qq.com&24&Mercari.com&25&Goo.ne.jp\\
+26&Blog.jp&27&Weblio.jp&&Live.com&29&Hatenablog.com&30&Xvideos.com\\
+31&Blogspot.com&32&Tmall.com&33&Apple.com&34&Microsoft.com&35&Taobao.com\\
+36&Netflix.com&37&Pixiv.net&38&Japanpost.jp&39&Github.com&40&Impress.co.jp\\
+41&Msn.com&42&Nikkei.com&43&5ch.net&44&Naver.jp&4&Dmm.com\\
+46&Nhk.or.jp&47&Line.me&48&Sohu.com&49&Office.com&50&Tabelog.com\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+
+### Japanese Wikipedia Top 50 (as of 2019)
 \label{sec:wikiappendix}
 
 Based on respectively my measurement of controversy (reverts divided by revisions), the total amount of revisions and the total amount of reverts, I've compiled a list of the 50 highest ranking articles.  
-
 
 \begin{table}
 \footnotesize
@@ -607,9 +811,9 @@ Based on respectively my measurement of controversy (reverts divided by revision
 [populism_trends]: images/populism_trends.jpg
 
 [^1]: Available online at <https://www.nytimes.com/2010/08/29/world/asia/29japan.html>. 
-[^2]: Now overtaken in usage by the more pejorative four-character abbreviation *neto-uyo* (ネトウヨ). Unless I'm translating texts with the intent of maintaining this pejorative connotation I will however retain the term Netto-Uyoku.
+[^2]: As illustrated on **Figure \ref{fig:nettouyoku}**, this usage has since 2009 overtaken by the more pejorative four-character abbreviation *neto-uyo* (ネトウヨ). Unless I'm translating texts with the intent of maintaining this pejorative connotation I will however retain the term Netto-Uyoku.
 [^4]: With some exceptions including the seminal work *Netto to Aikoku* (ネットと愛国, The Internet and Patriotism) by journalist Yasuda Koichi [-@yasuda_eng:_2012], and writings by @tsuji_eng:_2008, @murai_net_2012, @yamaguchi_xenophobia_2013, @higuchi_japans_2014 and @morris-suzuki_beyond_2015, pieces this paper often refers to.
-[^6]: A literal translation of *Kodo Hoshu Undo* (行動保守運動).
+[^6]: A literal translation of *kōdō suru hoshu undō* (行動する保守運動).
 [^7]: "The Group Seeking Recovery of Sovereignty" (*Shuken Kaifuku wo Mezasu Kai* 主権回復を目指す会).
 [^8]: "The Citizens’ Group Refusing to Tolerate Special Rights for Zainichi Koreans" (*Zainichi Tokken wo Yurusanai Shimin no Kai* 在日特権を許さない市民の会).
 [^9]: Although @higuchi_japans_2016 describe the ACM and Zaitokukai as ultranationalist in nature, this paper agrees with @gill_nativist_2018 in that "‘ultra’ implies a *quantitative* increase in the degree of extremism, from ‘right’ to ‘far right’ to ‘ultra-right’". It will instead utilize the term neo-nationalism to sufficiently distinct the ACM from the ultranationalist Japanese militants collectively known as *uyoku dantai* (右翼団体, "right wing groups"). While often used in the context of mid 2010's European and North-American movements, the term neo-nationalism refers to a type of nationalism marked by right-wing populism, cultural racism, anti-globalisation and nativism, and arguably most closely describes the ACM ideologically [@dougherty_new_2016; @hirsh_why_2016]. This will be covered to greater detail in chapter one and three.
@@ -625,7 +829,7 @@ Based on respectively my measurement of controversy (reverts divided by revision
 [^20]: It should be noted that a short news-report on Youtube covering this topic, "A Lot Of White Supremacists Seem To Have An Asian Fetish (HBO)" by @vice_news_lot_2017, had as of writing, a ratio of 6,1K dislikes to 5,6K likes. In the comment section I identified a newly posted comment by "Notification Email" (barring a play-list of several game-related videos an otherwise empty account) to state "absolute state of (((modern journalism))) ... the truth is people longing culture about sincerity, chivalry, family value, etc. the west is beyond saved from the sinner, hedonist, liar, and degenerate." Another comment, by the account "ShadyxFiascoX 32", had 166 likes and stated "Personally Hitler loved Japan and said they had a good culture. What the hell is (((Vice))) talking about". In both cases the triple parentheses (originated from Alt-Right discourse) implies Jewish ownership of the video's owner, Vice News. One comment, by "Ochiai's Channel" misinterprets this video's content by posting "I am Japanese, and can I consider his talk as a hate speech against us?!". His channel, with a follower count of 610 subscribers and viewed over 87K times as of writing, states both in Japanese and English *2-Channeru-nado ni katte ni rinku o iron'na tokoro ni hattari,nan nara katte ni bideo o ichibu o kiritotte riyō suru no, OKdesu! ... Tada, han'nichi no hitotachi wa, do no yōna katachideare, riyō wa okotowarishimasu.* (「２ちゃんねる等に勝手にリンクを色んな所に貼ったり、なんなら勝手にビデオを一部を切り取って利用するの、OKです！ ... ただ、反日の人達は、どのような形であれ、利用はお断りします。」) and "You can paste my videos anywhere, or you can even download it and edit to use it. ... However, if you're anti-Japan or pro-migration, you're not welcome to do any of those in any means" [@noauthor_ochiais_nodate].
 [^21]: It is fitting too then that former Vice President of the United States, Al Gore, referred to the Internet in a 1994 speech for the International Telecommunication Union, as "information superhighways" that would serve as a "metaphor of democracy" and lead to a "global community". The text is available in full at <http://vlib.iue.it/history/internet/algorespeech.html>.
 [^22]: "Determinism is a philosophical system that posits every physical event, including human cognition and action, is causally determined by an unbroken chain of past occurrences and therefore makes it possible for us to know future effects with certainty. Technological determinism claims that technology is an autonomous, "self-controlling, self-determining, self-generating, self-propelling, self-propelling, selfperpetuating and self-expanding force ... out of human control, changing under its own momentum and 'blindly' shaping society" [@chandler_act_1995, p.1]
-[^5]: A conservative Nippon Foundation platform *nippon.com* English-language publication by author Furuya Tsunehiro (a cultural critic, online personality and until 2014 himself a frequent guest on Channel Sakurai). He claims that "disturbing as the voice of cyber-extremism may be, its influence on Japanese politics and society remains limited, and its heyday is nearing an end" [@furuya_roots_2016].
+[^5]: A conservative Nippon Foundation platform *nippon.com* English-language publication by author Furuya Tsunehiro (a cultural critic, online personality and until 2014 himself a frequent guest on Channel Sakurai). He claims that "disturbing as the voice of cyber-extremism may be, its influence on Japanese politics and society remains limited, and its heyday is nearing an end" [@furuya_roots_2016]. The platform is part of the Sasakawa Peace Foundation, founded by war-criminal and World Anti-Communist League (WACL) member Sasakawa Ryōichi [@kirkup_obituary:_1995].
 [^25]: In another note-worthy intersection with the Alt-Right, Vlaams Belang leader Tom Van Grieken hosted an event debating the UN migration compact with amongst others Steve Bannon [@gotev_vlaams_2018]. Moreover, a youth subdivision of Vlaams Belang hosted Lauren Southern (see footnote 13) as guest-speaker during another congress supervised by Van Grieken [@rennenberg_vlaams_2018]. 
 [^19]: @davison_language_2012 defines a "meme" as a "a piece of culture, typically a joke, which gains influence through online transmission." (**pagenumber**)
 [^24]: After the Unite the Right rally in Charlottesville, The term Alt-Lite occasionally came into usage to differentiate its relatively moderate members from more extremist white-nationalist Alt-Right members such as Richard Spencer. When referring to the Alt-Right in this paper, this author uses the term as an overarching umbrella term indicating both. For a closer take on the Alt-Right, the Alt-Light and the "Online culture wars", this author recommends @nagle_kill_2017.
@@ -652,20 +856,16 @@ Based on respectively my measurement of controversy (reverts divided by revision
 
 
 
-[^45]: In its tonal shifts, structural composition and fractured nature, I feel like there is something inexplicit and unintentionally post-modern about this thesis as well. Postmodern-influenced academic literature could be a fun topic for future research.
-
-
-
 [^46]: In which it came to light that illicitly obtained personal data of up to 87 million *Facebook* users were used for political advertising and data-analysis in favor of Donald Trump 2016 presidential campaign and the British Leave.EU campaign. The company has been involved with other international political campaigns, and was backed by the conservative computer scientist Robert Mercer, an important financial contributor to Breitbart News [@kang_facebook_2018;@rosenberg_how_2019].
 [^47]: A regulation on data protection and privacy for European Union and European Economic Area individuals, which concretely requires informed consent to analytics and targeted ads.
 [^3]: Summed up in the first chapter of Marx' *Das Kapital* as "Sie wissen das nicht, aber sie tun es", commonly translated as "They do not know it, but they do it".
 [^48]: Although not from a Marxist school of thought, these topics have also been explored by Walter Lippman in his seminal work *Public Opinion* (1922) and Edward Samuel Herman and Noam Chompsky's work on propaganda (in other words, an ideological form of communication to gain consent) in mass media, *Manufacturing Consent: The Political Economy of the Mass Media*, building on Gramsci and Althusser).
-[^49]: Of semi-related note, Buttigieg's son Pete Buttigieg is an American politician running for the Democratic Party in the 2020 United States presidential election as the first openly LGBT presidential candidate.
-[^50]: The very fact that I'm applying Marxist critical theory betrays my ideological bias, after all. I cannot claim objective neutrality as there is no such thing.
+[^49]: Of semi-related note, this author is coincidentally the father of American politician Pete Buttigieg, a 2020 Democratic Party presidential candidate running on the platform as as the first openly LGBT+ presidential candidate.
+[^50]: The very fact that I'm applying Marxist critical theory betrays my ideological bias, after all, and I therefore cannot claim objective neutrality.
 [^51]: "In reality, it is a material political and ideological formation that has the function of managing the new mode of production of a transnational High-Tech Capitalism" [@rehmann_bernie_2016].
 [^52]: These are concepts by the way that Althusser has also systematized as the *ideological state apparatus* and *repressive state apparatus*. 
 [^53]: *55-nen taisei* (55年体制). An electoral system of Single Non-transferable Vote  in which the Liberal Democratic Party (LDP) held political dominance over the Japan Socialist Party (JSP).
-[^54]: In *The Japanese Economy* however, @flath_japanese_2005 refers to the zaibatsu as "at best a kind of *petite bourgeoisie* [-@flath_japanese_2005, p.75]. @miwa_fable_2010 in polemic fashion dismisses the *Keiretsu* and *Zaibatsu* (industrial and financial business conglomerates) in its entirety as fictional scapegoats of "Marxist scholars in post-war Japan" and "populists journalists" [@miwa_fable_2010, p52]. He further argues a historical growing demand for literature on Japanese economics and a lack of Japanese-literate Western economics who have resorted to accounts by academics from other disciplines, perpetuating conventional Japan-centric claims on *main bank systems* and *industrial policy* [@miwa_fable_2010, pp.54-57].
+[^54]: In *The Japanese Economy*, @flath_japanese_2005 refers to the zaibatsu as "at best a kind of *petite bourgeoisie* [-@flath_japanese_2005, p.75]. @miwa_fable_2010 in polemic fashion dismisses the *Keiretsu* and *Zaibatsu* (industrial and financial business conglomerates) in its entirety as fictional scapegoats of "Marxist scholars in post-war Japan" and "populist journalists" [@miwa_fable_2010, p.52]. He further argues a historical growing demand for literature on Japanese economics and a lack of Japanese-literate Western economics who have resorted to accounts by academics from other disciplines, perpetuating conventional Japan-centric claims on *main bank systems* and *industrial policy* [@miwa_fable_2010, pp.54-57].
 
 
 
@@ -679,4 +879,54 @@ Based on respectively my measurement of controversy (reverts divided by revision
 [^61]: She ends with a cautious warning that, reminiscent of Karl Popper's *paradox of tolerance*, "democracy is left impoverished when freedom of hate speech is protected more zealously than freedom of reasoned political debate" @morris-suzuki_freedom_2013.
 [^62]: In the wake of the arrest of several Zaitokukai-members, @nikkei_news__2013 published an article revealing his birth name to be Takada Makoto (高田誠). Due the wide spread of his pen name, I will continue to refer to him as Sakurai Makoto.
 [^63]: For more information on the elements of this XML dump, see <https://glimmerphoenix.github.io/WikiDAT/pages/meta-history/>.
-[^64]: This is a translation. For the methodology used as well as the original, slightly more expanded list, I refer to section \ref{sec:wikiappendix} and **table \ref{tab:50expanded}** on page \pageref{tab:50expanded}.
+[^64]: This is a translation. For the methodology employed as well as the original, slightly more expanded list, I refer to section \ref{sec:wikiappendix} and **table \ref{tab:50expanded}** on page \pageref{tab:50expanded}.
+
+
+[^65]: *This is not an evident division taking in that topics within pop-culture evidently possess political power as well. Korean ice-skater Kim Yuna for example is included in most top 50 sections, yet I've chosen to include her into the section politics based on the topic of contingency (controversies based on her Korean background and victory over the Japanese Asada Mao). As a general rule, the section pop-culture includes topics that have been heatedly discussed based not on politics but solely interest in the pop-culture (such as as One Piece and AKB48). The topic politics then includes for example topics as the Zaitokukai and Netto-Uyoku, but also the Asahi Shimbun and Japan.*
+
+
+[^66]: As of 2019, the article with the highest rate of reverts in contrast to its rate of revisions is the topic of Japanese war crimes in Nanjing during the Second Sino-Japanese War. This paper follows the English designations as used by Wikipedia. *Nankin jiken* 南京事件 is therefore not translated as Nanjing Incident but as Nanjing Massacre instead.
+
+
+[^45]: For the employed methodology I refer to section \ref{sec:wikirevision} (page \pageref{sec:wikirevision}).
+[^67]: Available at <https://www.inf.uni-konstanz.de/exalgo/software/wikievent/>.
+[^68]: See <https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13171578898>, <https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10183667130> and <https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13171578898>. 
+
+https://enpedia.rxy.jp/wiki/Enpedia:%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
+
+
+
+
+[^69]: The catchphrase used on that particular badge (「この利用者は2ちゃんねらーですが何か?」 *Kono riyōsha wa 2-chan nera ̄ desugananika?*) translates as a rhetorical question expressing indifference, "This user is a 2channel-user, so what?".
+[^70]: The origin of the name is unclear but possibly refers to a poem. 花蝶風月 *kachō fūgetsu* is the title of a popular *vocaloid* composition *dōjin* album released on Comiket in 2017, and translates as "Beauty of Flowers and Butterflies" or "Blossoms and butterflies, the cool breeze and a bright moon". 雪月花 *setsu gekka* refers to an ancient Chinese poem (attributed to Bai Juyi) and is a common theme amongst ukiyo-e artists. It translates as "Snow, Moon and Flowers". 警部 *keibu* translates as "police force" and possible refers to the user's role as administrator or supervisor on Wikipedia.
+[^71]: Going through the article on *Zaitokukai* in particular reveals a large portion of blocked accounts, including for example contributor *Asahara Shoko* 麻原彰晃, a reference to Aum Shinrikyo founder Asahara Shoko.
+[^72]: Such as *'List of railway stations in Japan'* (*nihon no tetsudō-eki ichiran*, 日本の鉄道駅一覧), *'List of railway lines in Japan'* (*nihon no tetsudō rosen ichiran*, 日本の鉄道路線一覧), *'Tokyo Express Railway'* (*tōkyōkyūkōdentetsu*, 東京急行電鉄) and *'Japanese National Railway 113-series Trains'* (*kokutetsu 113-kei densha*, 国鉄113系電車). High interest in railways and trains (*tetsudo otaku* 鉄道オタク or *densha otaku* 電車オタク) is not an uncommon phenomenon.
+[^73]: *'Christian glossary'* (*kirisutokyō yōgo ichiran* キリスト教用語一覧), *Catholicism* (*katorishizumu*, カトリシズム), *'Christianity'* (*kirisutokyō*, キリスト教), *'List of Gods'* (*kami no ichiran*, 神の一覧) and *'Religion'* (*shūkyō*, 宗教)
+[^74]: *'China'* (*chūgoku*, 中国), *'Taiwan'* (台湾), *'List of Chinese Emperors'
+* (*chūgoku teiō ichiran*, 中国帝王一覧)
+[^75]: *'World War II'* (*dainijisekaitaisen*, 第二次世界大戦), *'Pacific War'* (*taiheiyōsensō*, 太平洋戦争), *'Japanese History'* (*nihon'norekishi*, 日本の歴史)
+[^76]: Throughout this section, I will refer to Wikipedia users using single quotation marks (with additional *romanized* readings when required) and to translated Wikipedia articles using italics and single quotation marks, adding the romanized readings and original Japanese expression the first I refer to that article.
+[^77]: An open-source tool-set building on the Wiki-media API, available at <https://www.mediawiki.org/wiki/XTools>.
+[^78]: In particular the topics *'2channeler'* (*2-channerā*, 2ちゃんねらー), *'List of 2channel boards'* (*2-channeru no ita no ichiran*, 2ちゃんねるの板の一覧) and '*news bulletin (VIP) + board*' (*nyūsu sokuhō (VIP) + ita*, ニュース速報(VIP)+板).
+[^79]: The user also expresses their love for cats (*kono riyōsha wa neko ga suki desu* 「この利用者は猫が好きです。」). This badge is possibly an inside-reference to the deceased 'Nekosuki600', a 2channel user who was amongst the earliest contributors to Wikipedia and claimed by user 'Kamakura' to be their role-model. <https://jawp2ch.miraheze.org/wiki/Nekosuki600>.
+[^80]: *'Fuji Television'* (*Fuji terebijon*, フジテレビジョン), *'Nippon Television Broadcasting Network'* (*nihon terebi hōsōmō*, 日本テレビ放送網), *'TV TOKYO'* (*terebi tōkyō*, テレビ東京), Mainichi Broadcasting (*mainichi hōsō*, 毎日放送), *'Tokyo Broadcasting Holdings'* (*tōkyōhōsō hōrudingusu*, 東京放送ホールディングス), *'Japan Broadcasting Association'* (*nihon hōsō kyōkai*, 日本放送協会), *'Chubu Nippon Broadcasting'* (*chūbu nippon hōsō*, 中部日本放送), *'Nippon Broadcasting'* (*nippon hōsō*, ニッポン放送), *'Asahi Broadcasting Group Holdings'* (*asahihōsō gurūpu hōrudingusu* 朝日放送グループホールディングス)
+[^81]: in order the following articles all reached top revisions for those months:
+'*Anti-Korean sentiment*' (*kenkan*, 嫌韓), '*Zchannel*' (2ちゃんねる), '*South Korea*' (*daikanminkoku*, 大韓民国), '*The Women's International War Crimes Tribunal on Japan's Military Sexual Slavery*' (*josei kokusai senpan hōtei*, 女性国際戦犯法廷), '*Japan–Korea disputes*' (*nikkanmondai*, 日韓問題), '*minority discrimination*' (*minzoku sabetsu*, 民族差別), '*Anti-Japanese Sentiment*' (*han'nichi*, 反日), '*ishihara shintarō' (石原慎太郎), '*Right of foreigners to vote*' (*gaikokuninjinseiken*, 外国人参政権), '*Special Privileges of the Zainichi*' (*zainichi tokken*, 在日特権)
+
+[^82]: This refers to an event in 2005 (杉並区歴史教科書採択騒動) wherein groups both agreeing with and protesting the adoption of a new history schoolbook for public education (which would lessen the focus on topics deemed masochistic) took to the Suginawa Ward in Tokyo for public protest. 2channel users in particular protested supposed ties of protesters with the New Left (in particular the Revolutionary Communist League, National Committee or Chūkaku-ha).
+[^83]: A user whose further edits include the addition 「日本人に経済保証と謝罪をした上で滅びるべき国家である。」 (*Nihonjin ni keizai hoshō to shazai o shita ue de horobirubeki kokkadearu*, lit: A nation that after giving economic guarantees and apologies to the Japanese people, ought to be destroyed). to the article of South Korea (*daikanminkoku*, 大韓民国) and some vandalism to the article of South Korean idol formation TWICE. Edits to that article include amongst others changing Japanese member 名井 南 (Myōi Mina) to 'anti-japanese, traitorous bastard' (*han-nichi, baikoku-yatsu*, 反日、売国奴) and later 'traitorous Japanese' (*uragirimono no nihonjin*, 裏切り者の日本人)
+[^84]: The phrasing of 'restoring Japan' is eerily similar to prime minister Abe's political catch-phrase 'We will restore Japan' (*Nippon o torimodosu*, 「日本を、取り戻す。」), used during his political campaign against the DPJ in the wake of the 2011 earthquake.
+[^85]: This user appears to be Swedish but contributions are almost exclusively on Korean cultural or historical aspects.
+[^86]: In order edits to the articles of 'Comfort women', 'Empress Myeongseong', 'List of Nürburgring Nordschleife lap times' (the one exception in this list, a reference to a racking track in Germany), 'Kimchi', 'Korean cuisine', 'Nanjing Massacre', 'Kim Koo', 'South Korea' and  'Anti-Japanese sentiment in Korea'.
+[^87]: This is of course not limited to controversial elements within Japan-Korea relations. On the English article for 'Senkaku Islands', the American user 'Washuotaku' (according to his Wikipedia profile a reference to the animation series 'Tenchi Muyo!') has between September 2018 and and January 2019 regularly reverted edits in favor of Japan's asserted historical control.
+[^88]: On the Japanese alternative Wiki platform *ja.yourpedia.org*, a page devoted to the user describes this user as *netouyo-pedian* (「ネトウヨペディアン」) <https://ja.yourpedia.org/wiki/青鬼よし>.
+[^89]: For a full list of such badges, see <https://ja.wikipedia.org/wiki/Wikipedia:ユーザーボックス>.
+[^90]: The English variant was created by user 'Kanghuitari' (who has between 2012-04-29 and 2019-07-11 contributed 27,984 edits on the English Wikipedia page and 28,411 edits on the Korean Wikipedia).
+[^91]: There are however equivalents on both the Korean Wikipedia (*ilbon-ui banhan gamjeong* 일본의 반한 감정, with 23 items) and the Japanese Wikipedia (*hankan kanjō* 反韓感情, lit. *'anti-Korean sentiment'* and *hanchō kanjō* 反朝感情, lit *'anti-South Korean sentiment'*, with respectively 4 and 18 items) for that category.
+[^92]: In a 2009 New York Times article, Wikipedia co-founder Jimmy Wales claimed that 80% of Japanese Wikipedia articles were devoted to pop culture [@cohen_wikipedia_2009].
+[^94]: Governmental instances in the United States use the software as content management system for internal information sharing (Diplopedia and Intellipedia), for example. WikiLeaks, famous for publishing various sensitive documents, was originally built on this software as well.
+
+[^93]: Wikipedia co-founder Jimmy Wales founded Fandom, a for-profit variant of MediaWiki, specifically for in-depth pages on popular culture topics. 
+[^95]: I have for example found numerous Japanese Wiki-style outlets solely on the topic of AKB48's idol formations, with <https://48pedia.org> (as of 12-07-2019) alone already containing 2,062 pages.
+[^96]: Since 2016 Chiba Reiko did publish various works on the topic, such as the 2016 *"Sayonara payoku ― chibarei ga mita sayoku no jittai"* 『さよならパヨク ―チバレイが見た左翼の実態―』 (lit. "Farewell *Payoku*-The Actual Condition of the Left Wing As Seen by Chiba-Rei") and the collaboration with Zaitokukai-founder Makoto Sakurai 『くたばれパヨク』 (*"Drop dead payoku*"), as well as the 2017 *"mama ha aikoku"* 『ママは愛国』 ("*Mommy is a patriot*") with Chuo University alumni Kurayama Mitsuru and *"kanashī sayoku ni goyōshin!"* 『悲しいサヨクにご用心!』 (lit. "Beware of the sad left-wingers") with Kurayama Mitsuru and LDP lawmaker Mio Sugita.
+[^97]: For more information, I refer to **table \ref{tab:50mostpopjp}**.

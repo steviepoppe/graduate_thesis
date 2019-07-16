@@ -16,7 +16,7 @@ $endif$
   \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
   \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
   \do\Y\do\Z}
-\usepackage{subcaption}
+\usepackage[labelfont=bf,textfont=normalfont,singlelinecheck=off,justification=centering]{subcaption}
 \usepackage[T1]{fontenc}
 \usepackage{kpfonts}
 \setSingleSpace{1.1}
@@ -291,7 +291,30 @@ $endif$
 % INTRO 
 %----------------------------------------------------------------------------------------
 
-\newcommand*{\intro}{\begingroup
+\newcommand*{\intronl}{\begingroup
+\begin{otherlanguage}{dutch}
+\pagestyle{plain}
+
+\topskip0pt
+
+\begin{abstract}
+
+$abstractnl$
+
+\end{abstract}
+
+\textbf{Keywords}
+
+$keywords$
+
+\end{otherlanguage}
+\endgroup}
+
+%----------------------------------------------------------------------------------------
+% INTRO 
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\introen}{\begingroup
 \pagestyle{plain}
 
 \topskip0pt
@@ -437,7 +460,15 @@ $endif$
 
 \setcounter{page}{1}
 
-\intro
+\introen
+
+\newpage
+
+
+\clearpage
+\thispagestyle{plain}
+
+\intronl
 
 \newpage
 
