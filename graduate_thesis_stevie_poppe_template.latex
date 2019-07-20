@@ -93,6 +93,8 @@ $if(CJKmainfont)$
     \setCJKmainfont[$for(CJKoptions)$$CJKoptions$$sep$,$endfor$]{$CJKmainfont$}
     \setCJKmainfont[Hangul]{Gulim}
 $endif$
+\usepackage{pinyin}
+\newCJKfontfamily\chinesefont{Microsoft JhengHei}
 
 \usepackage{enumitem}
 
@@ -110,11 +112,9 @@ $endif$
 
 \usepackage[stable,multiple,bottom]{footmisc} 
 
-
 \usepackage{xkeyval} 
 \usepackage[utf8]{inputenc}
 \usepackage[japanese,italian,french,dutch,UKenglish,english]{babel}
-
 
 $if(listings)$
 \usepackage{listings}
@@ -132,7 +132,6 @@ $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 \VerbatimFootnotes % allows verbatim text in footnotes
 $endif$
-
 
 % \rowcolors{3}{}{gray!25}
 
@@ -440,6 +439,9 @@ $endif$
 }
 \interfootnotelinepenalty=10000
 
+\captionsetup[sub]{font+=scriptsize} 
+
+
 \begin{document}
 
 \pagenumbering{roman}
@@ -451,7 +453,8 @@ $endif$
 
 \setmainfont[
  BoldFont={Meiryo Bold}, 
- ItalicFont={Meiryo Italic},
+ ItalicFont={$italics$},
+ %ItalicFont={Meiryo Italic},
  BoldItalicFont={Meiryo Bold Italic}
  ]{$mainfont$}
 
