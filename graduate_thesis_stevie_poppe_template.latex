@@ -229,7 +229,8 @@ $endif$
 \renewcommand{\rubysize}{0.5} % default: 0.4
 
 \usepackage[super]{nth}
-
+\usepackage{arydshln}
+\usepackage{threeparttable}
 %----------------------------------------------------------------------------------------
 % TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -286,8 +287,14 @@ $endif$
 
 \endgroup}
 
+\providecommand{\keywords}[1]
+{
+  \small  
+  \textbf{\textit{Keywords---}} #1
+}
+
 %----------------------------------------------------------------------------------------
-% INTRO 
+% INTRO NL
 %----------------------------------------------------------------------------------------
 
 \newcommand*{\intronl}{\begingroup
@@ -296,15 +303,77 @@ $endif$
 
 \topskip0pt
 
+\begin{center}
+    \large
+    \fauxsc{$titlenl$}
+
+    \vspace{0.15cm}
+
+    \small $subtitlenl$
+
+    \vspace{0.15cm}
+
+    \textbf{$author$}
+\end{center}
+
 \begin{abstract}
 
-$abstractnl$
-
+\noindent $abstractnl1$
+\newline
+\indent $abstractnl2$
+\newline
+\indent $abstractnl3$
 \end{abstract}
 
-\textbf{Keywords}
+\small  
+\textbf{\textit{Kernwoorden---}} $keywordsnl$
 
-$keywords$
+\blfootnote{$blfootnotenl$}
+
+\end{otherlanguage}
+\endgroup}
+
+%----------------------------------------------------------------------------------------
+% INTRO JP
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\introjp}{\begingroup
+\begin{otherlanguage}{japanese}
+\addcontentsline{toc}{chapter}{日本語要旨} 
+\setcounter{tocdepth}{1}
+\pagestyle{plain}
+
+\topskip0pt
+
+\begin{center}
+    \large
+    \fauxsc{$titlejp$}
+
+    \vspace{0.15cm}
+
+    \small $subtitlejp$
+
+    \vspace{0.15cm}
+
+    \textbf{$authorjp$}
+\end{center}
+\renewcommand{\abstractname}{要旨}
+
+\begin{abstract}
+
+\noindent $abstractjp1$
+\newline
+\indent $abstractjp2$
+\newline
+\indent $abstractjp3$
+\end{abstract}
+
+\small  
+\textbf{\textit{キーワード}} 
+\newline
+\indent \indent $keywordsjp$
+
+\blfootnote{$blfootnotejp$}
 
 \end{otherlanguage}
 \endgroup}
@@ -318,17 +387,55 @@ $keywords$
 
 \topskip0pt
 
+\begin{center}
+    \large
+    \fauxsc{$title$}
+
+    \vspace{0.15cm}
+
+    \small $subtitle$
+
+    \vspace{0.15cm}
+
+    \textbf{$author$}
+\end{center}
+
 \begin{abstract}
 
-$abstract$
-
+\noindent $abstract1$
+\newline
+\indent $abstract2$
+\newline
+\indent $abstract3$
 \end{abstract}
 
-\textbf{Keywords}
-
-$keywords$
+\keywords{$keywords$}
 
 \blfootnote{$blfootnote$}
+
+\endgroup}
+
+
+%----------------------------------------------------------------------------------------
+% COD 
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\cod}{\begingroup
+\newpage
+\pagestyle{empty}
+
+\noindent
+\begin{center}
+
+\includegraphics*[keepaspectratio, scale=0.5]{images/kuleuven}
+
+
+\vspace*{\fill}
+
+
+    \fauxsc{$cod$}
+
+\end{center}
 
 \endgroup}
 
@@ -383,8 +490,6 @@ $endif$
 \XeTeXlinebreaklocale "ja"         % for Japanese
 \XeTeXlinebreakskip 0pt plus 0.1pt % sets the skip
 
-\rhead{Stevie Poppe}
-\lhead{Netto-Uyoku}
 \cfoot{\thepage}
 
 \hyphenation{Zai-tokukai}
@@ -444,11 +549,12 @@ $endif$
 
 \begin{document}
 
-\pagenumbering{roman}
+\pagenumbering{gobble}
 \sloppy
 
 \clearpage
 \titleTH
+\cod
 \thispagestyle{empty}
 
 \setmainfont[
@@ -460,6 +566,8 @@ $endif$
 
 \clearpage
 \thispagestyle{plain}
+\pagenumbering{roman}
+
 
 \setcounter{page}{1}
 
@@ -472,6 +580,13 @@ $endif$
 \thispagestyle{plain}
 
 \intronl
+
+\newpage
+
+\clearpage
+\thispagestyle{plain}
+
+\introjp
 
 \newpage
 
