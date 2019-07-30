@@ -51,6 +51,9 @@ $endif$
 \renewcommand*{\textflush}{flushright}
 \renewcommand*{\epigraphsize}{\normalsize\itshape}
 
+\makeatletter
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
 
 $if(linestretch)$
 \usepackage{setspace}
