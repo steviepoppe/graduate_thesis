@@ -5,6 +5,54 @@ maintaining the moral superiority of the Japanese
 who are constructed as a victim.
 
 
+Sinds de onverwachte uitslag van onder meer de 2016 presidentiele verkiezingen in de Verenigde Staten en het Brexit referendum in het Verenigd Koninkrijk, is er een stijging aan academisch onderzoek rond de wereldwijde groei aan neo-nationalisme (met andere woorden, een nativistisch, rechts-populistisch nationalisme) en het aandeel van het Internet daarin. Een deel van dit onderzoek betreft een rechtse radicalisering onder Internetgebruikers, en met name in enkele online 'gemeenschappen' waar een sterk aandeel van politieke propaganda naar teruggespoord wordt—propaganda massaal verspreid over platformen als Facebook en Twitter, inclusief door voorname politici [@zannettou_origins_2018]. Ook in Japan zijn er pogingen van bepaalde online gemeenschappen om dergelijke propaganda te verspreiden; dit onder meer door middel van zogenaamde bots en vaak in functie van de Liberaal-Democratische Partij (LDP) [@schafer_japans_2017]. Om dat aan te duiden worden er in hun respectievelijke talen aldus gesproken over de *alt-right*, *fachosphère* en *Netto-Uyoku* (let. 'Net-Rechts'). In het eerste, inleidende hoofdstuk wordt het fenomeen "Netto-Uyoku" in een globale context van dergelijk online online neo-nationalisme getrokken, en deze paper tracht dat te conceptualiseren als *cybernationalisme*. Dat is een vorm van het neo-nationalisme dat niet enkel op het Internet plaatsvind, maar ook door diens ideologische insteek zelf gevormd wordt (dat, als een nieuw medium dat in contrast staat met de zogenaamde massa-media). 
+
+Deze paper betreft specifiek de Netto-Uyoku, en behandeld die als gelokaliseerde Japanse expressie van dergelijk cybernationalisme. Echter stellen we de vraag: "als cybernationalisme doorheen de wereld gekoppeld wordt aan steun voor rechts-populistische politieke nieuwkomers, en er ook in Japan dergelijke nieuwkomers (zoals Sakurai Makoto, oprichter van de Zaitokukai, een extreem-rechtse burgerbeweging op de in Japan aanwezige etnisch Koreaanse diaspora) politieke ambities hebben, waarom plaatst de literatuur de Netto-Uyoku dan als steungroep voor de LDP en specifiek Abe Shinzō, iemand die in elke zin het politiek establishement beademt?" Daarvoor hypothiseren we dat de LDP en Abe Shinzō in de nasleep van de aardbeving en kernramp in 2011 de huidige golf aan rechts-populisme voorliep. Concreet stellen we twee zaken: 1. De huidige instantie van de LDP speelde succesvol in op deze golf aan cybernationalisme door het medium van het Internet en diens dichotome relatie met massamedia te omhelzen, en 2. de ideologische hegemonie verspreidt via de staats-gesponsorde cultuurindustrie (in de vorm van de 'Cool Japan' soft-power) laat de Japanse cybernationalisten niet onberoerd.
+
+Het tweede hoofdstuk is een literatuurstudie (het tweede hoofdstuk) over de Netto-Uyoku. In het huidig werk over de Netto-Uyoku zijn er drie trends: 1) het analyseren van discursieve processen van Netto-Uyoku rhetoriek op sociale media als Twitter en 2channel (een anoniem forum dat in de literatuur geassocieerd wordt met de Netto-Uyoku) [@tsuji_eng:_2008;] 2) de Netto-Uyoku en diens relatie met neo-nationalistische groeperingen zoals de Zaitokukai [@yamaguchi_xenophobia_2013;@morris-suzuki_freedom_2013;@gill_nativist_2018] en 3) een theoretische insteek in het ontstaan van dergelijke groepen [@azuma_otaku:_2001;@kitada_eng:_2005;@sakamoto_koreans_2011]. 
+
+Tsuji definieert de Netto-Uyoku volgens 3 grote kenmerken:
+
+- Wantrouwen jegens buitenlanders en etnische minderheden
+- Steun voor het bezoek van politici aan de politiek controversiele Yasukuni Shrine (historisch revisionism)
+- Steun voor het hervormen van een deel van de grondwet dat Japan in staat stelt een leger te mobiliseren
+- Het gebruik van sociale media om politiek-getinte berichten te plaatsen 
+
+Een survey wijst in 2008 uit op ongeveer 1% van de deelnemende partijen als daaraan voldoen. In een herhaling van dat onderzoek in 2014 is dat 2%. Ook argumenteert Tsuji een sterke groei aan latent netto-uyoku gedrag; namelijk een sterke stijging aan akkoord met de eerste drie punten. Ten slotte vindt hij een sterke correlatie tussen het gebruik van Niconico en 2channel.
+
+Wij breiden dit uit met een verder kenmerk: "wantrouwen jegens massa media". @kitada_eng:_2005 ziet zo in online communities als 2channel een cynische insider-mentaliteit ontstaan die zichzelf in stand houdt door regide, anti-massa media retoriek. @sakamoto_koreans_2011 en @murai_net_2012 analyseren de structuur van Netto-Uyoku boodschappen op platformen als 2channel en de online video-service Niconico. Zij baseren zich dan op @anderson_imagined_2006 en stellen dat op dergelijke anonieme online media, een imaginaire band wordt geschept door die achterliggende rigide structuren in taalgebruik. Taka [@taka_twitter_2015;@taka_twitter_2015-1] stelt een corpus samen van berichten gerelateerd aan China en Korea en merkt dat die berichten grotendeels negatief zijn. Ook linken die berichten vaak naar 2channel of naar 2channel matome blogs.
+
+@yasuda_eng:_2012, @yamaguchi_xenophobia_2013 en @higuchi_japans_2014 
+
+
+
+en anderzijds door een kritische inhoudsanalyse met gemengde methoden van enkele voorname platformen waarop zulke 'contra-hegemonische ideologieën' te verspreiden.
+
+
+Om de logica achter dit cybernationalisme te onthullen baseren we ons op de theoretische benadering tot ideologie van de zogenaamde Frankfurt School. Zo zien we in de rhetoriek van cybernationalisten een Gramsciaanse flair: het establishement, linkse instituties en de massamedia representeren niet op voldoende wijze de wil van het volk, en leiden af van 'contradicties' in de maatschappij. Het Internet representeert dan een adequate Habermasiaanse 'openbare sfeer' waarin contra-hegemonische ideologieën kunnen verspreid worden.
+
+
+
+
+
+
+Deze paper gaat dan verder in op het gebruik van enkele specifieke platformen om neo-nationalistisch sentiment te verspreiden, alsook de technische aspecten van die platformen om dat in gang te zetten, door middel van een kritische inhoudsanalyse met gemengde methoden.
+
+Voor verder onderzoek stellen we een verdere analyze voor van de online media-mix waarin Netto-Uyoku retoriek kan verspreiden. Verder is het interessant om naar online media in Zuid-Korea en China te kijken, waar op niet-ongelijke wijze cybernationalisme plaatsvind met Japan als frequent doelwit. 
+
+
+
+Termen als de *alt-right*, *fachosphère* en *Netto-Uyoku* (let. 'Net-Rechts') doelen in de volksmond op uitingen van neo-nationalisme (een vorm van rechts-populistisch nationalisme gekenmerkt door nativisme) op het Internet. Deze paper conceptualiseert dit fenomeen als 'cybernationalisme', een expressie van neo-nationalisme 
+
+ Huidig onderzoek rond de *Netto-Uyoku* (wat in deze thesis gezien wordt als een Japanse uiting van cybernationalisme) bekijkt die trend  
+
+
+Daarvoor passen we  . 
+
+ @kitada_eng:_2005 theoriseert dat 
+
+
+
 Terms as *alt-right*, *fachosphère* and *Netto-Uyoku* have in their respective languages entered the mainstream discourse and refer to a phenomenon of online-based right-wing populist nationalism. This paper intends to conceptualize this phenomenon as cyber-nationalism, adopting a mixed method (quantitative and computer-assisted) content analysis to media-platforms associated with the Japanese cyber-nationalists.
 We find the Frankfurt School approach to ideological critique suitable to theoretically ground our research. A reading of right-wing populist rhetoric reveals a distinct flavor of Gramscian logic therein: established politics, left-wing institutions and mainstream media manufacture consent to the hegemonic ideology of the elite, which does not adequately represent the people’s will and defers from self-perceived contradictions in society. The Internet as imagined Habermasian public sphere is then ideal for disseminating counter-hegemonic ideologies. 
 Yet despite the existence of ultra-nationalist grassroots movements as the Zaitokukai, and the term Netto-Uyoku itself implying a prevalent electorate for Japanese right-wing populists as Sakurai Makoto, the Liberal Democratic Party (LDP) has retained its grip on politics. For this, we hypothesize that while populist newcomers have on a global scale capitalized on the distrust of established institutions experienced by these cyber-nationalists, the LDP has effectively done this earlier in the wake of the 2011 earthquake. We then find two elements contributing to the LDP's success amongst Japanese cyber-nationalists: 1.) the ideological hegemony spread by the LDP through the state-sponsored soft-power of its culture industry has not left Japanese cyber-nationalists untouched; and 2.) the LDP appeals to Japanese cyber-nationalists by manufacturing public outrage and exploiting the same self-perceived contradictions in society in society that have led to counter-hegemonic movements elsewhere. 

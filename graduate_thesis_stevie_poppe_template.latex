@@ -234,6 +234,8 @@ $endif$
 \usepackage[super]{nth}
 \usepackage{arydshln}
 \usepackage{threeparttable}
+\counterwithout{footnote}{chapter}
+
 %----------------------------------------------------------------------------------------
 % TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -245,7 +247,7 @@ $endif$
 \newcommand*{\titleTH}{\begingroup
 
 \noindent% just to prevent indentation narrowing the line width for this line
-\includegraphics*[width=1.65in, height=0.59in, keepaspectratio=false]{images/image1}
+\includegraphics*[width=1.65in, height=0.59in, keepaspectratio=false]{images/KU_Leuven_logo}
 \begin{minipage}[b]{0.7\textwidth}
 \raggedleft
 
@@ -256,7 +258,7 @@ $endif$
 {\footnotesize 3000 LEUVEN, BELGIË}\\
 \end{spacing}
 \end{minipage}~~~~~
-\includegraphics*[width=0.69in, height=0.59in, keepaspectratio=false]{images/image2}
+\includegraphics*[width=0.69in, height=0.59in, keepaspectratio=false]{images/KU_Leuven_logo2}
 
 \topskip0pt
 \vspace*{\fill}
@@ -317,6 +319,7 @@ $endif$
     \vspace{0.15cm}
 
     \textbf{$author$}
+
 \end{center}
 
 \begin{abstract}
@@ -329,10 +332,6 @@ $endif$
 \end{abstract}
 
 \small  
-\textbf{\textit{Kernwoorden---}} $keywordsnl$
-
-\blfootnote{$blfootnotenl$}
-
 \end{otherlanguage}
 \endgroup}
 
@@ -375,9 +374,6 @@ $endif$
 \textbf{\textit{キーワード}} 
 \newline
 \indent \indent $keywordsjp$
-
-\blfootnote{$blfootnotejp$}
-
 \end{otherlanguage}
 \endgroup}
 
@@ -412,10 +408,9 @@ $endif$
 \indent $abstract3$
 \end{abstract}
 
+\vspace{2cm}
+
 \keywords{$keywords$}
-
-\blfootnote{$blfootnote$}
-
 \endgroup}
 
 
