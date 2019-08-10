@@ -242,7 +242,7 @@ $endif$
 
 \definecolor{titlepagecolor}{RGB}{63,37,29}
 \usepackage{fontspec}
-\setmainfont{CMU Serif}
+\setmainfont{Kozuka Mincho Pro}
 \usepackage{setspace}
 \newcommand*{\titleTH}{\begingroup
 
@@ -579,12 +579,12 @@ $endif$
 
 \intronl
 
-\newpage
-
-\clearpage
-\thispagestyle{plain}
-
-\introjp
+%\newpage
+%
+%\clearpage
+%\thispagestyle{plain}
+%
+%\introjp
 
 \newpage
 
