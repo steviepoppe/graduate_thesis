@@ -1,5 +1,5 @@
 
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$,openany]{$documentclass$}
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$,twoside]{$documentclass$}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
@@ -474,7 +474,7 @@ $endif$
   linkcolor  = mylinkcolor!\myshade!black,
   citecolor  = mycitecolor!\myshade!black,
   urlcolor   = myurlcolor!\myshade!black,
-  colorlinks = true,  
+  colorlinks = false,  
 }
 
 \usepackage{footnotebackref}

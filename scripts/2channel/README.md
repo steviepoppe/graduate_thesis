@@ -1,0 +1,3 @@
+# How to use
+
+Not really worth using, but this script is an extremely rudimentary way of scraping the 2channel board using BeautifulSoup. Actually, in its current state it requires you to manually save the thread in question as HTML and direct to it in the script (this offline reasoning was one because accessing 2channel in Europe is limited due certain legislation, so certain threads were accessed using VPNs and couldn't be linked through in this script).

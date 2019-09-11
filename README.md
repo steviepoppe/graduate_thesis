@@ -23,9 +23,9 @@ Cross-platform compatibility, pretty type-setting, version control with git, eas
 
 ## Workflow
 
-I'll expand this section in later. Most important steps are as following:
+I'll expand this section later. Most important steps are as following:
 
-**Citer** -> Export list of sources as biblex file, add its path to citer settings and efficiently find / add source references.
+**Citer** -> Export list of sources as bibtex file, add its path to citer settings and efficiently find / add source references.
 
 **Pandoc** -> Pandoc support for Sublime Text. Chance pandoc-arguments in settings per preferred output format to reflect template, latex-engine (export of Japanese characters requires the tex distribution miktex, specifically xelatex) and filter for citations (pandoc-citeproc).
 
