@@ -47,7 +47,7 @@ I "compile" to PDF with Pandoc for work in progress versions but export to latex
 
 ## To do
 
-Writing an undergraduate or graduate thesis is borderline doable in one document but anything longer is definitely unmanageable. In this case, a work-flow involving markdown documents per chapter are preferable, using a compile script for pandoc to export everything to tex, compile them in one final tex document and export to the final pdf (like [this](https://bartschat.github.io/post/thesis_workflow/)).
+Writing an undergraduate or graduate thesis is borderline doable in one document but anything longer is definitely unmanageable. In this case, a work-flow involving markdown documents per chapter is preferable, using a compile script for pandoc to export everything to tex, compile them in one final tex document and export to the final pdf (like [this](https://bartschat.github.io/post/thesis_workflow/)).
 
 Also, zotero is not multilingual. Juris-M is a good variant with multilingual support, necessary for managing sources in multiple languages. HOWEVER there is no multilingual support for bibtex formats. My current workflow is thus to obtain my pre-final latex file, export the correct citation format with both the Japanese / Korean and English translations and manually replace my Japanese sources in the latex file with the correct citations, and then export to my final PDF. This is tedious. Not an issue when using a citation style that uses Latin script transliterations instead though.
 
